@@ -1,6 +1,6 @@
-# Account Setup & Login
+# Account Setup
 
-## **1. Register as a Student**
+## **Register as a Student**
 
 ### Prerequisites
 
