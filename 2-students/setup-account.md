@@ -18,7 +18,12 @@
    ```markdown
    - Student ID: (as provided)
    - Department: Choose your department
-   - Your Name: First and Last name
-   - Email: your.name@university.edu
+   - Your Name: Please enter your name exactly as it appears on your student ID card.
+   - Email: Please use your university-provided email; personal emails are also accepted.
    - Password: (8+ chars, include a number)
+   - Terms and Conditions: Please read and accept
    ```
+
+   _Ensure all details are correct before submitting._
+
+4. Click the **Signup** button to complete your registration. You will be automatically logged into the system.
