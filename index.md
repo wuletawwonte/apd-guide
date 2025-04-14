@@ -8,11 +8,11 @@ hero:
   tagline: User Manual
   actions:
     - theme: brand
-      text: Guide
+      text: Getting started
       link: /1-introduction/overview-of-webapd
     - theme: alt
-      text: Examples
-      link: /what-is-webapd
+      text: Students
+      link: /2-students/getting-started
 
 features:
   - title: Multiple Institutions
