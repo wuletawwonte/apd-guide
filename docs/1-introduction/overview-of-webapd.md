@@ -2,7 +2,7 @@
 
 WebAPD is your **all-in-one platform** for tracking and improving educational quality. Whether you're an administrator, teacher, or auditor, this tool helps you streamline compliance, monitor performance, and drive data-driven decisions.
 
-![WebAPD Dashboard Screenshot](/screenshots/dashboard.png)  
+![WebAPD Dashboard Screenshot](../public/screenshots/dashboard.png)  
 _WebAPD’s dashboard provides real-time insights._
 
 ---

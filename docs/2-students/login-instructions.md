@@ -10,7 +10,7 @@
 ### Steps
 
 1. Visit the WebAPD student login page: [https://amu.webapd.top/students](https://amu.webapd.top/students).  
-   ![Student Login Page](/screenshots/student-login.png)
+   ![Student Login Page](../public/screenshots/student-login.png)
 
 2. Ensure the URL includes `/students` (not for staff).
 
@@ -30,7 +30,7 @@ If you can’t remember your password:
 
 1. Click **Forgot Password?** on the login page and this page will appear:
 
-![Forgot Password](/screenshots/student-forgot-password.png)
+![Forgot Password](../public/screenshots/student-forgot-password.png)
 
 2. Enter your registered email address: Make sure to use the same email you registered with.
 3. Check your inbox for a password reset link (check spam/junk if missing).

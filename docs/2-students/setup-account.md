@@ -10,7 +10,7 @@
 ### Steps
 
 1. Visit WebAPD student Registration page: [https://amu.webapd.top/students/sign_up](https://amu.webapd.top/students/sign_up).
-   ![Student Registration Page](/screenshots/student-registration.png)
+   ![Student Registration Page](../public/screenshots/student-registration.png)
    _You can also open [https://amu.webapd.top/students](https://amu.webapd.top/students) and click on the Register link._
 2. Make sure it is the student registration page not the staff registration page. The URL **MUST include** `/students`.
 3. Fill in:
