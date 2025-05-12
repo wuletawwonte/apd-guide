@@ -1,7 +1,7 @@
 {
   "name": "apd-guide",
   "type": "module",
-  "packageManager": "^yarn@1.22.22",
+  "packageManager": "^yarn@3.6.3",
   "devDependencies": {
     "vitepress": "^1.6.3"
   },
