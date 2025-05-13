@@ -11,7 +11,7 @@ import {
 
 const members = [
   {
-    avatar: 'https://www.ariadnelabs.org/wp-content/uploads/2022/05/uptodate-photo-e1653496340996-1568x1824.jpg',
+    avatar: 'team/drtadewoshailu.jpg',
     name: 'Dr. Tadiwos Hailu',
     title: 'Project Manager',
     links: [
@@ -19,7 +19,15 @@ const members = [
     ]
   },
   {
-    avatar: 'https://www.github.com/wuletawwonte.png',
+    avatar: 'team/abinetgebremichael.jpg',
+    name: 'Abinet G/michael',
+    title: 'Project Manager',
+    links: [
+      { icon: 'mailgun', link: 'mailto:abinetgebremickael@gmail.com', ariaLabel: "Email" }
+    ]
+  },
+  {
+    avatar: 'team/wuletawwonte.jpeg',
     name: 'Wuletaw Wonte',
     title: 'Software Engineer',
     links: [
