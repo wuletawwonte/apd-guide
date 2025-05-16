@@ -1,5 +1,7 @@
 # APD-Guide
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cd3af22f-b4b1-406c-b8d4-03a67d6cb3ad/deploy-status)](https://app.netlify.com/projects/apd-guide/deploys)
+
 > Academic Performance Dashboard User Manual
 
 ## Built With
