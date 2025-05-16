@@ -28,6 +28,7 @@ export default defineConfig({
           { text: 'Account setup', link: '/2-students/setup-account' },
           { text: 'Login instructions', link: '/2-students/login-instructions' },
           { text: 'Quantitative survey', link: '/2-students/quantitative-survey-guide' },
+          { text: 'Telegram integration', link: '/2-students/telegram-integration' },
         ]
       }
     ],
