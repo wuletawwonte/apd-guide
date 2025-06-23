@@ -30,6 +30,14 @@ export default defineConfig({
           { text: 'Quantitative survey', link: '/2-students/quantitative-survey-guide' },
           { text: 'Telegram integration', link: '/2-students/telegram-integration' },
         ]
+      },
+      {
+        text: 'Instructors',
+        items: [
+          { text: 'Instructor Guide', link: '/3-instructors/instructor-guide' },
+          { text: 'Account setup', link: '/3-instructors/setup-account' },
+          { text: 'Login instructions', link: '/3-instructors/login-instructions' },
+        ]
       }
     ],
 
