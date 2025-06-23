@@ -7,6 +7,6 @@ WebAPD helps you submit course data and feedback efficiently. Follow these steps
 3. **Submit data** → [Quantitative/Survey Guides](quantitative-survey-guide)
 4. **Telegram integration** → [Telegram Integration](telegram-integration)
 
-🔹 **Need help?** Email [wuletawwonte@gmail.com](mailto:wuletawwonte@gmail.com).
+🔹 **Need help?** Email <wuletawwonte@gmail.com>.
 
 ![Student Dashboard Preview](../public/screenshots/student-dashboard.png)
