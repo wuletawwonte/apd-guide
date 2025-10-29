@@ -8,9 +8,9 @@
 
 ### Steps
 
-1. Visit WebAPD instructor Registration page: [https://amu.webapd.top/users/sign_up](https://amu.webapd.top/users/sign_up).
+1. Visit WebAPD instructor Registration page: [https://amu.apd.et/users/sign_up](https://amu.apd.et/users/sign_up).
    ![Instructor Registration Page](../public/screenshots/user-sign-up-page.png)
-   _You can also open [https://amu.webapd.top](https://amu.webapd.top) and click on the `Sign up` link._
+   _You can also open [https://amu.apd.et](https://amu.apd.et) and click on the `Sign up` link._
 2. Fill in:
 
    - Department: Choose your department
