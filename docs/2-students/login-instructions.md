@@ -9,7 +9,7 @@
 
 ### Steps
 
-1. Visit the WebAPD student login page: [https://amu.webapd.top/students](https://amu.webapd.top/students).  
+1. Visit the WebAPD student login page: [https://amu.apd.et/students](https://amu.apd.et/students).  
    ![Student Login Page](../public/screenshots/student-login.png)
 
 2. Ensure the URL includes `/students` (not for staff).

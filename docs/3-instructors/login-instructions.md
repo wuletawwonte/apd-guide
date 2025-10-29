@@ -9,7 +9,7 @@
 
 ### Steps
 
-1. Visit the WebAPD user login page: [https://amu.webapd.top](https://amu.webapd.top).  
+1. Visit the WebAPD user login page: [https://amu.apd.et](https://amu.apd.et).  
    ![User Login Page](../public/screenshots/regular-user-login-page.png)
 
 2. Enter your credentials:
