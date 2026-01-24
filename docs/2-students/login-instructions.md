@@ -9,10 +9,10 @@
 
 ### Steps
 
-1. Visit the WebAPD student login page: [https://amu.apd.et/students](https://amu.apd.et/students).  
+1. Visit the WebAPD login page: [https://cmhs.apd.et](https://cmhs.apd.et).  
    ![Student Login Page](../public/screenshots/student-login.png)
 
-2. Ensure the URL includes `/students` (not for staff).
+2. You no longer need the URL `/students` for students login.
 
 3. Enter your credentials:
 
