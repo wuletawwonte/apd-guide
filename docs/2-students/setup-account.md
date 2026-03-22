@@ -1,29 +1,25 @@
-# Account Setup
+# Student registration
 
-## **Register as a Student**
+Registration is only available if your **college** enabled it on its tenant.
 
-### Prerequisites
+## Prerequisites
 
-- Active email
-- Student ID (e.g., `NHS7686-23`)
+- The **college APD URL** from your university or college
+- Email and student ID (or other identifiers) your college requires
 
-### Steps
+## Steps
 
-1. Visit WebAPD user Registration page: [https://cmhs.apd.et/users/sign_up](https://cmhs.apd.et/users/sign_up).
-   ![Student Registration Page](../public/screenshots/student-registration.png)
-   _You can also open [https://cmhs.apd.et](https://cmhs.apd.et) and click on the Sign up link._
-2. Fill in:
+1. Open your **college’s APD address** in the browser.
+2. Open **student sign-up**. In this application, staff and student accounts use separate Devise configurations; student registration, when enabled, is under the **student** Devise routes (path prefix **`/students`** on the college host—your college’s instructions may show a “Sign up” link on the landing page).
+3. Complete the form fields your college shows (for example: student ID, department, name, email, password, acceptance of terms).
 
-   ```markdown
-   - Register as: Student
-   - Student ID: (as provided)
-   - Department: Choose your department
-   - Your Name: Please enter your name exactly as it appears on your student ID card.
-   - Email: Please use your university-provided email; personal emails are also accepted.
-   - Password: (8+ chars, include a number)
-   - Terms and Conditions: Please read and accept
-   ```
+![Student registration example](/screenshots/student-registration.png)
 
-   _Ensure all details are correct before submitting._
+4. Submit the form. If registration succeeds, you are typically signed in automatically.
 
-4. Click the **Signup** button to complete your registration. You will be automatically logged into the system.
+Exact labels and required fields depend on **college configuration** and the deployed registration view.
+
+## Related
+
+- [Student sign-in](login-instructions)
+- [Your college’s address](../1-introduction/your-academy-and-address)

@@ -1,19 +1,51 @@
-# Key Features at a Glance
+# Key features (high level)
 
-### 1. **Multiple Quality Metrics**
+This page is a **short summary**. For a **route-by-route** list of what exists in the product today, see [What the application includes](application-capabilities).
 
-- Presents data analytics based on multiple metrics (e.g., "Hourly" or "Session based").
-- Input data via forms or uploads.
+---
 
-### 2. **Data feeding made easy using a [Telegram bot](https://t.me/apdeth_bot)**
+## Multi-college (tenant per college)
 
-- Submit data directly from your mobile device using your telegram account.
+Each **college** uses a **subdomain**. Routes under that host are scoped to that college’s data.
 
-### 3. **Supports PWA (Progressive Web App)**
+---
 
-- Install as an App without the need of an App store, Use WebAPD offline or on your phone/desktop like a native app!
+## Separate student and staff access
 
-### 3. **Powerful Reporting**
+**Students** and **staff** use different Devise configurations. Student-facing routes include activities, activity weeks, class session submission, course list, survey responses, profile, notifications, and student departments—see the capabilities page for detail.
 
-- Export/import CSV/Excel formats for easy data management.
-- Visualize trends with charts.
+---
+
+## Department-scoped staff work
+
+Staff work **inside a department** (with department switching). Routes include courses, activities, weeks, enrollments, curriculum catalog, students, department users, analytics, and more—again detailed in [application capabilities](application-capabilities).
+
+---
+
+## Surveys and qualitative tools
+
+Under the `survey` path, the app routes **statements**, **checkpoints**, and a singleton **survey** resource for staff who have permission.
+
+---
+
+## College administration
+
+On the college subdomain, an **`admin`** namespace provides dashboard, announcements, departments, users, students, and college settings routes.
+
+---
+
+## Progressive Web App
+
+`manifest` and `service-worker` routes exist for PWA support; behaviour depends on browser and deployment.
+
+---
+
+## Telegram
+
+A `telegram_webhook` route exists at the application level; whether students use Telegram depends on college setup.
+
+---
+
+## Platform super-administration
+
+Creating **colleges** (`academies`) and **universities** (`academic_institutions`) is done in the platform **`/admin`** area for **super admins**, not in the college manual above.

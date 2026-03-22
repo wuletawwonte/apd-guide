@@ -1,24 +1,25 @@
-# Account Setup
+# Staff registration
 
-## **Register as a Instructor**
+Self-service staff registration is only available if your **college** enabled it.
 
-### Prerequisites
+## Prerequisites
 
-- Active institutional email
+- Your **college APD URL**
+- University email (or email policy your college defines)
 
-### Steps
+## Steps
 
-1. Visit WebAPD instructor Registration page: [https://amu.apd.et/users/sign_up](https://amu.apd.et/users/sign_up).
-   ![Instructor Registration Page](../public/screenshots/user-sign-up-page.png)
-   _You can also open [https://amu.apd.et](https://amu.apd.et) and click on the `Sign up` link._
-2. Fill in:
+1. Open your **college’s APD address**.
+2. Open **staff sign-up** if your college exposes it. Staff accounts use **`devise_for :users`** (path prefix **`/users`** on the college host, e.g. `/users/sign_up` when sign-up is open).
+3. Fill in the fields shown (for example department, name, email, password, terms).
 
-   - Department: Choose your department
-   - Your Name: Please enter your name exactly as it appears on your staff ID.
-   - Email: Please use your university-provided email; personal emails are also accepted.
-   - Password: (8+ chars, include a number)
-   - Terms and Conditions: Please read and accept
+![Staff registration example](/screenshots/user-sign-up-page.png)
 
-   _Ensure all details are correct before submitting._
+4. Submit the form. You may be signed in immediately after success.
 
-3. Click the **Signup** button to complete your registration. You will be automatically logged into the system.
+If you do not see a sign-up link, your college may **create accounts only through an administrator**—ask your college APD administrator.
+
+## Related
+
+- [Staff sign-in](login-instructions)
+- [College administrators — overview](../5-academy-admins/overview)

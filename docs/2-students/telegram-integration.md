@@ -8,9 +8,7 @@
    ![Student profile page](../public/screenshots/student-profile.png)
 4. Scroll to the "Phone number" field and enter the same number linked to your **Telegram account**.
 
-> Accepted formats: Ethiopia: +251XXXXXXXXX, 09XXXXXXXX, or 07XXXXXXXX
->
-> Important: Each phone number can only be used by one student.
+> Use the **phone format** shown on the form or in your college’s instructions (international `+` format is typical). Each phone number can only be linked to **one** student account.
 
 5. Click "Update" to save your changes.
 
@@ -19,7 +17,7 @@
 ## Step 2: Connect to the Telegram Bot
 
 1. Open Telegram on your phone.
-2. Search for the bot: **@apdeth_bot** (named "Academic Performance Dashboard").
+2. Search for the **Telegram bot username** your college publishes. The application supports Telegram via a configured bot and a `telegram_webhook` route; the exact bot handle depends on your university’s deployment.
    ![Telegram bot search](../public/screenshots/student-telegram-bot-start.png)
 3. Click "Start" to activate the bot.
 

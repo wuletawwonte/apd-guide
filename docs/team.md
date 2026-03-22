@@ -44,8 +44,7 @@ const members = [
       Our Team
     </template>
     <template #lead>
-      The development of VitePress is guided by an international
-      team, some of whom have chosen to be featured below.
+      Contributors to the APD product and this user guide repository.
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers :members />

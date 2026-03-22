@@ -1,37 +1,30 @@
-# Login Instructions
+# Student sign-in
 
-## **Accessing Your Student Account**
+## Prerequisites
 
-### Prerequisites
+- An account created for your college’s APD tenant
+- Email and password you set (or that an administrator set for you)
 
-- Registered student account
-- Valid email and password
+## Steps
 
-### Steps
+1. Open **your college’s APD link** (subdomain). Your university or college office should provide the exact URL—not every college uses the same address.
+2. Open the **student** sign-in page. In the Rails application, student authentication uses **`devise_for :students`**, which by default is served under paths starting with **`/students`** (for example sign-in at `/students/sign_in` on your college host—confirm on your deployment).
+3. Enter your email and password, then sign in.
 
-1. Visit the WebAPD login page: [https://cmhs.apd.et](https://cmhs.apd.et).  
-   ![Student Login Page](../public/screenshots/student-login.png)
+![Student sign-in page example](/screenshots/student-login.png)
 
-2. You no longer need the URL `/students` for students login.
+4. If the account is not recognized, confirm you are on the **correct college link** and using the email you registered with.
 
-3. Enter your credentials:
+## Forgot your password?
 
-   ```markdown
-   - Email: (Use your registered email)
-   - Password: (The one you set during registration)
-   ```
+1. Use **Forgot password** on the student sign-in page (Devise password reset).
 
-4. Click **Login** to access your account.
-5. Account Not Recognized? Ensure you are using the correct email or register first.
+![Forgot password flow example](/screenshots/student-forgot-password.png)
 
-## Forgot Your Password?
+2. Enter the same email you used for registration.
+3. Use the link sent to your email to set a new password (check spam folders if needed).
 
-If you can’t remember your password:
+## Related
 
-1. Click **Forgot Password?** on the login page and this page will appear:
-
-![Forgot Password](../public/screenshots/student-forgot-password.png)
-
-2. Enter your registered email address: Make sure to use the same email you registered with.
-3. Check your inbox for a password reset link (check spam/junk if missing).
-4. Click the link and follow the prompts to set a new password.
+- [Your college’s address](../1-introduction/your-academy-and-address)
+- [What the application includes](../1-introduction/application-capabilities) (student routes)

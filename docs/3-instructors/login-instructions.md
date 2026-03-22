@@ -1,35 +1,29 @@
-# Login Instructions
+# Staff sign-in
 
-## **Accessing Your Instructor Account**
+## Prerequisites
 
-### Prerequisites
+- A **user** (staff) account on your college’s APD tenant
+- Email and password for that account
 
-- Registered regular user account
-- Valid email and password
+## Steps
 
-### Steps
+1. Open **your college’s APD link**. Your university or college office provides this URL; it is **not** the same for every college.
+2. Open **staff** sign-in. In the Rails application, staff use **`devise_for :users`**, with default Devise paths under **`/users`** on the college host (for example `/users/sign_in`—confirm on your deployment).
+3. Enter your email and password, then sign in.
 
-1. Visit the WebAPD user login page: [https://amu.apd.et](https://amu.apd.et).  
-   ![User Login Page](../public/screenshots/regular-user-login-page.png)
+![Staff sign-in page example](/screenshots/regular-user-login-page.png)
 
-2. Enter your credentials:
+4. If sign-in fails, confirm you are on the **correct college link** and that an administrator has created your account.
 
-   ```markdown
-   - Email: (Use your registered email)
-   - Password: (The one you set during registration)
-   ```
+## Forgot your password?
 
-3. Click **Login** to access your account.
-4. Account Not Recognized? Ensure you are using the correct email or register first.
+1. Use **Forgot password** on the staff sign-in page.
 
-## Forgot Your Password?
+![Forgot password flow example](/screenshots/regular-user-forgot-password-page.png)
 
-If you can’t remember your password:
+2. Enter your registered email and complete the reset flow from the email message.
 
-1. Click **Forgot Password?** on the login page and this page will appear:
+## Related
 
-![Forgot Password](../public/screenshots/regular-user-forgot-password-page.png)
-
-2. Enter your registered email address: Make sure to use the same email you registered with.
-3. Check your inbox for a password reset link (check spam/junk if missing).
-4. Click the link and follow the prompts to set a new password.
+- [Your college’s address](../1-introduction/your-academy-and-address)
+- [What the application includes](../1-introduction/application-capabilities) (staff and department routes)
