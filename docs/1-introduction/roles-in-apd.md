@@ -20,10 +20,13 @@ For **screens and routes that exist in the product**, see [What the application 
 - Students use the **student** area, not the staff dashboard.
 - What appears depends on **enrollments** your department configured.
 
-::: tip Screenshot placeholders
-- **Student home** after sign-in — `docs/public/screenshots/guide-student-home-overview.png`
-- **Activity weeks** for one activity — `docs/public/screenshots/guide-student-activity-weeks-nav.png`
-:::
+**Student home** (example after sign-in):
+
+![Student home dashboard](/screenshots/student-dashboard.png)
+
+**Activity weeks** for one activity:
+
+![Activity weeks view](/screenshots/student-activity-week.png)
 
 ---
 
@@ -43,10 +46,9 @@ Many staff users can **read** department data and submit **feedback** (`feedback
 - **College-wide** settings and **admin** tools require **college administrator** or **department head** roles.
 - If something is missing, ask your **department head** or **college administrator**—do not share passwords.
 
-::: tip Screenshot placeholder
-Staff **department home** (read-heavy user).  
-File: `docs/public/screenshots/guide-staff-department-home.png`
-:::
+Staff **department home** (example; menus depend on role):
+
+![Staff department view](/screenshots/regular-user-page.png)
 
 ---
 
@@ -67,10 +69,13 @@ Manages **curriculum catalog**, **courses**, **activities**, **weeks**, and **en
 - Scoped to **headed departments**; another department’s data is separate.
 - Updates may be restricted when records are **passed** or locked by business rules.
 
+**Department home** (staff example; department heads see additional actions):
+
+![Staff dashboard / department entry](/screenshots/dashboard.png)
+
 ::: tip Screenshot placeholders
-- **Department home** — `docs/public/screenshots/guide-dept-head-home.png`
-- **Activity weeks** — `docs/public/screenshots/guide-dept-head-activity-weeks.png`
-- **Enrollment** — `docs/public/screenshots/guide-dept-head-enrollment.png`
+Add screenshots for the **department head** views of **activity weeks** and **enrollment** when available:  
+`guide-dept-head-activity-weeks.png`, `guide-dept-head-enrollment.png`
 :::
 
 More detail: [Department heads — overview](../4-department-heads/overview).

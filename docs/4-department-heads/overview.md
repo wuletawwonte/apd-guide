@@ -30,10 +30,9 @@ Your college may use slightly different words in training—if unsure, match the
 4. **Enroll students** and assign **instructors** where required.
 5. During the term, adjust only what your **college** allows (some items **lock** after a course or activity has **passed**).
 
-::: tip Screenshot placeholder
-**Department home** showing entry points to courses, students, or curriculum.  
-File: `docs/public/screenshots/guide-dept-head-dashboard.png`
-:::
+**Department home** (staff dashboard example; entry points vary by deployment):
+
+![Department / staff dashboard example](/screenshots/dashboard.png)
 
 ---
 

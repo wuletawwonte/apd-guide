@@ -12,10 +12,7 @@ You do **not** all use the same website address. Your college receives a link th
 
 The middle part (**`yourcollege`**) is the **subdomain** configured for that college.
 
-::: tip Screenshot placeholder
-**Add a screenshot** of the browser address bar showing a sample college URL (blur sensitive details).  
-Suggested file: `docs/public/screenshots/guide-academy-url-bar.png`
-:::
+![Academy url bar](/screenshots/guide-academy-url-bar.png)
 
 **Always use the address your college gave you.** Opening the wrong link may show another college’s sign-in page or an error.
 
@@ -40,10 +37,13 @@ On your college’s address you will find:
 
 Students and staff use **different** account types. If you are both a student and an employee, you may have **two accounts**.
 
-::: tip Screenshot placeholder
-**Add a screenshot** of the landing or sign-in area showing student vs staff entry points.  
-Suggested file: `docs/public/screenshots/guide-student-vs-staff-signin.png`
-:::
+Example **student** sign-in:
+
+![Student sign-in page](/screenshots/student-login.png)
+
+Example **staff** sign-in:
+
+![Staff sign-in page](/screenshots/regular-user-login-page.png)
 
 ---
 

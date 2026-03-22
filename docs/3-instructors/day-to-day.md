@@ -10,10 +10,9 @@ This page is for staff who sign in with a **work email** and mainly **view** inf
 2. Sign in on the **staff** sign-in page.
 3. If you belong to more than one **department**, pick the right one when the system lets you switch.
 
-::: tip Screenshot placeholder
-Staff sign-in and department switcher (if visible).  
-File: `docs/public/screenshots/guide-instructor-context.png`
-:::
+Staff sign-in (example):
+
+![Staff sign-in page](/screenshots/regular-user-login-page.png)
 
 ---
 
@@ -24,17 +23,16 @@ File: `docs/public/screenshots/guide-instructor-context.png`
 - Send **feedback** through the feedback form when it is available (`feedbacks` routes).
 - Read **announcements** your college shows to staff (`announcements#index`, dismiss on member).
 
-::: tip Screenshot placeholder
-Example of a course or activity summary page for a staff user.  
-File: `docs/public/screenshots/guide-instructor-course-view.png`
-:::
+Example staff view (course/department area; exact screen depends on role):
+
+![Staff user page example](/screenshots/regular-user-page.png)
 
 ---
 
 ## What you might not see
 
 - Buttons to **create courses**, **enroll students**, or **edit surveys** usually belong to **department heads**, **quality leads**, or **administrators**.
-- If you need access, ask your **department head** or **academy administrator**—do not share passwords.
+- If you need access, ask your **department head** or **college administrator**—do not share passwords.
 
 ---
 

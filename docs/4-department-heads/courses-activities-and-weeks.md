@@ -11,10 +11,7 @@ This page describes the **main building blocks** you work with. Exact field name
 
 Think of curriculum as the **blueprint** and courses as the **building** for that year.
 
-::: tip Screenshot placeholder
-Side-by-side or labeled view: curriculum course → instantiated department course.  
-File: `docs/public/screenshots/guide-curriculum-to-course.png`
-:::
+![Course and Curriculum Course Side by Side](/screenshots/guide-curriculum-to-course.png)
 
 ---
 
@@ -26,10 +23,7 @@ File: `docs/public/screenshots/guide-curriculum-to-course.png`
 4. Fill in **dates**, **level**, **semester**, and links to **curriculum** if the form asks for them.
 5. Save and confirm the course appears in your department list.
 
-::: tip Screenshot placeholder
-Course **new** or **edit** form with main fields highlighted.  
-File: `docs/public/screenshots/guide-dept-head-course-form.png`
-:::
+![Department Head Course Form](/screenshots/guide-dept-head-course-form.png)
 
 **After a course has passed**, some edits may be **disabled** to protect historical records.
 
@@ -44,10 +38,7 @@ File: `docs/public/screenshots/guide-dept-head-course-form.png`
 
 Activities often drive which **students** see reporting tasks once they are **enrolled**.
 
-::: tip Screenshot placeholder
-Course detail showing the list of activities.  
-File: `docs/public/screenshots/guide-dept-head-activities-list.png`
-:::
+![Department Head Activities List](/screenshots/guide-dept-head-activities-list.png)
 
 ---
 
@@ -64,10 +55,11 @@ Typical steps:
 
 Students usually see **open** weeks on their **student portal** when they are enrolled.
 
-::: tip Screenshot placeholders
-- Activity weeks **table** — `docs/public/screenshots/guide-activity-weeks-table.png`
-- Student view of the **same** week (for verification) — reuse or add `guide-student-week-aligned.png`
-:::
+Student view of **activity weeks** (for comparison with your head view):
+
+![Student activity weeks](/screenshots/student-activity-week.png)
+
+![Department Head activity weeks](/screenshots/guide-activity-weeks-table.png)
 
 ---
 

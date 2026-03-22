@@ -16,10 +16,9 @@ See [What the application includes](../1-introduction/application-capabilities) 
 | **Students** | College-level student records when your process uses admin student routes. |
 | **Announcements** | Routed `announcements` for the college admin. |
 
-::: tip Screenshot placeholder
-Administrator view of **departments** or admin dashboard.  
-File: `docs/public/screenshots/guide-admin-overview.png`
-:::
+Staff/college **dashboard** example (admin pages vary by deployment):
+
+![Dashboard example](/screenshots/dashboard.png)
 
 ---
 
