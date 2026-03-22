@@ -12,8 +12,6 @@ You do **not** all use the same website address. Your college receives a link th
 
 The middle part (**`yourcollege`**) is the **subdomain** configured for that college.
 
-![Academy url bar](/screenshots/guide-academy-url-bar.png)
-
 **Always use the address your college gave you.** Opening the wrong link may show another college’s sign-in page or an error.
 
 ---

@@ -12,11 +12,6 @@ Use this page as a **roadmap**. Your college may use different menu labels—ali
 4. Link the survey to the **courses** or processes your **university** defines (follow local training).
 5. **Preview** as a staff user before students see changes.
 
-::: tip Screenshot placeholders
-- Survey **index** — `docs/public/screenshots/guide-eql-surveys-index.png`
-- Survey **edit** with section list — `docs/public/screenshots/guide-eql-survey-edit.png`
-:::
-
 ---
 
 ## Statements (qualitative)
@@ -28,11 +23,6 @@ Use this page as a **roadmap**. Your college may use different menu labels—ali
 3. Maintain **options** where your model uses fixed answers.
 4. Use **import** only with approved spreadsheets and after backup / test import.
 
-::: tip Screenshot placeholder
-Statements **list** with import/new actions.  
-File: `docs/public/screenshots/guide-eql-statements.png`
-:::
-
 ---
 
 ## Checkpoints
@@ -43,11 +33,6 @@ File: `docs/public/screenshots/guide-eql-statements.png`
 2. **Create** or reorder checkpoints to match your accreditation or internal timeline.
 3. Confirm **department heads** know when each checkpoint affects reporting.
 
-::: tip Screenshot placeholder
-Checkpoints list with order or status.  
-File: `docs/public/screenshots/guide-eql-checkpoints-list.png`
-:::
-
 ---
 
 ## Curriculum catalog (college scope)
@@ -57,11 +42,6 @@ When your role includes **curriculum courses** or **activity types** at **colleg
 1. Work from the **catalog** menus (not individual department course copies).
 2. Coordinate renames with **department heads** so running courses stay aligned.
 3. Document changes in your **university’s** **change log** if you maintain one.
-
-::: tip Screenshot placeholder
-Curriculum course **catalog** view.  
-File: `docs/public/screenshots/guide-eql-curriculum-catalog.png`
-:::
 
 ---
 

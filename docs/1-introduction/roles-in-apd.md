@@ -73,11 +73,6 @@ Manages **curriculum catalog**, **courses**, **activities**, **weeks**, and **en
 
 ![Staff dashboard / department entry](/screenshots/dashboard.png)
 
-::: tip Screenshot placeholders
-Add screenshots for the **department head** views of **activity weeks** and **enrollment** when available:  
-`guide-dept-head-activity-weeks.png`, `guide-dept-head-enrollment.png`
-:::
-
 More detail: [Department heads — overview](../4-department-heads/overview).
 
 ---
@@ -98,11 +93,6 @@ In the app, **college** administration uses the **`academy/admin`** namespace on
 - Scoped to **one college tenant** on that subdomain.
 - Creating a **new college** or **university** record uses super-admin **`/admin`** routes, not this area.
 
-::: tip Screenshot placeholders
-- **Admin departments** — `docs/public/screenshots/guide-academy-admin-departments.png`
-- **User management** — `docs/public/screenshots/guide-academy-admin-users.png`
-:::
-
 More detail: [College administrators — overview](../5-academy-admins/overview).
 
 ---
@@ -120,11 +110,6 @@ Can manage **statements**, **checkpoints**, and the singleton **survey** under t
 **Limits**
 
 - Does not replace **department heads** for per-section enrollments unless your university agrees otherwise.
-
-::: tip Screenshot placeholders
-- **Survey hub** — `docs/public/screenshots/guide-eql-survey-hub.png`
-- **Checkpoints** — `docs/public/screenshots/guide-eql-checkpoints.png`
-:::
 
 More detail: [Education quality lead — overview](../6-quality-lead/overview).
 

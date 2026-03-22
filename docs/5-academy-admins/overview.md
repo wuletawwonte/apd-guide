@@ -32,11 +32,6 @@ Examples (see `Ability` in the application source for the full matrix):
 
 Follow your **university’s** access policy.
 
-::: tip Screenshot placeholder
-User edit screen with roles.  
-File: `docs/public/screenshots/guide-admin-user-roles.png`
-:::
-
 ---
 
 ## Working with department heads

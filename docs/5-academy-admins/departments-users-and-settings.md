@@ -12,10 +12,6 @@ Routes include full CRUD plus **`attach_head`** and **`dettach_head`** on a memb
 2. Create or edit a department with the official name your university uses.
 3. Attach the correct **department head** so they receive department-head permissions.
 
-::: tip Screenshot placeholder  
-`docs/public/screenshots/guide-admin-departments-crud.png`  
-:::
-
 ---
 
 ## Staff users
@@ -30,19 +26,11 @@ Admin **`users`** resource includes **`reset_password`**, **`restore`**, **`perm
 Do not share one login between several people.
 :::
 
-::: tip Screenshot placeholder  
-`docs/public/screenshots/guide-admin-user-form-full.png`  
-:::
-
 ---
 
 ## College settings
 
 **`academy_settings`** exposes **`index`** and **`update`** only. Change one setting at a time and confirm impact with academic leadership when surveys or teaching flows are affected.
-
-::: tip Screenshot placeholder  
-`docs/public/screenshots/guide-academy-settings.png`  
-:::
 
 ---
 
@@ -50,19 +38,11 @@ Do not share one login between several people.
 
 **`resources :announcements`** under **`admin`**. Draft short messages (maintenance, policy reminders). Confirm visibility with a test account if your deployment supports audience scoping.
 
-::: tip Screenshot placeholder  
-`docs/public/screenshots/guide-admin-announcement.png`  
-:::
-
 ---
 
 ## Students (admin)
 
 **`resources :students`** with **`reset_password`** and **`restore`**. Use for college-level student record tasks your registrar defines.
-
-::: tip Screenshot placeholder  
-`docs/public/screenshots/guide-admin-students.png`  
-:::
 
 ---
 

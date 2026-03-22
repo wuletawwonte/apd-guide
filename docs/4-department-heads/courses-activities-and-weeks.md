@@ -11,8 +11,6 @@ This page describes the **main building blocks** you work with. Exact field name
 
 Think of curriculum as the **blueprint** and courses as the **building** for that year.
 
-![Course and Curriculum Course Side by Side](/screenshots/guide-curriculum-to-course.png)
-
 ---
 
 ## Creating or updating a course
@@ -22,8 +20,6 @@ Think of curriculum as the **blueprint** and courses as the **building** for tha
 3. **Add** a course or open an existing one.
 4. Fill in **dates**, **level**, **semester**, and links to **curriculum** if the form asks for them.
 5. Save and confirm the course appears in your department list.
-
-![Department Head Course Form](/screenshots/guide-dept-head-course-form.png)
 
 **After a course has passed**, some edits may be **disabled** to protect historical records.
 
@@ -37,8 +33,6 @@ Think of curriculum as the **blueprint** and courses as the **building** for tha
 4. Save.
 
 Activities often drive which **students** see reporting tasks once they are **enrolled**.
-
-![Department Head Activities List](/screenshots/guide-dept-head-activities-list.png)
 
 ---
 
@@ -58,8 +52,6 @@ Students usually see **open** weeks on their **student portal** when they are en
 Student view of **activity weeks** (for comparison with your head view):
 
 ![Student activity weeks](/screenshots/student-activity-week.png)
-
-![Department Head activity weeks](/screenshots/guide-activity-weeks-table.png)
 
 ---
 

@@ -17,11 +17,6 @@ Routed areas include **`survey` statements**, **checkpoints**, and the singleton
 | **Curriculum catalog** | **Curriculum courses**, nested **curriculum activities**, **activity types** when your role includes them at college scope. |
 | **Announcements** | Only if your role includes announcement management (confirm with a **college administrator**). |
 
-::: tip Screenshot placeholder
-Survey or statements landing.  
-File: `docs/public/screenshots/guide-eql-home.png`
-:::
-
 ---
 
 ## How you work with department heads

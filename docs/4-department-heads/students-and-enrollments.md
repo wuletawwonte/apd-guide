@@ -14,11 +14,6 @@ Depending on your college, students may be:
 
 You can usually **search** students by name or ID where your permissions allow.
 
-::: tip Screenshot placeholder
-Department **students** list with search.  
-File: `docs/public/screenshots/guide-dept-head-students-list.png`
-:::
-
 ---
 
 ## Course enrollment
@@ -29,11 +24,6 @@ To attach a student to a **course**:
 2. Find **enrollments** or **enrolled students**.
 3. **Add** the student to the course.
 4. Save and confirm the student appears in the list.
-
-::: tip Screenshot placeholder
-Course enrollment **modal** or page.  
-File: `docs/public/screenshots/guide-course-enrollment.png`
-:::
 
 ---
 
@@ -46,11 +36,6 @@ Many reporting tasks (class sessions, surveys) depend on **activity enrollment**
 3. Add students who should report for that activity.
 4. If your process uses **informant** or special roles, set them according to your department’s rules.
 
-::: tip Screenshot placeholder
-Activity enrollment with student list.  
-File: `docs/public/screenshots/guide-activity-enrollment.png`
-:::
-
 ---
 
 ## Instructors on an activity
@@ -62,11 +47,6 @@ If your **university** assigns an **instructor** to each activity:
 3. Choose the staff member and save.
 
 Students and feedback flows may use this link to show the right person **performance** or comments.
-
-::: tip Screenshot placeholder
-Assign instructor control on activity detail.  
-File: `docs/public/screenshots/guide-assign-instructor.png`
-:::
 
 ---
 

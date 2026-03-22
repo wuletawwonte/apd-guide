@@ -5,25 +5,25 @@
 1. Log in to the web platform.
 2. Click your profile icon (top-right corner) and select "My Profile" from the dropdown menu.
 3. On your profile page, click the "Edit" button.
-   ![Student profile page](../public/screenshots/student-profile.png)
+   ![Student profile page](/screenshots/student-profile.png)
 4. Scroll to the "Phone number" field and enter the same number linked to your **Telegram account**.
 
 > Use the **phone format** shown on the form or in your college’s instructions (international `+` format is typical). Each phone number can only be linked to **one** student account.
 
 5. Click "Update" to save your changes.
 
-   ![Student edit profile page](../public/screenshots/student-edit-profile.png)
+   ![Student edit profile page](/screenshots/student-edit-profile.png)
 
 ## Step 2: Connect to the Telegram Bot
 
 1. Open Telegram on your phone.
 2. Search for the **Telegram bot username** your college publishes. The application supports Telegram via a configured bot and a `telegram_webhook` route; the exact bot handle depends on your university’s deployment.
-   ![Telegram bot search](../public/screenshots/student-telegram-bot-start.png)
+   ![Telegram bot search](/screenshots/student-telegram-bot-start.png)
 3. Click "Start" to activate the bot.
 
    > When prompted, allow the bot to access your phone number (this links your Telegram account to the system).
 
-   ![Bot’s share contact interaction](../public/screenshots/student-telegram-share-contact.png)
+   ![Bot’s share contact interaction](/screenshots/student-telegram-share-contact.png)
 
 ## Step 3: Submit Your Class Session Status
 
