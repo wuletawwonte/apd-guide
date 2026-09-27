@@ -1,43 +1,98 @@
 # Education quality lead — overview
 
-The **education quality lead** role helps your **college** keep **surveys** and **qualitative** content accurate. You often work **across departments** in the same college tenant, while **department heads** still run enrollments and activity weeks.
+This section is for the **education quality lead** (the quality office) of your academy (your college, institute or school). It shows you where to start and what you can do in APD.
 
-Routed areas include **`survey` statements**, **checkpoints**, and the singleton **survey** resource, plus **curriculum catalog** resources when `Ability` grants them—see [What the application includes](../1-introduction/application-capabilities).
+::: tip Who is this for
+Staff who have the **Education quality lead** role. Your academy admin gives you this role.
+:::
 
----
+## What you do in APD
 
-## What you typically own
+As the quality lead, you look after teaching quality across **all departments** of your academy. In APD you:
 
-| Area | Plain-language purpose |
-|------|-------------------------|
-| **Surveys** | Staff survey resource at the `survey` path (`show` / `edit` / `update`). |
-| **Statements** | Qualitative statement CRUD and import routes. |
-| **Options** | Answer choices tied to statements where the UI exposes them. |
-| **Checkpoints** | Checkpoints CRUD under `survey`. |
-| **Curriculum catalog** | **Curriculum courses**, nested **curriculum activities**, **activity types** when your role includes them at college scope. |
-| **Announcements** | Only if your role includes announcement management (confirm with a **college administrator**). |
+| Task | Where you do it | Read more |
+|------|-----------------|-----------|
+| Watch how every department is doing | **Quality office dashboard** | [This page](#the-quality-office-dashboard) |
+| Review courses that department heads have closed | **Course approvals** | [Approve or return courses](./course-approvals) |
+| Set up the student feedback survey | **Qualitative Analysis** | [Survey settings and checkpoints](./qualitative-survey-setup) |
+| Write the survey questions and answers | **Qualitative Analysis** → **Statements** | [Statements and answer options](./statements-and-options) |
+| Look inside any department and manage its curriculum | **Department** menu | [View departments and curriculum](./viewing-departments) |
+| Confirm who heads each department | **Head access requests** | [Head access requests](./head-access-requests) |
 
----
+## Sign in
 
-## How you work with department heads
+1. Open your academy address, for example `https://yourcollege.apd.et`.
+2. Enter your email and password, then click **Login**.
+3. APD opens the **Quality office dashboard**.
 
-- You prepare **content** (wording, checkpoints).
-- Department heads ensure **enrollments** and **open weeks** so data is collected.
-- Agree **go-live** dates before each term.
+## Your menu
 
----
+The menu on the left has two parts.
 
-## How you work with college administrators
+![The quality lead's left menu with the Department item and the Extras items](/screenshots/quality-lead/sidebar.png)
 
-- They create accounts and assign the **education_quality_lead** role.
-- They reset access if you are locked out.
+- **Navigation → Department** opens the pages of one department. See [View departments and curriculum](./viewing-departments).
+- **Extras** holds your own tools:
+  - **Quality office dashboard** — the summary of all departments.
+  - **Course approvals** — courses waiting for your decision.
+  - **Qualitative Analysis** — the student feedback survey.
+  - **Feedback** — send a comment or problem report to the APD team.
+  - **Release Notes** — what is new in APD.
 
----
+At the top right you find the search box, the theme button, your **notifications** (the bell) and your account menu (**My Profile**, **Change Password**, **Logout**).
 
-## Multi–college note
+## The quality office dashboard
 
-Edits apply only to **your college’s** tenant (subdomain). Another college’s deployment does not show your statements or surveys.
+The dashboard shows one row for each department in your academy.
 
----
+![Quality office dashboard with one row per department](/screenshots/quality-lead/dashboard.png)
 
-Next: [Surveys, checkpoints, and statements](surveys-checkpoints-and-statements)
+| Column | What it means |
+|--------|---------------|
+| **Department** | The department name. |
+| **Head** | The person who has department head access. A dash (—) means nobody. |
+| **Courses** | All courses of the department. |
+| **Ongoing** | Courses that are running now. |
+| **Avg hourly %** | On average, how much of the planned teaching hours really happened. |
+| **Avg qualitative %** | The average score students gave in the feedback survey. |
+| **Performance (hourly)** | How many courses are **High** (above 80%), **Med** (50–79%) and **Low** (below 50%). |
+| **Open** | The house icon opens the department's **Home** page. The chart icon opens its **Analytics**. |
+
+::: tip Read the numbers together
+A low **Avg hourly %** means classes are being missed. A low **Avg qualitative %** means students are not happy with how the course is taught. Open the department to find the courses behind the number.
+:::
+
+## Download the dashboard as a file
+
+You can save the table as a CSV file. You can open it in Excel or Google Sheets.
+
+1. Open the **Quality office dashboard**.
+2. Click the **download** icon at the top right of the table (its tooltip says **Export (CSV)**).
+3. Your browser saves a file named like `quality-office-dashboard-2026-09-27.csv`.
+
+![The Export (CSV) button on the quality office dashboard](/screenshots/quality-lead/dashboard-export.png)
+
+## Notes you may see on the dashboard
+
+When a staff member asks for department head access, a note appears at the top of the dashboard: **"1 head access request waiting for review."** Click **Review** to decide. See [Head access requests](./head-access-requests).
+
+You also get a notification (the bell) when:
+
+- a department head submits a course for approval, and
+- someone asks for department head access.
+
+## A good routine
+
+- **Every week:** open the dashboard. Look for departments with low numbers. Check **Course approvals**.
+- **Before each term:** check the survey [statements](./statements-and-options) and [checkpoints](./qualitative-survey-setup). Make sure the survey is **Accepting responses**.
+- **At the end of each term:** review and approve closed courses so their records are archived.
+
+## Common questions
+
+**Can I change a department's courses or enrollments?**
+No. Department heads manage courses, activities, weeks and students. You can view them. You can manage the **curriculum courses** and **activity types** of any department.
+
+**Do I see other academies?**
+No. You only see the academy you signed in to.
+
+Next: [Approve or return courses](./course-approvals)

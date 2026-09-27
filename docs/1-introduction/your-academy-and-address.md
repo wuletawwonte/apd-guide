@@ -1,54 +1,79 @@
-# Your college’s address and how you open APD
+# Open APD and sign in
 
-APD is used by a **university** as a whole, but day-to-day use happens **per college**. In the software, each college is a separate **tenant** with its **own web address** (subdomain). This guide uses **college** for that tenant.
+Each academy (your college, institute or school) has its **own web address**. You always sign in on your academy's address.
 
----
+## Your academy's address
 
-## Your link is specific to your college
-
-You do **not** all use the same website address. Your college receives a link that typically looks like:
+The address looks like this:
 
 `https://`**`yourcollege`**`.apd.et`
 
-The middle part (**`yourcollege`**) is the **subdomain** configured for that college.
+The first part (**yourcollege**) is different for each academy. Your academy office gives you the correct address.
 
-**Always use the address your college gave you.** Opening the wrong link may show another college’s sign-in page or an error.
+::: tip Can't remember the address?
+Open **https://apd.et** and click **Academies**. You will see a list of academies. Click **Open academy** next to yours.
+:::
 
----
+![The list of academies on the APD website](/screenshots/common/public-academies.png)
 
-## Data stays inside your college
+If you type a wrong address, APD shows **This academy could not be found**. Check the spelling, or click **Browse academies**.
 
-- Students, courses, departments, and reports belong to **one** college tenant at a time.
-- People signed into **College A** do not see **College B**’s data, even within the same university.
-- If you work with more than one college that uses APD, you may have **more than one link** and **more than one account**.
-
----
-
-## Two sign-in areas on the same college link
-
-On your college’s address you will find:
-
-| Who you are | What you use |
-|-------------|----------------|
-| **Student** | Student sign-in or registration (if your college enabled it). |
-| **Staff** (instructors, heads, college admins, quality leads) | Staff sign-in with the email and password your college set up. |
-
-Students and staff use **different** account types. If you are both a student and an employee, you may have **two accounts**.
-
-Example **student** sign-in:
-
-![Student sign-in page](/screenshots/student-login.png)
-
-Example **staff** sign-in:
-
-![Staff sign-in page](/screenshots/regular-user-login-page.png)
+![The page shown for a wrong academy address](/screenshots/common/unknown-academy.png)
 
 ---
 
-## If something does not look right
+## Sign in
 
-- Confirm you are using the **correct link** for your college.
-- Try signing out and signing in again.
-- Ask your **college administrator** or **department** contact before resetting passwords or creating extra accounts.
+Students and staff use the **same sign-in page**.
 
-Next: [Roles and responsibilities](roles-in-apd)
+1. Open your academy's address.
+2. In **Username**, type your email address. Students can also type their **student ID number** (for example `SWE/0101/16`).
+3. Type your **Password**.
+4. Tick **Remember me** if this is your own device. Do not tick it on a shared computer.
+5. Click **Login**.
+
+![The APD sign-in page](/screenshots/common/sign-in-page.png)
+
+After you sign in, APD opens the right home page for your role. Students see the student home page. Staff see their department or dashboard.
+
+::: info Sign in with Microsoft
+Some universities also show a **Sign in with Microsoft** button. If you see it, you can use your university Microsoft (Outlook) account instead of a password.
+:::
+
+---
+
+## Forgot your password?
+
+1. On the sign-in page, click **Forgot password?**
+2. Type your email address and send the form.
+3. Open the email from APD and click the link.
+4. Type a new password twice and save it.
+
+Check your **spam** folder if the email does not arrive in a few minutes. If you still get nothing, ask your academy admin to reset your password.
+
+---
+
+## No account yet?
+
+Click **Sign up** under the sign-in form. See:
+
+- [Student sign-up](../2-students/setup-account)
+- [Staff sign-up](../3-instructors/setup-account)
+
+Your academy may prefer to create accounts for you. If so, ask your department or academy admin.
+
+---
+
+## Sign out
+
+Click your **name** in the top-right corner, then click **Logout**. Always sign out on shared computers.
+
+---
+
+## Your data stays in your academy
+
+- Each academy only sees its own departments, courses, students and reports.
+- An account from one academy does **not** work on another academy's address.
+- If you work in two academies, you need two accounts.
+
+Next: [Words you will see](./key-concepts)

@@ -1,136 +1,127 @@
-# Roles and responsibilities
+# Roles in APD
 
-APD limits what each person can open based on **role** and **department**. This page explains **who usually does what** inside a **college** tenant.
+Your **role** decides what you can see and do in APD. Your academy admin gives staff their roles. Every student has the student role.
 
-For **screens and routes that exist in the product**, see [What the application includes](application-capabilities).
-
----
-
-## Students
-
-**Typical tasks**
-
-- Sign in (or register, if your college enabled it) using **your college’s link**.
-- Open **activities** and **activity weeks** you are enrolled in (see student routes in [application capabilities](application-capabilities)).
-- Submit **class sessions** and **course survey responses** when those flows are open for you.
-- Use **Telegram** only if your college connected it (webhook support exists in the app).
-
-**Important**
-
-- Students use the **student** area, not the staff dashboard.
-- What appears depends on **enrollments** your department configured.
-
-**Student home** (example after sign-in):
-
-![Student home dashboard](/screenshots/student-dashboard.png)
-
-**Activity weeks** for one activity:
-
-![Activity weeks view](/screenshots/student-activity-week.png)
+One person can have **more than one role**. For example, a department head can also be an instructor. APD then shows the menus of all your roles together.
 
 ---
 
-## Staff: instructor or general department user
+## The roles at a glance
 
-Many staff users can **read** department data and submit **feedback** (`feedbacks#new` / `create` exist). Menus still depend on **role** and **CanCan** rules.
-
-**Typical tasks**
-
-- Sign in on the **staff** area with your university email.
-- Select the correct **department** (switching is routed as `change_department`).
-- Review courses and activities your permissions allow.
-- Use **feedback** where offered.
-
-**Limits**
-
-- **College-wide** settings and **admin** tools require **college administrator** or **department head** roles.
-- If something is missing, ask your **department head** or **college administrator**—do not share passwords.
-
-Staff **department home** (example; menus depend on role):
-
-![Staff department view](/screenshots/regular-user-page.png)
+| Role | In one sentence | Main home page |
+|---|---|---|
+| **Student** | Reports class sessions and answers the qualitative survey. | Student home |
+| **Instructor** (regular staff) | Teaches activities and follows their results. Can look at department data but not change it. | Department home |
+| **Department head** | Runs the department in APD: courses, activities, students, instructors and weekly feedback. | My dashboard |
+| **Academy admin** | Manages departments, staff accounts, student accounts, announcements and settings for the academy. | Admin dashboard |
+| **Education quality lead** | Approves finished courses and manages the qualitative survey for the whole academy. | Quality office dashboard |
+| **Dean** | Follows the performance of every department in the academy. Read-only. | Dean dashboard |
+| **President** | Follows the performance of every academy in the university. Read-only. | Institution dashboard |
 
 ---
+
+## Who can do what
+
+✅ = can do it  👁 = can only look  — = not available
+
+| Task | Student | Instructor | Dept. head | Admin | Quality lead | Dean | President |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Report class sessions | ✅ | — | — | — | — | — | — |
+| Answer the qualitative survey | ✅ | — | — | — | — | — | — |
+| Connect Telegram | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | — |
+| See department courses and charts | — | 👁 | ✅ | — | 👁 | 👁 | — |
+| Create courses and activities | — | — | ✅ | — | — | — | — |
+| Enroll students and choose informants | — | — | ✅ | — | — | — | — |
+| Assign instructors to activities | — | — | ✅ | — | — | — | — |
+| Rate finished weeks (performance feedback) | — | — | ✅ | — | — | — | — |
+| Submit a course for approval | — | — | ✅ | — | — | — | — |
+| Approve or send back a course | — | — | — | — | ✅ | — | — |
+| Manage curriculum courses and activity types | — | 👁 | ✅ own dept. | — | ✅ all depts. | 👁 | — |
+| Edit the qualitative survey | — | 👁 | 👁 | 👁 | ✅ | 👁 | — |
+| Ask to become a department head | — | ✅ | — | — | — | — | — |
+| Approve department head requests | — | — | — | ✅ | ✅ | — | — |
+| Create departments and staff accounts | — | — | — | ✅ | — | — | — |
+| Reset passwords of staff and students | — | — | — | ✅ | — | — | — |
+| Publish announcements | — | — | — | ✅ | — | — | — |
+| Change academy settings | — | — | — | ✅ | — | — | — |
+| See all academies of the university | — | — | — | — | — | — | ✅ |
+| Download university reports | — | — | — | — | — | — | ✅ |
+
+::: info Department heads work only in their own department
+A department head can change data only in the department(s) they head. They can look at other departments but not change them.
+:::
+
+---
+
+## Student
+
+You report what happens in class, so the university knows if teaching follows the plan.
+
+- See your enrolled courses and activities.
+- Report class sessions each week when you are an **informant**.
+- Answer the qualitative survey at each checkpoint.
+- Get reminders by notification, email or Telegram.
+
+➡ [Student guide](../2-students/getting-started)
+
+## Instructor
+
+You teach activities. APD shows how your activities are going.
+
+- See **My Activities** and the performance of each one.
+- Read the department head's feedback on your weeks.
+- Look at department courses, students and charts (read-only).
+- Ask to become a department head if you have been appointed.
+
+➡ [Instructor guide](../3-instructors/instructor-guide)
 
 ## Department head
 
-Manages **curriculum catalog**, **courses**, **activities**, **weeks**, and **enrollments** for department(s) they head—matching the department-scoped resources in [application capabilities](application-capabilities).
+You keep your department's data correct and complete.
 
-**Typical tasks**
+- Create courses from the curriculum and add activities.
+- Enroll students, choose informants and assign instructors.
+- Rate each finished week.
+- Submit finished courses to the quality office.
 
-- Maintain **curriculum courses** and **curriculum activities**.
-- Create or update **courses** and **activities** for the department.
-- Configure **activity weeks** (including bulk update / toggle editable where used).
-- Enroll **students** in courses and activities; **assign instructor** routes exist on activities.
-- Use **expected hours** flows where the college uses them (`adjust_expected_hours`, `update_expected_hours`, `override_history` are routed on courses).
+➡ [Department head guide](../4-department-heads/overview)
 
-**Limits**
+## Academy admin
 
-- Scoped to **headed departments**; another department’s data is separate.
-- Updates may be restricted when records are **passed** or locked by business rules.
+You set up and look after the academy in APD.
 
-**Department home** (staff example; department heads see additional actions):
+- Create departments and choose their heads.
+- Create staff accounts and give roles.
+- Manage student accounts and reset passwords.
+- Publish announcements and change academy settings.
 
-![Staff dashboard / department entry](/screenshots/dashboard.png)
-
-More detail: [Department heads — overview](../4-department-heads/overview).
-
----
-
-## College administrator
-
-In the app, **college** administration uses the **`academy/admin`** namespace on the **college subdomain** (routes: dashboard, announcements, departments, users, students, `academy_settings`).
-
-**Typical tasks**
-
-- Maintain **departments** and attach/detach **heads** (`attach_head` / `dettach_head` routes exist).
-- Create and manage **staff users** and **students** (including password reset / restore routes where provided).
-- Adjust **college settings** (`academy_settings` index/update).
-- Publish **announcements** for the college.
-
-**Limits**
-
-- Scoped to **one college tenant** on that subdomain.
-- Creating a **new college** or **university** record uses super-admin **`/admin`** routes, not this area.
-
-More detail: [College administrators — overview](../5-academy-admins/overview).
-
----
+➡ [Academy admin guide](../5-academy-admins/overview)
 
 ## Education quality lead
 
-Can manage **statements**, **checkpoints**, and the singleton **survey** under the `survey` path, plus related options/import routes—see [application capabilities](application-capabilities). May also manage **curriculum catalog** at college scope when the role grants it (`Ability` in code).
+You check quality across the whole academy.
 
-**Typical tasks**
+- Approve finished courses, or send them back with a reason.
+- Manage the qualitative survey: statements, options and checkpoints.
+- Look at any department's data.
 
-- Edit **survey** content and **statements** / **checkpoints**.
-- Use **import** routes where your committee approves file-based updates.
-- Coordinate with **department heads** before term start.
+➡ [Quality lead guide](../6-quality-lead/overview)
 
-**Limits**
+## Dean
 
-- Does not replace **department heads** for per-section enrollments unless your university agrees otherwise.
+You follow how every department in your academy performs. You cannot change data.
 
-More detail: [Education quality lead — overview](../6-quality-lead/overview).
+➡ [Dean guide](../7-deans/overview)
 
----
+## President
 
-## One person, several roles
+You follow how every academy in your university performs, and download reports. You cannot change data.
 
-The same user can hold **multiple roles**. Menus combine what each role allows.
-
----
-
-## Platform super-administrator
-
-**Super admins** use **`/admin`** on the main application host to manage **`academies`** (colleges), **`academic_institutions`** (universities), and related platform resources. This is **not** covered step-by-step in this manual.
+➡ [President guide](../8-presidents/overview)
 
 ---
 
-## Next steps
+## Need a different role?
 
-- [Students — getting started](../2-students/getting-started)
-- [Staff — day-to-day](../3-instructors/day-to-day)
-- [Department heads](../4-department-heads/overview)
-- [College administrators](../5-academy-admins/overview)
-- [Education quality lead](../6-quality-lead/overview)
+- **Staff:** ask your academy admin. If you were appointed department head, you can also [request department head access](../3-instructors/request-department-head-access).
+- **Students:** your role does not change. Ask your department if you should be an informant.
