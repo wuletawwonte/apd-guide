@@ -48,8 +48,9 @@ weeks have feedback.
 ## How to see the performance of every course
 
 1. In the department menu, click **Overview**.
-2. The **Courses** tab lists every course with two scores:
+2. The **Courses** tab lists every course with two scores and a report check:
    - **Qual.** — the average qualitative survey score from students.
+   - **Reported** — how much of the planned teaching informants reported at all (held or not). Orange or red (below 80%) means the next score rests on incomplete reports.
    - **Quantitative** — a bar showing progress so far. Green is 80% or more, yellow is 50–79%, red is below 50%.
 3. Use the buttons to filter the list:
    - **All**, **Ongoing**, **Upcoming**, **Done** — which courses to show.
@@ -101,6 +102,7 @@ A table with one row per activity (for example Lecture or Laboratory):
 | **Expected** | Hours (or sessions) that should have been held by now. |
 | **Total** | All planned hours (or sessions) for the whole activity. |
 | **Last week** | Progress in the most recent week. |
+| **Reported** | Share of the sessions due so far that informants reported, held or not. Orange or red means **So far** rests on incomplete reports. |
 | **So far** | Actual compared with expected, as a percentage bar. |
 
 The **Course total** row adds up all activities. Use **Session** / **Hour** to change the measure.
@@ -109,10 +111,12 @@ The **Course total** row adds up all activities. Use **Session** / **Hour** to c
 
 ### Weekly tab
 
-A line chart with one line per activity. Each point is one week's progress. A drop to 0 means no class
-was reported as held that week. Change **Performance metric** to switch between hours and sessions.
+A grid with one row per activity and one column per week, each cell coloured by that week's progress
+(red below 50%, yellow 50–79%, green 80% or more). A dark grey cell marked **?** means **No reports**: the
+week ended and nobody reported on it, so delivery is unknown. Blue is the current week; light grey **Void**
+is a week removed from the plan. Change **Performance metric** to switch between hours and sessions.
 
-![Course analytics, Weekly tab, with a line chart per activity](/screenshots/deans/course-analytics-weekly.png)
+![Course analytics, Weekly tab: a grid of weeks by activity](/screenshots/deans/course-analytics-weekly.png)
 
 ### Survey tab
 

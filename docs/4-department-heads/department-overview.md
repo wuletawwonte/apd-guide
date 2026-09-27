@@ -9,9 +9,9 @@ Department heads, for the departments they lead. Deans, the quality office and a
 ## Open the Overview page
 
 1. In the menu, click **Overview** (under your department name).
-2. The page opens on the **Courses** tab. Click **Overview** at the top to see the charts.
+2. The page, titled **Overview**, opens on the **Courses** tab. Click the **Overview** tab to see the charts.
 
-![Overview page, Courses tab: a list of courses with qualitative score and a coloured progress bar](/screenshots/department-heads/p-analytics-courses.png)
+![Overview page, Courses tab: each course with its qualitative score, how much was reported, and a coloured progress bar](/screenshots/department-heads/p-analytics-courses.png)
 
 ## Read the Courses tab
 
@@ -23,6 +23,7 @@ Each row is one course.
 | Small number after the name | How many activities the course has. |
 | Code under the name | The course code, for example `SWE-3101`. |
 | **Qual.** | The average score students gave in the qualitative survey for this course. |
+| **Reported** | The share of sessions due so far that informants reported, held or not. Grey means the Quantitative bar can be trusted; orange or red (below 80%) means it rests on incomplete reports. Point at it for an explanation. |
 | **Quantitative** bar | How much of the planned teaching has happened so far. |
 
 The colour of the **Quantitative** bar tells you quickly how the course is going:
@@ -57,7 +58,7 @@ Students who are **informants** report every week if each class was held and how
 2. Click the **Export CSV** button (the small download icon at the right).
 3. Your browser saves a `.csv` file. Open it in Excel, LibreOffice or Google Sheets.
 
-The file lists the courses you see on screen, with these columns: course name, code, status, number of activities, qualitative score, progress for the measure you chose, start date and end date.
+The file lists the courses you see on screen, with these columns: course name, code, status, number of activities, qualitative score, reported (sessions, %), progress for the measure you chose, start date and end date.
 
 ## See the charts (Overview tab)
 
@@ -80,7 +81,7 @@ The course has not started, or no week has ended yet. The score starts to grow a
 No student has answered the qualitative survey for that course yet.
 
 **Why is the score low when classes are happening?**
-Most often, informants are not reporting. Check the weeks of the activity and remind the informant students. See [Activity weeks](./activity-weeks).
+Most often, informants are not reporting. Look at the course's **Reported** figure: if it is orange or red, that is the cause. Check the weeks of the activity and remind the informant students. See [Activity weeks](./activity-weeks#reported-sessions).
 
 ## Related pages
 

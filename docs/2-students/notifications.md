@@ -6,7 +6,7 @@ APD sends you short messages about your courses and activities. They appear unde
 
 - **You were chosen as an informant** for an activity. The activity now appears in **My activities**.
 - **A feedback window is open** for one of your courses. See [Qualitative survey](./qualitative-survey).
-- **Weekly reminders** when you still have class sessions to report.
+- **Weekly reminders** when you still have class sessions to report: on **Saturday** ("the week ends tomorrow") and, if some are still missing, a last call on **Sunday afternoon** ("reporting closes tonight"). Reports for a week lock at midnight on Sunday.
 
 APD may also send the same message by email, and by Telegram if you [connected Telegram](./telegram-integration).
 

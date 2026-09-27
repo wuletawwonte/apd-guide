@@ -24,6 +24,7 @@ From the Institution dashboard you can open any academy and see how each of its 
 | **Courses** | All courses in the department. |
 | **Ongoing** | Courses running today. |
 | **Avg hourly %** | Average teaching progress of the department's ongoing courses (reported hours compared with planned hours). |
+| **Avg reported %** | Share of planned class sessions that informants reported, in the department's ongoing courses. Low means the hourly figure rests on incomplete reports. |
 | **Avg qualitative %** | Average student survey score of the department's ongoing courses. |
 | **Performance (hourly)** | How many of the department's courses are **High** (80% or more), **Med** (50–79%) and **Low** (below 50%). |
 

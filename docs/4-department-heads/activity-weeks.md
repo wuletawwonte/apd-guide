@@ -17,13 +17,14 @@ Department heads can change weeks. Instructors and other staff can look at them.
 
 | Column | Meaning |
 |---|---|
-| **Week** | Week name and its dates (Monday to Sunday). The coloured dot shows the week's status. |
+| **Week** | Week name and its dates, shown short (for example **10–16 Aug**). Point at the dates to see them in full, in your academy's date format. The coloured dot shows the week's status. |
 | **Planned sessions** | How many class sessions should happen that week. |
 | **Planned hours** | How many hours of teaching should happen that week. |
+| **Reported** | How many planned sessions informants reported, held or not, for example **1/2**. See [Reported sessions](#reported-sessions). |
 | **Actual hours** (or **Actual sessions**) | What informant students reported. |
 | **Performance** | Actual compared with planned, as a percentage bar. |
 | **Feedback** | Your weekly rating, or a **Give feedback** button. See [Weekly performance feedback](./performance-feedback). |
-| **Actions** | **Remove**, **Restore**, **Allow late entries** or **Stop late entries**. |
+| **Actions** | **Remove**, **Restore**, **Allow late entries** or **Stop late entries**. On narrower screens (below about 1280 pixels wide) these show as icons only; point at an icon to see what it does. |
 
 The **Total** row at the bottom adds up the planned sessions and hours.
 
@@ -43,6 +44,22 @@ The **Total** row at the bottom adds up the planned sessions and hours.
 | Red | Below 50% |
 | Yellow | 50% to 79% |
 | Green | 80% or more |
+
+### Reported sessions
+
+Performance can only count the sessions informants reported. If they forget, a week looks worse than it was. The **Reported** column tells the two apart:
+
+| You see | What it means | What to do |
+|---|---|---|
+| **2/2** in grey | Every planned session was reported. The performance beside it can be trusted. | Nothing. |
+| **1/2** in orange or red | Some sessions were never reported. | Remind the informants, or [allow late entries](#let-students-report-late). |
+| A **No reports** label instead of a performance bar | The week ended and nobody reported at all. | Check with the informants before you rate the week. It still counts as 0% in the activity's score. |
+
+Point at a reported number to read what it means. Current weeks show the number too, but reports can still come in until Sunday.
+
+::: tip Low performance with full reports is real
+If **Reported** is 2/2 but performance is low, the classes really were missed or short. If performance is low and **Reported** is low too, start by asking the informants.
+:::
 
 ### Measure by hour or by session
 
@@ -122,7 +139,7 @@ The week stays open **until the end of the current week (Sunday)**. The button c
 To close it earlier, click **Stop late entries**, then **Confirm**. Students can no longer submit for that week.
 
 ::: tip
-Only department heads can open or close weeks. Other staff see a label: **Open to late entries** or **Closed to late entries**.
+Only the head of **this** department can open or close its weeks, and not after the quality office approves (archives) the course. Everyone else, including heads of other departments, sees a label instead: **Open to late entries** or **Closed to late entries**.
 :::
 
 ## Common questions
@@ -134,6 +151,6 @@ The course has passed, the course is archived, or the week was removed. Removed 
 Long activities show their weeks over more than one page. Use the page numbers under the table to see the rest.
 
 **Why is performance 0% for this week?**
-No informant student has reported a session yet. Check that the activity has informant students and that the week is open. See [Activities](./activities).
+No informant student has reported a session yet: an ended week then shows **No reports**. Check that the activity has informant students and that the week is open. See [Activities](./activities). Your dashboard also lists these weeks under **Reporting gaps**.
 
 Next: [Weekly performance feedback](./performance-feedback)

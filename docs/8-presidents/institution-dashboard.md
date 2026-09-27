@@ -16,7 +16,7 @@ At the top there are four cards. They add up all academies together.
 |------|-----------|---------------------|
 | **Academies** | How many active academies your university has in APD. | How many departments they have in total. |
 | **Courses** | All courses in all academies. | How many of them are running today (**ongoing**). |
-| **Avg hourly** | The average teaching progress of all **ongoing** courses. | "Across ongoing courses". |
+| **Avg hourly** | The average teaching progress of all **ongoing** courses. | How much of the planned teaching was reported at all, for example "Ongoing courses · 86% of sessions reported". |
 | **Avg qualitative** | The average student survey score of all **ongoing** courses. | How many staff signed in to APD in the last 30 days, out of all staff. |
 
 ::: info What "hourly progress" means
@@ -43,6 +43,7 @@ Below the cards is a table with one row per academy.
 | **Courses** | All courses in the academy. |
 | **Ongoing** | Courses running today. |
 | **Avg hourly %** | Average teaching progress of the academy's ongoing courses. |
+| **Avg reported %** | Share of planned class sessions that informants reported (held or not), in the academy's ongoing courses. Orange or red (below 80%) means the hourly figure rests on incomplete reports. |
 | **Avg qualitative %** | Average student survey score of the academy's ongoing courses. |
 | **Performance (hourly)** | How many courses are **High** (80% or more), **Med** (50–79%) and **Low** (below 50%) by teaching progress. |
 | **Staff active** | The share of the academy's staff who signed in to APD in the last 30 days. |
@@ -50,7 +51,8 @@ Below the cards is a table with one row per academy.
 ## How to use the dashboard
 
 - **Find academies that are behind.** A low **Avg hourly %** means many planned classes are not being
-  held, or not being reported. Ask the dean of that academy.
+  held, or not being reported. **Avg reported %** tells you which: if it is high, classes are being missed;
+  if it is low, reporting is the problem. Ask the dean of that academy.
 - **Look at the Low count.** Many **Low** courses in one academy point to a wider problem.
 - **Check Staff active.** A low percentage means staff are not using APD. Numbers from an academy that
   rarely uses APD may not be reliable.

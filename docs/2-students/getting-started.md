@@ -2,7 +2,7 @@
 
 APD (Academic Performance Dashboard) helps your academy (your college, institute or school) check that classes happen as planned. As a student, you help by reporting what really happened in class and by giving feedback about your courses.
 
-It takes only a minute or two each week.
+It takes only a few seconds each week: most reports are one click on your home page.
 
 ![The student home page after you sign in](/screenshots/students/dashboard.png)
 
@@ -23,7 +23,7 @@ Your department chooses some students to report on each activity (for example a 
 1. **Get an account.** Your department may create it for you. If not, [sign up yourself](./setup-account).
 2. **Sign in** with your ID number or email. See [Sign in and sign out](./login-instructions).
 3. **Look at your home page.** See [Your home page](./dashboard).
-4. **Report your class sessions** each week. See [Report class sessions](./report-class-sessions).
+4. **Report your class sessions** each week, straight from your home page: one click on **Held** or **Not held**. See [Report class sessions](./report-class-sessions).
 5. **Give course feedback** when a window opens. See [Qualitative survey](./qualitative-survey).
 6. Optional: **connect Telegram** so you can report from your phone. See [Report through Telegram](./telegram-integration).
 

@@ -44,6 +44,8 @@ The rating now appears as a coloured badge in the **Feedback** column. Point at 
 
 Look at the **Performance** bar of the week before you choose. It compares the reported hours or sessions with the plan.
 
+Look at the **Reported** column too. If it says **1/2**, or the week shows **No reports**, the performance may be low because informants did not report, not because classes were missed. Check with the informants (or [allow late entries](./activity-weeks#let-students-report-late)) before you give a low rating, because feedback cannot be changed later.
+
 ::: warning Check before you save
 You cannot change or delete feedback after you save it. Read your rating and comment again before clicking **Save feedback**.
 :::

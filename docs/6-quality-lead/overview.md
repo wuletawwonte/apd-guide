@@ -54,12 +54,13 @@ The dashboard shows one row for each department in your academy.
 | **Courses** | All courses of the department. |
 | **Ongoing** | Courses that are running now. |
 | **Avg hourly %** | On average, how much of the planned teaching hours really happened. |
+| **Avg reported %** | How much of the planned teaching informants reported at all (held or not), averaged over ongoing courses. Orange or red (below 80%) means the hourly figure rests on incomplete reports. |
 | **Avg qualitative %** | The average score students gave in the feedback survey. |
 | **Performance (hourly)** | How many courses are **High** (above 80%), **Med** (50–79%) and **Low** (below 50%). |
 | **Open** | The house icon opens the department's **Home** page. The chart icon opens its **Analytics**. |
 
 ::: tip Read the numbers together
-A low **Avg hourly %** means classes are being missed. A low **Avg qualitative %** means students are not happy with how the course is taught. Open the department to find the courses behind the number.
+A low **Avg hourly %** means classes are being missed, unless **Avg reported %** is low too, in which case informants are not reporting. A low **Avg qualitative %** means students are not happy with how the course is taught. Open the department to find the courses behind the number.
 :::
 
 ## Download the dashboard as a file

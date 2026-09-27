@@ -26,7 +26,7 @@ Open the course. Next to the **Close & submit** button you see a counter such as
 ![A course that is not ready: 1 of 2 weeks reviewed and a grey Close & submit button](/screenshots/department-heads/c-course-not-ready.png)
 
 - Give feedback on the missing weeks. See [Weekly performance feedback](./performance-feedback).
-- When all weeks are reviewed, the counter turns green and the button becomes active.
+- When all weeks are reviewed, the counter turns green with a tick and the button becomes active.
 
 ![A ready course: 2 of 2 weeks reviewed and an active Close & submit button](/screenshots/department-heads/c-course-ready-to-submit.png)
 

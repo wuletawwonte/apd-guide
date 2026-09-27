@@ -54,6 +54,8 @@ Use **Weeks**, **Edit** and **Delete** on each row to work with the activity.
 
 ## The activity page
 
+The page title is the activity's type (and group), for example **Lecture** or **Laboratory · Group 2**. Point at the **ⓘ** beside it to see the activity code, course and department. The breadcrumb above it shows the course and the activity code, and links back to the course.
+
 An activity has three tabs:
 
 | Tab | What you do there |
@@ -98,13 +100,25 @@ Only staff of this department appear in the list. If a person is missing, add th
 
 ![The Select student window with a student chosen](/screenshots/department-heads/c-activity-assign-informant-picked.png)
 
-The students appear in the **Informant students** list with their ID number.
+The students appear in the **Informant students** list with their ID number, and how each one is reporting:
+
+| Column | What it shows |
+|---|---|
+| **Reports** | How many sessions this student has reported for this activity. |
+| **Last report** | How long ago they last reported, or **Never**. |
+| **Quiet** label | No report from this student in 14 days while the activity has unreported sessions. Check in with them, or assign someone else. |
+
+Informants share each week, so one student may report little while another covers everything. APD only shows **Quiet** when sessions are actually missing.
 
 ![The Informant students list with one student](/screenshots/department-heads/c-activity-informants.png)
 
 - Click the eye icon to open a student's profile.
 - Click the red **−** to remove a student from the activity.
 - **New student** lets you create a student who is not in APD yet.
+
+::: tip Keep an eye on reporting
+**My dashboard** lists activities with no informants, and activities whose last week got no reports, under **Reporting gaps**. See [Department heads — start here](./overview#my-dashboard-—-what-needs-you).
+:::
 
 More about students: [Students and enrollments](./students-and-enrollments).
 

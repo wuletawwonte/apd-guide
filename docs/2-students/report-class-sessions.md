@@ -40,7 +40,13 @@ On small screens, swipe the row left or right to see more weeks.
 
 ![An activity page with the week buttons and the current week](/screenshots/students/activity-weeks.png)
 
-## How to report a class session
+## The fastest way: your home page
+
+For the current week you don't need to open the activity at all. Your [home page](./dashboard) lists every open week with **Held**, **Not held** and **All … held** buttons and an hours box that starts at the planned length. One click saves the report, and an **Undo** button appears for a few seconds in case you clicked the wrong one. See [Report a session from your home page](./dashboard#report-a-session-from-your-home-page).
+
+Use the activity page (below) when you want to see the reports you already sent, report a past week that your department head reopened, or edit a report.
+
+## How to report a class session on the activity page
 
 1. Open the current week.
 2. Click the blue **+** button at the top right of the week card.
@@ -48,16 +54,12 @@ On small screens, swipe the row left or right to see more weeks.
    ![The + button on the week card](/screenshots/students/add-session-button.png)
 
 3. The **Log class session** window opens. Under **Class held?**:
-   - Choose **Yes** if the class took place. Then type the **Session length in hours** (for example `2` for a two-hour class).
-   - Choose **No** if the class did not take place. You do not need to enter hours.
+   - Choose **Yes** if the class took place. **Session length in hours** already shows the planned length of one session (the line under the box says, for example, **Planned: 2 hours per session**). Change it if the class was shorter or longer.
+   - Choose **No** if the class did not take place. The hours box disappears: a class that did not happen has no hours.
 
-   ![The Log class session window](/screenshots/students/log-class-session-modal.png)
+   ![The Log class session window with the planned hours filled in](/screenshots/students/log-class-session-modal.png)
 
-4. Click **Continue**.
-5. The **Confirm submission** window shows the activity, the week, your answer and the hours. Check them carefully.
-6. Click **Confirm & submit**. To change something, click **Back**.
-
-   ![The Confirm submission window](/screenshots/students/confirm-submission-modal.png)
+4. Click **Save report**. There is no separate confirmation step: if you made a mistake, edit or delete the report (see below).
 
 Your report now appears under **Logged sessions**, and the **Session progress** dots update.
 
@@ -68,6 +70,10 @@ In the list of logged sessions:
 - A **green tick** means you reported that the class was held.
 - A **red cross** means you reported that the class was not held.
 - The date shows when you sent the report.
+
+::: info Hours are whole numbers
+Session length is a whole number of hours, from 1 to 12.
+:::
 
 When all planned sessions of a week are reported, the **+** button turns grey. If you have reported everything in all your open weeks, APD shows a short "Nice work" message.
 
@@ -110,7 +116,7 @@ The **+** button is grey when you cannot add a report to that week:
 
 ## Report from your phone
 
-The same steps work in a phone browser. The windows open from the bottom of the screen.
+The same steps work in a phone browser. On the home page the report buttons wrap under each week; on the activity page the windows open from the bottom of the screen.
 
 ![Logging a class session on a phone](/screenshots/students/mobile-log-session.png)
 
@@ -123,3 +129,7 @@ You can also report through Telegram. See [Report through Telegram](./telegram-i
 **I reported the wrong number of hours last week.** If the report is locked, ask your department head to correct it.
 
 **The week shows 0/2 but I already reported on Telegram.** Refresh the page. Reports from Telegram and from the website are the same.
+
+**I pressed a button twice. Did I report two sessions?** Only if the week had room for two. APD never records more reports than the sessions planned for a week, and you can use **Undo** or the bin icon to remove an extra one.
+
+**Why can't I report for an activity I'm not assigned to?** Only the activity's informants can report its sessions. APD checks this every time, on the website and in Telegram.
