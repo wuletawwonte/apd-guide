@@ -55,6 +55,18 @@ The sidebar on the left has two parts:
 The top bar has the search box, the theme button (light or dark), your notifications (the bell) and your
 account menu (your name). Use the account menu to open **My Profile**, **Change Password** or **Logout**.
 
+## Use Telegram
+
+You can connect your account to the APD Telegram bot. Your APD notifications then also arrive in Telegram, and you can ask the bot for a quick overview of the academy. See [Connect Telegram](/1-introduction/common-features#connect-telegram) for how to link it.
+
+In the bot, type:
+
+- **/summary** (or **/overview**) to get the academy department overview. For each active department it shows the head, the number of students and the ongoing and total courses, with a link to your Dean dashboard.
+- **/help** to see your commands.
+- **/disconnect** to unlink Telegram.
+
+If you are also a **department head**, you also get **/pendingfeedback** (courses waiting for your weekly feedback) and **/department** (a snapshot of your own department).
+
 ## Next steps
 
 - [Read the Dean dashboard](./dean-dashboard)

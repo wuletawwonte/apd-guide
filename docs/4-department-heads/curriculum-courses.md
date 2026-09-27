@@ -55,8 +55,8 @@ A curriculum course needs at least one curriculum activity. Without them, you ca
 
 ![New curriculum activity form with the activity type chosen and expected hours filled in; "Remaining Expected Hours" is shown below](/screenshots/department-heads/p-curriculum-activity-form.png)
 
-::: warning The hours must add up
-Under the hours box, APD shows **Remaining Expected Hours**. The hours of all activities together cannot be more than the curriculum course's **Expected hours**. If you need more, first edit the curriculum course and raise its expected hours.
+::: warning Keep the hours consistent
+Under the hours box, APD shows **Remaining Expected Hours** — the course hours not yet given to an activity. If the activities together go over the curriculum course's **Expected hours**, APD raises the course's expected hours to match and the form warns you. Check the total afterwards if that was not what you meant.
 :::
 
 APD gives each curriculum activity a code made of your department prefix, the course code and the activity type code — for example `SE-GUIDE-101-LEC`.
@@ -117,7 +117,7 @@ The template shows words like *Fall*. To match the **I / II** semesters used in 
 :::
 
 ::: warning Activity types must exist first
-The activity type codes in your file must already exist in your department. The import page lists your department's activity types under **Activity types in this department**. Also, the activity hours of a course cannot add up to more than its `course_expected_hours`.
+The activity type codes in your file must already exist in your department. The import page lists your department's activity types under **Activity types in this department**.
 :::
 
 ### The Catalog CSV tab
@@ -155,7 +155,7 @@ Every live course made from this curriculum course is deleted too — with its a
 The curriculum course has no curriculum activities. Add them here first.
 
 **"Remaining Expected Hours" is 0.**
-All the course hours are already used by other activities. Edit the curriculum course to raise its **Expected hours**, or lower the hours of another activity.
+All the course hours are already given to other activities. You can still save: APD then raises the curriculum course's **Expected hours** to the new total. If the total should stay the same, lower the hours of another activity instead.
 
 **The import says an activity type was not found.**
 Check the spelling of the code in your file. Create the activity type first if it does not exist. See [Activity types](./activity-types).

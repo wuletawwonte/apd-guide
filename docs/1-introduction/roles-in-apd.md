@@ -38,9 +38,10 @@ One person can have **more than one role**. For example, a department head can a
 | Approve or send back a course | — | — | — | — | ✅ | — | — |
 | Manage curriculum courses and activity types | — | 👁 | ✅ own dept. | — | ✅ all depts. | 👁 | — |
 | Edit the qualitative survey | — | 👁 | 👁 | 👁 | ✅ | 👁 | — |
-| Ask to become a department head | — | ✅ | — | — | — | — | — |
+| Ask to become a department head | — | ✅ | ✅ other depts. | — | — | — | — |
 | Approve department head requests | — | — | — | ✅ | ✅ | — | — |
-| Create departments and staff accounts | — | — | — | ✅ | — | — | — |
+| Create departments | — | — | — | ✅ | — | — | — |
+| Add instructors and students to a department | — | — | ✅ own dept. | ✅ | — | — | — |
 | Reset passwords of staff and students | — | — | — | ✅ | — | — | — |
 | Publish announcements | — | — | — | ✅ | — | — | — |
 | Change academy settings | — | — | — | ✅ | — | — | — |

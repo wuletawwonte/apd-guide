@@ -64,7 +64,7 @@ An activity has three tabs:
 
 ## Assign an instructor
 
-Students can only report sessions for an activity that has an instructor. Your dashboard lists running activities that have none under **Activities with no instructor**.
+Every activity should have an instructor so the right person gets the performance feedback. Your dashboard lists running activities that have none under **Activities with no instructor**.
 
 1. Open the activity and click the **Activity details** tab.
 2. Next to **Instructor** (it says **Not assigned**), click the **+** button.
@@ -123,6 +123,6 @@ You cannot add, edit or delete activities in a course that has **passed** or is 
 The course has no curriculum activities yet, or the course has passed. Add curriculum activities first, or check the course status.
 
 **A student says they cannot report for this activity. Why?**
-Check three things: the student is on the activity's **Students** tab, the activity has an **instructor**, and the week is open. See [Activity weeks](./activity-weeks).
+Check two things: the student is on the activity's **Students** tab, and the week is open. See [Activity weeks](./activity-weeks).
 
 Next: [Activity weeks](./activity-weeks)

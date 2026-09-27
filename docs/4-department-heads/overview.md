@@ -99,6 +99,18 @@ If you lead more than one department, or you want to look at another department,
 - **Your departments** are the ones you lead. You can change anything in them.
 - **Other departments** are marked **view only**. You can look at them, but you cannot add or change anything there.
 
+## Use Telegram
+
+Connect your account to the APD Telegram bot to get your notifications there too, including the Saturday feedback reminder, course approval results and head access decisions. See [Connect Telegram](/1-introduction/common-features#connect-telegram) for how to link it.
+
+In the bot, type:
+
+- **/pendingfeedback** to list the courses in your department(s) that still have weeks waiting for your performance feedback, with a link to each course.
+- **/summary** to get a snapshot of each department you head: students, courses, and how many courses are waiting for feedback.
+- **/help** to see your commands, and **/disconnect** to unlink Telegram.
+
+If you are also a dean, quality lead or academy admin, **/summary** shows the academy view and your department snapshot moves to **/department**.
+
 ## Common questions
 
 **I do not see "My dashboard".**

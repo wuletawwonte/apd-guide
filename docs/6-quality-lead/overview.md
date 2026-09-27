@@ -76,10 +76,22 @@ You can save the table as a CSV file. You can open it in Excel or Google Sheets.
 
 When a staff member asks for department head access, a note appears at the top of the dashboard: **"1 head access request waiting for review."** Click **Review** to decide. See [Head access requests](./head-access-requests).
 
-You also get a notification (the bell) when:
+You also get a notification (the bell, an email, and a Telegram message if you connected Telegram) when:
 
 - a department head submits a course for approval, and
 - someone asks for department head access.
+
+## Use Telegram
+
+Connect your account to the APD Telegram bot to get these notifications on your phone. See [Connect Telegram](/1-introduction/common-features#connect-telegram) for how to link it.
+
+In the bot, type:
+
+- **/approvals** to list the courses waiting for your approval, with a link to the approval queue.
+- **/summary** (or **/overview**) to get the academy department overview: each active department's head, students, and ongoing and total courses.
+- **/help** to see your commands, and **/disconnect** to unlink Telegram.
+
+If you are also a department head, you also get **/pendingfeedback** and **/department**.
 
 ## A good routine
 

@@ -82,4 +82,6 @@ After you disconnect, you no longer receive APD messages in Telegram. You can co
 
 **The bot says "You don't have any active activities this week."** No week is open for you right now, or you already reported every session. Check **My activities** on the website.
 
+**The bot asks me to share my phone number.** You opened the bot directly instead of through APD. Sharing your number does not link your account. Ignore the request, go to **Integrations** in APD and click **Connect Telegram**.
+
 **The bot says the account is "already linked".** Your APD account or this Telegram account is already connected. Disconnect first, then connect again.

@@ -94,7 +94,7 @@ APD sends you a notification when something needs your attention. Examples: a re
 
 1. Click the bell in the top bar. A coloured dot on the bell means you have unread notifications.
 2. Read the latest notifications in the list. New ones have a **New** label.
-3. Click a notification to open the page it is about.
+3. Click a notification to read it. APD marks it as read. Click **Open related page** to go to the page it is about.
 4. Click **Mark all read** to clear the dot.
 5. Click **View all** to see every notification on one page.
 
@@ -184,8 +184,17 @@ In the bot, type **/help** to see what you can do. The commands depend on your r
 | Instructor (regular user) | **/help**, **/disconnect** |
 | Department head | **/pendingfeedback** (weeks waiting for your feedback), **/summary** (department snapshot), **/help**, **/disconnect** |
 | Education quality lead | **/approvals** (courses waiting for approval), **/summary** (academy overview), **/help**, **/disconnect** |
-| Dean | **/summary** (academy overview), **/help**, **/disconnect** |
+| Dean | **/summary** (academy overview, also **/overview**), **/help**, **/disconnect** |
 | Academy admin | **/summary** (academy snapshot), **/help**, **/disconnect** |
+
+**If you have more than one role**, you get the commands of every role. When two roles use the same command, the bot keeps it for one role and gives the other a different name:
+
+- A dean, quality lead or academy admin who is also a **department head** gets the department snapshot as **/department**. **/summary** shows the academy view.
+- An academy admin who is also a **dean** gets the department overview as **/overview**.
+
+Type **/help** at any time to see your own list.
+
+Presidents do not have **Integrations** in their account menu, so they cannot connect Telegram.
 
 To stop using Telegram, click **Disconnect** on the Telegram card in APD, or type **/disconnect** in the bot.
 

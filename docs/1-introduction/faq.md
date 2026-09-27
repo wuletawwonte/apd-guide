@@ -55,7 +55,7 @@ Menus depend on your role. The pictures in this guide come from a demo academy.
 ## Everyone
 
 **How do I switch between light and dark mode?**
-Click the **screen icon** in the top bar and choose **Light**, **Dark** or **System**.
+Click the **screen icon** in the top bar and choose **Light**, **Dark** or **Same as device**.
 
 **Can I use APD on my phone?**
 Yes. APD works in any modern phone browser. On small screens, open the menu with the **☰** button.

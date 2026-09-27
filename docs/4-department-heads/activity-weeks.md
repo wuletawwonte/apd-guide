@@ -134,6 +134,6 @@ The course has passed, the course is archived, or the week was removed. Removed 
 Long activities show their weeks over more than one page. Use the page numbers under the table to see the rest.
 
 **Why is performance 0% for this week?**
-No informant student has reported a session yet. Check that the activity has informant students and an instructor. See [Activities](./activities).
+No informant student has reported a session yet. Check that the activity has informant students and that the week is open. See [Activities](./activities).
 
 Next: [Weekly performance feedback](./performance-feedback)
