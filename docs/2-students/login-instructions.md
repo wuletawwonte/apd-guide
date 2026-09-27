@@ -1,30 +1,54 @@
-# Student sign-in
+# Sign in and sign out
 
-## Prerequisites
+Students and staff use the **same** sign-in page on your academy's address. APD knows you are a student and opens the student pages for you.
 
-- An account created for your college’s APD tenant
-- Email and password you set (or that an administrator set for you)
+## How to sign in
 
-## Steps
+1. Open your academy's APD address, for example `https://yourcollege.apd.et`.
+2. In **Username**, type your **student ID number** (for example `ABC/0101/16`) **or** your email.
+3. Type your **Password**.
+4. Optional: tick **Remember me** on your own phone or computer. Do not tick it on a shared computer.
+5. Click **Login**.
 
-1. Open **your college’s APD link** (subdomain). Your university or college office should provide the exact URL—not every college uses the same address.
-2. Open the **student** sign-in page. In the Rails application, student authentication uses **`devise_for :students`**, which by default is served under paths starting with **`/students`** (for example sign-in at `/students/sign_in` on your college host—confirm on your deployment).
-3. Enter your email and password, then sign in.
+![The sign-in page with a student ID number typed in](/screenshots/students/sign-in-with-id-number.png)
 
-![Student sign-in page example](/screenshots/student-login.png)
+APD opens your [home page](./dashboard).
 
-4. If the account is not recognized, confirm you are on the **correct college link** and using the email you registered with.
+::: tip Show your password
+Click the eye icon at the end of the **Password** box to see what you typed. This helps you find typing mistakes.
+:::
+
+### Sign in with Microsoft
+
+Some academies also show a **Sign in with Microsoft** button under the form. If you see it, you can use your university Microsoft (Outlook) account. It only works when your APD email is the same as your Microsoft email.
 
 ## Forgot your password?
 
-1. Use **Forgot password** on the student sign-in page (Devise password reset).
+1. On the sign-in page, click **Forgot password?**.
+2. Type the **Email** you used for your APD account.
+3. Click **Send me reset password instructions**.
+4. Open your email. Look for a message from APD. Check the spam or junk folder too.
+5. Click the link in the email and choose a new password.
 
-![Forgot password flow example](/screenshots/student-forgot-password.png)
+![The Forgot your password page](/screenshots/students/forgot-password.png)
 
-2. Enter the same email you used for registration.
-3. Use the link sent to your email to set a new password (check spam folders if needed).
+::: warning No email on your account?
+The reset link goes to your email only. If you never had a working email, ask your department office to reset your password.
+:::
 
-## Related
+## How to sign out
 
-- [Your college’s address](../1-introduction/your-academy-and-address)
-- [What the application includes](../1-introduction/application-capabilities) (student routes)
+1. Click your name or picture at the top right.
+2. Click **Logout**.
+
+![The account menu with the Logout button](/screenshots/students/account-menu.png)
+
+Always sign out on shared or public computers.
+
+## Common questions
+
+**It says my username or password is wrong.** Check that you are on your own academy's address. Each academy has its own address and its own accounts. Then check your ID number for typing mistakes, including the `/` characters.
+
+**I signed in but see the staff pages.** Your account was created as a staff account. Ask your department to fix it.
+
+**Can I have one account for two academies?** No. Each academy has separate accounts.

@@ -1,54 +1,85 @@
-# How to Submit Activity Status via Telegram
+# Report through Telegram
 
-## Step 1: Register Your Telegram Phone Number
+You can connect your APD account to the APD Telegram bot. Then you can report class sessions from Telegram and receive your APD notifications there.
 
-1. Log in to the web platform.
-2. Click your profile icon (top-right corner) and select "My Profile" from the dropdown menu.
-3. On your profile page, click the "Edit" button.
-   ![Student profile page](/screenshots/student-profile.png)
-4. Scroll to the "Phone number" field and enter the same number linked to your **Telegram account**.
+Connecting takes one minute. You do it **once**, starting from the APD website.
 
-> Use the **phone format** shown on the form or in your college’s instructions (international `+` format is typical). Each phone number can only be linked to **one** student account.
+::: warning Always start from APD
+Do not search for the bot and share your phone number. For your security, the bot links only through the **Connect Telegram** button in APD.
+:::
 
-5. Click "Update" to save your changes.
+## Before you start
 
-   ![Student edit profile page](/screenshots/student-edit-profile.png)
+- Install Telegram on your phone or computer and sign in to it.
+- Sign in to APD on the same device, if possible. This makes the link open straight in Telegram.
 
-## Step 2: Connect to the Telegram Bot
+## Step 1: Click Connect Telegram in APD
 
-1. Open Telegram on your phone.
-2. Search for the **Telegram bot username** your college publishes. The application supports Telegram via a configured bot and a `telegram_webhook` route; the exact bot handle depends on your university’s deployment.
-   ![Telegram bot search](/screenshots/student-telegram-bot-start.png)
-3. Click "Start" to activate the bot.
+1. In APD, click your name at the top right.
+2. Click **Integrations**.
+3. On the **Telegram** card, click **Connect Telegram**.
 
-   > When prompted, allow the bot to access your phone number (this links your Telegram account to the system).
+![The Telegram card with the Connect Telegram button](/screenshots/students/telegram-connect-button.png)
 
-   ![Bot’s share contact interaction](/screenshots/student-telegram-share-contact.png)
+APD opens the APD bot in Telegram, using a special one-time link.
 
-## Step 3: Submit Your Class Session Status
+## Step 2: Press Start in Telegram
 
-1. The bot will display your active activities for the current week.
-2. Tap the activity you want to report on.
-3. The bot will ask: "Was the class session held?"
-4. Tap "Yes" or "No" to respond.
+1. Telegram opens a chat with the APD bot.
+2. Press **Start** at the bottom of the chat.
 
-> If you select "Yes":
->
-> > The bot will ask: "How long was the class session?"
-> > Tap a button (1–8 hours) to submit the duration.
+![The APD bot in Telegram with the Start button](/screenshots/students/telegram-bot-start.png)
 
-> If you select "No":
->
-> > The bot will confirm: "Data saved successfully."
+3. The bot replies: **"✓ Linked! You're connected to APD as …"**.
 
-5. To submit another report, tap the menu button (≡) and select "Restart".
+Go back to **Integrations** in APD. The Telegram card now shows **Connected** and the date.
+
+![The Telegram card showing Connected](/screenshots/students/telegram-connected.png)
+
+::: tip "This link has expired or already been used"
+Each link works only once and only for a short time. Go back to APD, click **Connect Telegram** again, and press **Start** quickly.
+:::
+
+## Step 3: Report a class session in Telegram
+
+1. In the bot chat, send **/report** (or tap **Menu** and choose **report**).
+2. The bot lists your activities that are open this week, with your progress, for example `Software Engineering Principles - LEC - Week 9 - (1/2)`.
+3. Tap the activity you want to report.
+4. The bot asks: **"Was the class for the course '…' held?"** Tap **Yes** or **No**.
+5. If you tapped **Yes**, the bot asks how many hours. Tap a button from **1 hour** to **8 hours**.
+6. The bot confirms: **"Thank you …! The report is saved successfully."** (or, for No, that the class was NOT held).
+
+To report another session, send **/report** again.
+
+::: info Telegram and the website are the same
+A report sent through Telegram appears on the APD website right away, and the other way around. The same rules apply: you can only report open weeks, and only up to the number of planned sessions.
+:::
+
+## Bot commands for students
+
+| Command | What it does |
+|---------|--------------|
+| **/report** | Show your open activities so you can report a class session. |
+| **/start** | Show the list of commands. |
+| **/restart** | Clear the last bot message and show the menu again. Use it if the buttons stop working. |
+| **/help** | Show the list of commands. |
+| **/disconnect** | Unlink this Telegram chat from your APD account. |
+
+## How to disconnect Telegram
+
+You can disconnect in either place:
+
+- In APD: go to **Integrations** and click **Disconnect** on the Telegram card, then confirm.
+- In Telegram: send **/disconnect** to the bot.
+
+After you disconnect, you no longer receive APD messages in Telegram. You can connect again at any time.
 
 ## Troubleshooting
 
-"No activities listed?" Ensure:
+**Nothing happens when I click Connect Telegram.** Your academy may not have set up the Telegram bot. APD then shows "Telegram integration isn't configured for this deployment." Ask your department office.
 
-You entered the correct phone number in your profile.
+**The bot says "This chat isn't linked to an APD account yet."** You have not finished Step 1 and Step 2. Start again from **Connect Telegram** in APD.
 
-The bot has permission to access your phone number.
+**The bot says "You don't have any active activities this week."** No week is open for you right now, or you already reported every session. Check **My activities** on the website.
 
-Wrong number? Update it in your web profile and restart the bot.
+**The bot says the account is "already linked".** Your APD account or this Telegram account is already connected. Disconnect first, then connect again.

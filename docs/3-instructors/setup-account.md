@@ -1,25 +1,46 @@
-# Staff registration
+# Create a staff account
 
-Self-service staff registration is only available if your **college** enabled it.
+Most staff get their account from the **academy admin** or the **department head**. If you already have an account, go to [Sign in to APD](./login-instructions).
 
-## Prerequisites
+If your academy allows it, you can also create your own staff account.
 
-- Your **college APD URL**
-- University email (or email policy your college defines)
+## Before you start
 
-## Steps
+You need:
 
-1. Open your **college’s APD address**.
-2. Open **staff sign-up** if your college exposes it. Staff accounts use **`devise_for :users`** (path prefix **`/users`** on the college host, e.g. `/users/sign_up` when sign-up is open).
-3. Fill in the fields shown (for example department, name, email, password, terms).
+- Your academy's APD address, for example `https://yourcollege.apd.et`. Ask your department if you do not know it.
+- Your work email address.
 
-![Staff registration example](/screenshots/user-sign-up-page.png)
+## How to sign up
 
-4. Submit the form. You may be signed in immediately after success.
+1. Open your academy's APD address in a web browser.
+2. On the sign-in page, click **Sign up** (under the **Login** button).
+3. Under **Register as**, choose **Staff**.
+4. Type your **First Name** and **Last Name**.
+5. Choose your **Department** from the list. This is optional, but it helps your department head find you.
+6. Type your **Email**. You will use it to sign in.
+7. Type a **Password** (at least 6 characters). Type it again in **Password confirmation**.
+8. Read the **terms and conditions**, then tick **I agree with terms and conditions**.
+9. Click **Signup**.
 
-If you do not see a sign-up link, your college may **create accounts only through an administrator**—ask your college APD administrator.
+![The Create your account form with Staff selected under Register as](/screenshots/instructors/sign-up-staff.png)
 
-## Related
+## What happens next
 
-- [Staff sign-in](login-instructions)
-- [College administrators — overview](../5-academy-admins/overview)
+- APD signs you in straight away and opens your department home page.
+- Your new account has the **Regular user** (instructor) role. You can view department information.
+- Your department head can now add you to activities as the instructor.
+- If you are a **department head**, [request department head access](./request-department-head-access) after you sign in.
+- Other roles (quality lead, dean, admin) are given only by the academy admin.
+
+::: warning Use the right address
+Each academy has its own address. An account made on one academy's address does not work on another academy's address.
+:::
+
+## Common questions
+
+**I do not see a Sign up link.** Ask your academy admin or department head to create your account.
+
+**It says my email is already taken.** You already have an account. Use **Forgot password?** on the sign-in page to set a new password.
+
+**I chose the wrong department.** Change it later in **My Profile** → **Edit profile** → **Primary department**. See [Features every staff member uses](../1-introduction/common-features#view-and-edit-your-profile).
