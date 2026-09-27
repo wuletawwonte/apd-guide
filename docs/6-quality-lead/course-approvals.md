@@ -14,7 +14,7 @@ Education quality leads.
 | Step | Who | What happens |
 |------|-----|--------------|
 | 1. Open | Department head | The course is running. Weeks get reports and performance feedback. |
-| 2. Submitted | Department head | The head closes the course and clicks submit. You get a notification. |
+| 2. Submitted | Department head | The head closes the course and clicks submit. You get a notification (and a Telegram message if connected; **/approvals** in the bot lists the queue). |
 | 3a. Approved | You | The course is archived. Nobody can change it any more. The head is notified. |
 | 3b. Returned | You | The course opens again. The head sees your reason and fixes the problem, then submits again. |
 

@@ -2,7 +2,7 @@
 
 Most staff get their account from the **academy admin** or the **department head**. If you already have an account, go to [Sign in to APD](./login-instructions).
 
-If your academy allows it, you can also create your own staff account.
+You can also create your own staff account.
 
 ## Before you start
 
@@ -38,8 +38,6 @@ Each academy has its own address. An account made on one academy's address does 
 :::
 
 ## Common questions
-
-**I do not see a Sign up link.** Ask your academy admin or department head to create your account.
 
 **It says my email is already taken.** You already have an account. Use **Forgot password?** on the sign-in page to set a new password.
 

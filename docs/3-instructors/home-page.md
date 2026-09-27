@@ -14,7 +14,6 @@ You can come back to it at any time: click **Home** in the side menu, or click *
 | **Instructors** | How many staff belong to the department. |
 | **Students** | How many students belong to the department. |
 | **Courses** | How many courses the department runs (all statuses). |
-| **Curriculum Courses** | How many courses are in the department's catalog. |
 | **Courses needing feedback** | Running courses that have past weeks without the department head's feedback. The yellow label shows the total number of weeks. |
 | **Recent instructors** | The newest staff members of the department. Click **View all** to see everyone. |
 | **Recent students** | The newest students of the department. Click **View all** to see everyone. |
@@ -34,9 +33,9 @@ APD opens that department's home page. For departments that are not yours, the h
 
 To go back, choose your own department in the same box. See [Switch to another department](../1-introduction/common-features#switch-to-another-department).
 
-## If you see "no department"
+## If your account has no department
 
-If your account is not linked to any department, APD cannot show a department home. Set your department in **My Profile** → **Edit profile** → **Primary department**, or ask your department head or academy admin.
+If your account is not linked to a department, APD opens the home page of the academy's first department instead. Because it is not your department, that page shows less detail. Set your department in **My Profile** → **Edit profile** → **Primary department**, or ask your department head or academy admin.
 
 ## What to do next
 

@@ -77,6 +77,17 @@ When a staff member asks for department head access, a line appears at the top o
 
 ![A notice at the top of the dashboard about waiting head access requests](/screenshots/admins/dashboard-pending-requests.png)
 
+## Use Telegram
+
+Connect your account to the APD Telegram bot to get your notifications there too, such as new head access requests. See [Connect Telegram](/1-introduction/common-features#connect-telegram) for how to link it.
+
+In the bot, type:
+
+- **/summary** to get an academy snapshot: the number of departments, staff users, students and courses, with a link to the admin area.
+- **/help** to see your commands, and **/disconnect** to unlink Telegram.
+
+If you also have another role (for example dean or department head), the bot adds that role's commands. Type **/help** to see your full list.
+
 ## What admins cannot do
 
 - **Change another academy.** Each academy has its own address, data and admins.

@@ -114,4 +114,4 @@ Two more tabs give more detail:
 
 **Can I change the planned hours or give feedback myself?** No. Planned sessions, hours and feedback are managed by the department head.
 
-**Why does a week show "Closed to late entries"?** The week has ended and the department head stopped late reports for it.
+**Why does a week show "Closed to late entries"?** Every week closes when it ends, so students can no longer report for it. The department head can reopen a past week for late entries until a chosen date; it then shows "Open to late entries".
