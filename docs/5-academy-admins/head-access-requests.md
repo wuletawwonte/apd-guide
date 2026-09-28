@@ -48,7 +48,7 @@ Before you grant access, confirm the appointment outside APD. For example:
 
 1. Find the request.
 2. Click **Grant access**.
-3. If APD asks you to confirm, read the message and click **OK**.
+3. If APD asks you to confirm, read the message and click **Grant access**.
 
 APD asks you to confirm when granting will take access away from someone:
 
@@ -63,17 +63,17 @@ The person becomes the department head straight away and gets a notification. Th
 
 1. Find the request.
 2. Click **Decline**.
-3. Pick a reason. The person will see it, so choose the one that tells them what to do next:
+3. Pick a reason (you must pick one). The person will see it, so choose the one that tells them what to do next:
    - **You aren't the head of this department on record.**
    - **Wrong department. Request the one you head.**
    - **Your appointment hasn't taken effect yet. Request again once it does.**
-   - **Another reason (write it below)** — type your own reason.
+   - **Another reason (write it below)** — type your own reason. The box is required with this choice.
 4. Add more details in the box if needed.
 5. Click **Decline request**.
 
 ![The Decline window with reasons to choose from](/screenshots/admins/decline-dialog.png)
 
-The person gets a notification with your reason. They can send a new request later.
+The person gets a notification with your reason, and their request shows as **Declined**. They can send a new request later.
 
 ## If nobody decides
 

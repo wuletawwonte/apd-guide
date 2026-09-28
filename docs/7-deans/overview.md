@@ -31,9 +31,9 @@ After you sign in, APD opens the **Dean dashboard** for you.
 | Open one course and see its activities, weekly progress and survey results | Click a course |
 | Download a department's course list with scores (CSV file) | **Overview** → download button |
 | Read courses, activities, weeks, students, instructors and curriculum | Department menu |
-| Read the qualitative survey statements | **Qualitative Analysis** |
+| Read the qualitative survey statements | **Qualitative analysis** |
 | See the history of changed expected hours on a course | **Course details** tab (when a course has changes) |
-| Ask a department head to look into a problem, and read the reply | **Dean dashboard** → **Follow up** and **Follow-ups** |
+| Ask a department head to look into a problem, and read the reply | **Follow-ups** (left menu), or **Follow up** on the **Dean dashboard** |
 | Send feedback about APD to the APD team | Help menu (**?**) → **Send feedback** |
 
 ## What you cannot do
@@ -51,7 +51,7 @@ The sidebar on the left has two parts:
 
 - **Navigation → Department** opens the department pages (Home, Overview, Courses, Students, Instructors,
   Curriculum Courses, Activity Types).
-- **Extras** has **Dean dashboard** and **Qualitative Analysis**.
+- **Workspace** has **Dean dashboard**, **Follow-ups** and **Qualitative analysis**.
 
 The top bar has the search box, the help menu (**?**, with **What's new**, the user guide and **Send feedback**),
 your notifications (the bell) and your account menu (your name). Use the account menu to open **My Profile**,

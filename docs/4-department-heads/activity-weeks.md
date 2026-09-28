@@ -151,7 +151,7 @@ Only the head of **this** department can open or close its weeks, and not after 
 ## Common questions
 
 **Why can't I type in the planned boxes?**
-The course has passed, the course is archived, or the week was removed. Removed weeks must be restored first.
+The course has passed, is submitted for approval or archived, or the week was removed. Removed weeks must be restored first.
 
 **Why is performance 0% for this week?**
 No informant student has reported a session yet: an ended week then shows **No reports**. Check that the activity has informant students and that the week is open. See [Activities](./activities). Your dashboard also lists these weeks under **Reporting gaps**.

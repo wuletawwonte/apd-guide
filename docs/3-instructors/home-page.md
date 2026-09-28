@@ -14,12 +14,12 @@ You can come back to it at any time: click **Home** in the side menu, or click *
 | **Instructors** | How many staff belong to the department. |
 | **Students** | How many students belong to the department. |
 | **Courses** | How many courses the department runs (all statuses). |
-| **Courses needing feedback** | Running courses that have past weeks without the department head's feedback. The yellow label shows the total number of weeks. |
+| **Feedback the head still owes** | Running courses that have past weeks without the department head's feedback, each with its group code. The yellow label shows the total number of weeks. |
 | **Recent instructors** | The newest staff members of the department. Click **View all** to see everyone. |
 | **Recent students** | The newest students of the department. Click **View all** to see everyone. |
 
 ::: info What is "feedback" here?
-After each week ends, the department head rates how the week went, for example **Excellent** or **Needs improvement**. "Courses needing feedback" lists courses where this rating is still missing. Instructors only read it; the department head gives it. See [My activities and feedback](./my-activities).
+After each week ends, the department head rates how the week went, for example **Excellent** or **Needs improvement**. "Feedback the head still owes" lists courses where this rating is still missing. Instructors only read it; the department head gives it. See [My activities and feedback](./my-activities).
 :::
 
 ## Look at another department

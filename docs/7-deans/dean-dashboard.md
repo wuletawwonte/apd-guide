@@ -3,7 +3,7 @@
 The **Dean dashboard** shows every active department in your academy on one page. Use it to see quickly
 which departments are on track and which need help.
 
-APD opens this page when you sign in. You can also open it at any time from **Extras → Dean dashboard** in
+APD opens this page when you sign in. You can also open it at any time from **Workspace → Dean dashboard** in
 the sidebar.
 
 ![The Dean dashboard with the Academy performance overview table](/screenshots/deans/dean-dashboard.png)
@@ -14,15 +14,15 @@ The page has one table called **Academy performance overview**. Each row is one 
 
 | Column | What it means |
 |--------|---------------|
-| **Department** | The department name. |
-| **Head** | The department head. A dash (—) means the department has no head yet. |
-| **Courses** | All courses in the department: ongoing, upcoming and finished. |
-| **Ongoing** | Courses that are running today (today is between the start and end date). |
-| **Avg hourly %** | The average progress of the **ongoing** courses. For each course, APD compares the teaching hours students reported with the hours that were planned up to today. 100% means all planned hours so far were taught. |
+| **Department** | The department name. Click it to open the department's course performance list. On smaller screens the head's name shows under it. |
+| **Head** | The department head. A dash (—) means the department has no head yet. Shown on wide screens only. |
+| **Courses** | All courses in the department: ongoing, upcoming and finished. Hidden on phones. |
+| **Ongoing** | Courses that are running today (today is between the start and end date). Hidden on phones. |
+| **Avg hourly %** | The average progress of the **ongoing** courses. For each course, APD compares the teaching hours students reported with the hours that were planned up to today. 100% means all planned hours so far were taught. A course that has no hours planned yet (it has just started) is left out, so it doesn't pull the average down. |
 | **Last 6 weeks** | A small line showing the department's weekly delivery over the last six weeks: the hours delivered against the hours planned in the weeks that ended each week. The last point is last week. Point at a point to see that week's numbers. The figure beside the line compares last week with the week before, for example **▲ +8 pts** (green, better) or **▼ −12 pts** (red, worse). A gap in the line means nothing was planned that week. Shown on wider screens only. |
 | **Avg reported %** | The share of planned class sessions that informants reported at all (held or not), averaged over the **ongoing** courses. Orange or red (below 80%) means the hourly figure rests on incomplete reports. Point at it for an explanation. |
 | **Avg qualitative %** | The average score students gave the **ongoing** courses in the qualitative survey. Higher is better. 0.0% usually means no student has answered the survey yet. |
-| **Performance (hourly)** | How many of the department's courses are **High** (80% or more), **Med** (50–79%) or **Low** (below 50%) by hourly progress. Shown on very wide screens only. |
+| **Course bands** | How many of the department's courses are **High** (80% or more), **Med** (50–79%) or **Low** (below 50%) by hourly progress. It counts every course with a score so far, finished ones too. Shown on very wide screens only. |
 | **Open** | Three buttons: **Home** (house icon) opens the department home page. **Follow up** (flag icon) asks the department head to look into something. **Analytics** (bar chart icon) opens the department's course performance list. |
 
 ::: info What "hourly progress" means
@@ -58,6 +58,8 @@ To learn what you see next, read [Browse a department and its courses](./browsin
 When the numbers show a problem, you can ask the department head to look into it, inside APD. This is called a **follow-up**.
 
 1. In the department's row, click the **flag** icon (**Follow up**) in the **Open** column. To ask about one course, open the course's analytics and click **Follow up** at the top instead.
+
+   You can also click **Follow-ups** in the left menu, then **New follow-up**. Choose the department under **Which department should look into it?** and click **Continue**.
 2. The **Ask for a follow-up** page opens. It shows the department.
 3. Under **Course**, leave **The whole department**, or choose one course.
 4. In **What should the head look into?**, say what you noticed and what you want to know. For example: *"Delivery has dropped for three weeks and only half the sessions are reported. What is happening, and what will you do?"*
@@ -69,8 +71,8 @@ The department head gets a notification in APD, by email and on Telegram. The re
 
 ### See your follow-ups and the replies
 
-1. At the top right of the dashboard, click **Follow-ups**. A yellow badge shows how many are still open, for example **2 open**.
-2. The **Follow-ups** page lists every follow-up in your academy, open ones first. Each shows the department or course, who asked and when, the note, and an **Open** or **Resolved** badge.
+1. Click **Follow-ups** in the left menu, or at the top right of the dashboard. On the dashboard, a yellow badge shows how many are still open, for example **2 open**.
+2. The **Follow-ups** page lists every follow-up in your academy. The **Open** tab shows the ones still waiting for a reply, **Resolved** the answered ones, and **All** both. Each shows the department or course, who asked and when, the note, and an **Open** or **Resolved** badge.
 3. A resolved follow-up shows who resolved it and their reply in a grey box.
 
 ![The Follow-ups page with an open and a resolved follow-up](/screenshots/deans/follow-ups-page.png)
@@ -88,8 +90,8 @@ Students answer the qualitative survey only at set times (checkpoints) during a 
 checkpoint, or if no student has answered yet, the score is 0.
 
 **Are finished courses included in the averages?**
-No. **Avg hourly %** and **Avg qualitative %** use only **ongoing** courses. The **Performance (hourly)**
-counts use all the department's courses.
+No. **Avg hourly %** and **Avg qualitative %** use only **ongoing** courses. The **Course bands**
+counts use all the department's courses that have a score.
 
 **How often do the numbers change?**
 Every time you open the page, APD calculates the numbers again from the latest reports.

@@ -98,11 +98,11 @@ The **curriculum** is the department's catalog of planned courses. Each real cou
 
 ![The Activity types list with Laboratory, Lecture and Tutorial](/screenshots/instructors/activity-types.png)
 
-## Qualitative Analysis: the student survey
+## Qualitative analysis: the student survey
 
-Students fill in a short survey about each course at set points in the semester. The **Qualitative Analysis** page shows this survey.
+Students fill in a short survey about each course at set points in the semester. The **Qualitative analysis** page shows this survey.
 
-1. In the side menu (under **Extras**), click **Qualitative Analysis**.
+1. In the side menu (under **Workspace**), click **Qualitative analysis**.
 2. The **Statements** tab shows each question students answer, and the answer choices (for example from **Strongly disagree** to **Strongly agree**). A red star (**\***) means the question must be answered.
 3. The **Settings** tab shows the survey's title and description.
 

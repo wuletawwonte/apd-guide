@@ -32,14 +32,14 @@ or **bar chart** buttons in the **Open** column.
 Click **Home** in the department menu. The home page shows:
 
 - **Counters** for instructors, students, courses and curriculum courses.
-- **Courses needing feedback**: courses with past weeks that the department head has not reviewed yet.
+- **Feedback the head still owes**: courses with past weeks that the department head has not reviewed yet, each with its group code.
   The yellow badge shows how many weeks are waiting.
 - **Recent instructors** and **Recent students**: the newest people added to the department.
   Click **View all** to see the full list.
 
-![A department home page with counters and the Courses needing feedback list](/screenshots/deans/department-home.png)
+![A department home page with counters and the Feedback the head still owes list](/screenshots/deans/department-home.png)
 
-::: info Why "Courses needing feedback" matters
+::: info Why "Feedback the head still owes" matters
 Each week, the department head should give **performance feedback** on every activity. Many waiting
 weeks means the head is behind with reviews. A course cannot be sent for approval until all its past
 weeks have feedback.
@@ -165,8 +165,8 @@ to it to see who changed the hours, when, and why.
 
 ## Common questions
 
-**I see "Course settings" on the course analytics page. Can I change the course?**
-No. The button opens the course page, where you can read the details. Only the department head can edit.
+**Can I change a course from its analytics page?**
+No. The **Course details** button at the top opens the course page, where you can read the details. Only the department head can edit; they see the same button as **Course settings**.
 
 **Why is an upcoming course showing an empty progress bar?**
 The course has not started, so nothing is expected yet.

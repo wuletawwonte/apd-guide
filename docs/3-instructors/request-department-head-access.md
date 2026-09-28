@@ -40,8 +40,8 @@ To see all your requests, click **View my requests** in the request window. The 
 | Status | Meaning |
 |--------|---------|
 | **Pending** | Waiting for an admin or the quality office. |
-| **Approved** (shown as **Granted** on your profile) | You now have head access. |
-| **Rejected** (shown as **Declined** on your profile) | The request was not accepted. The reason is shown. |
+| **Granted** | You now have head access. |
+| **Declined** | The request was not accepted. The reason is shown. |
 | **Withdrawn** | You cancelled the request. |
 
 ::: info

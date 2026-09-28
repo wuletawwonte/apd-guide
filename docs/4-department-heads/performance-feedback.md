@@ -48,7 +48,7 @@ Look at the **Reported** column too. If it says **1/2**, or the week shows **No 
 
 ## Change feedback you already gave
 
-If you chose the wrong rating, you can change it until the course is archived.
+If you chose the wrong rating, you can change it until you submit the course for approval.
 
 1. On the **Weeks** tab, click the coloured rating badge in the week's row. Point at it first: it says **Change this feedback**.
 2. The **Weekly performance feedback** window opens with your rating and comment filled in.
@@ -62,7 +62,7 @@ Each week has only one feedback. Saving again replaces it; it does not add a sec
 - You can only give feedback on a week that is **over** (the week has ended). The current and future weeks show a dash.
 - Removed weeks (grey, crossed out) do not need feedback.
 - Weeks with no feedback show **Pending** to people who cannot give feedback.
-- Feedback cannot be added or changed on a course that is **archived**.
+- Feedback cannot be added or changed on a course that is **submitted** for approval or **archived**.
 - Every passed, non-removed week of every activity needs feedback before you can [close and submit the course](./submit-for-approval).
 
 ## Common questions
@@ -71,6 +71,6 @@ Each week has only one feedback. Saving again replaces it; it does not add a sec
 You are not the department head for this department, and you are not the activity's instructor.
 
 **I gave the wrong rating. What can I do?**
-Click the rating badge on the week's row and save a new rating. See [Change feedback you already gave](#change-feedback-you-already-gave). Once the course is archived, feedback can no longer change.
+Click the rating badge on the week's row and save a new rating. See [Change feedback you already gave](#change-feedback-you-already-gave). Once the course is submitted for approval, feedback can no longer change (unless the quality office returns it).
 
 Next: [Close and submit a course](./submit-for-approval)
