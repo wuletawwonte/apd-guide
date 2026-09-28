@@ -10,10 +10,11 @@ Department heads, for the departments they lead. The quality office can also man
 
 1. In the menu, click **Activity Types**.
 2. The list shows each type's **Name** and **Code**.
+3. To find a type, type part of its name or code in the search box. Long lists are split into pages.
 
 ![Activity types list with Laboratory, Lecture and Tutorial, and the New activity type button marked in red](/screenshots/department-heads/p-activity-types-list.png)
 
-The icons at the end of each row are **edit** (pencil), **view** (eye) and **delete** (red bin).
+Each row has **Open**, **Edit** and **Delete** buttons in the **Action** column.
 
 ## Add an activity type
 
@@ -34,18 +35,26 @@ APD uses the code to build activity codes, such as `SE-SWE-3101-LEC` (department
 
 ## Edit an activity type
 
-1. Click the pencil icon in the list, or open the type and click **Edit**.
+1. Click **Edit** in the list, or open the type and click **Edit**.
 2. Change the **Name** or **Code**.
 3. Click **Save**.
 
 ## Delete an activity type
 
-1. Click the red bin in the list, or open the type and click **Delete**.
-2. Confirm.
+1. Click **Delete** in the list, or open the type and click **Delete**.
+2. Read the window. It says what goes with the type: its curriculum activities, and the course activities, weeks and informants built on them.
+3. Click **Delete** to confirm.
 
-::: danger Deleting an activity type deletes everything built on it
-All curriculum activities of this type are deleted, and so are the course activities made from them — with their weeks and reports. Only delete a type that was created by mistake and never used.
+::: info You can only delete what has no recorded history
+When you click **Delete**, APD checks what would go with the record.
+
+- If nothing was reported, rated or answered yet, the window lists what will also be deleted (for example **3 activities, 36 weeks and 12 informants**). Click **Delete** to confirm. This cannot be undone.
+- If students already reported sessions, you gave weekly feedback, or students answered the survey, APD refuses: **This can't be deleted: it holds recorded history.** The window says what the record holds and what to do instead. Click **OK** to close it.
+
+When a record can only be refused, its page does not show a **Delete** button at all.
 :::
+
+If the type is in use, keep it. You can rename it with **Edit** instead.
 
 ## Common questions
 

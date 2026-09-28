@@ -5,7 +5,7 @@ Students and staff use the **same** sign-in page on your academy's address. APD 
 ## How to sign in
 
 1. Open your academy's APD address, for example `https://yourcollege.apd.et`.
-2. In **Username**, type your **student ID number** (for example `ABC/0101/16`) **or** your email.
+2. In **Email or student ID**, type your **student ID number** (for example `ABC/0101/16`) **or** your email.
 3. Type your **Password**.
 4. Optional: tick **Remember me** on your own phone or computer. Do not tick it on a shared computer.
 5. Click **Login**.

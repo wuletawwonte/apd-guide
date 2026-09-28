@@ -27,7 +27,7 @@ If you type a wrong address, APD shows **This academy could not be found**. Chec
 Students and staff use the **same sign-in page**.
 
 1. Open your academy's address.
-2. In **Username**, type your email address. Students can also type their **student ID number** (for example `SWE/0101/16`).
+2. In **Email or student ID**, type your email address. Students can also type their **student ID number** (for example `SWE/0101/16`).
 3. Type your **Password**.
 4. Tick **Remember me** if this is your own device. Do not tick it on a shared computer.
 5. Click **Login**.
@@ -46,7 +46,7 @@ Some universities also show a **Sign in with Microsoft** button. If you see it, 
 
 1. On the sign-in page, click **Forgot password?**
 2. Type your email address and send the form.
-3. Open the email from APD and click the link.
+3. Open the email from **AMU - Academic Performance Dashboard** and click the link.
 4. Type a new password twice and save it.
 
 Check your **spam** folder if the email does not arrive in a few minutes. If you still get nothing, ask your academy admin to reset your password.
@@ -55,7 +55,7 @@ Check your **spam** folder if the email does not arrive in a few minutes. If you
 
 ## No account yet?
 
-Click **Sign up** under the sign-in form. See:
+If your academy lets people create their own accounts, a **Sign up** link appears under the sign-in form. If there is no **Sign up** link, ask your department head or academy admin to create your account. See:
 
 - [Student sign-up](../2-students/setup-account)
 - [Staff sign-up](../3-instructors/setup-account)

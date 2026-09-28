@@ -85,13 +85,13 @@ Look at the survey results when you review a submitted course. See [Approve or r
 A **curriculum course** is the official course in the curriculum (for example *Software Engineering Principles, SWE-3101, 3rd year, Semester I, 102 hours*). Department heads create the running courses of each term from these.
 
 1. Open the department and click **Curriculum Courses**.
-2. You see the **Curriculum Course catalog** with name, code, year and term, and hours.
+2. You see the list of curriculum courses with name, code, year and term, and hours.
 
 ![Curriculum course catalog of a department](/screenshots/quality-lead/curriculum-courses.png)
 
 ### Add a curriculum course
 
-1. Click **New Curriculum Course**.
+1. Click **New curriculum course**.
 2. Fill in **Name**, **Code** and (optional) **Description**.
 3. Choose the **Year level** and, if it applies, the **Semester**.
 4. Type the **Expected hours** for the whole course.
@@ -103,19 +103,19 @@ A **curriculum course** is the official course in the curriculum (for example *S
 
 A curriculum course is split into **activities**, such as a lecture and a lab, each with its own hours.
 
-1. In the catalog, click the course name (or the **eye** icon).
+1. In the list, click the course name (or **Open**).
 2. Under **Curriculum activities**, click **New curriculum activity**.
-3. Choose the **activity type** and type the **Expected hours**. The form shows the **Remaining Expected Hours** you can still give.
+3. Choose the **activity type** and type the **Expected hours**. Under the hours box, the form shows how many of the course's hours are left, for example **38 of the course's 102 hours left for this activity**.
 4. Click **Save**.
 
 ![A curriculum course with its curriculum activities](/screenshots/quality-lead/curriculum-course-show.png)
 
 ### Edit, delete, import or export
 
-- **Edit:** click the **pencil** icon on the row.
-- **Delete:** click the red **trash** icon and confirm.
-- **Import:** click the **import** icon next to **New Curriculum Course**. Download the example template, fill it in, and upload it.
-- **Export:** tick the courses you want, then click the **download** icon.
+- **Edit:** click **Edit** on the row.
+- **Delete:** click **Delete** on the row and confirm. APD refuses to delete a curriculum course whose courses already have reports, feedback or survey answers. See [Curriculum courses](../4-department-heads/curriculum-courses#delete-a-curriculum-course).
+- **Import:** click the **import** icon next to **New curriculum course**. Download the example template, fill it in, and upload it.
+- **Export:** click the **download** icon (**Export all (CSV)**). The file has every curriculum course of the department.
 
 ::: warning Talk to the department head first
 Running courses are built from the curriculum. Before you rename or delete a curriculum course, agree the change with the department head.
@@ -127,7 +127,8 @@ Activity types are the kinds of teaching a department uses, such as **Lecture (L
 
 1. Open the department and click **Activity Types**.
 2. To add one, click **New activity type**. Type a **Name** and a short **Code**, then click **Save**.
-3. To change one, click the **pencil** icon. To remove one, click the red **trash** icon.
+3. To change one, click **Edit**. To remove one, click **Delete**. A type that is already used in reported activities cannot be deleted.
+4. Use the search box to find a type by name or code.
 
 ![Activity types list of a department](/screenshots/quality-lead/activity-types.png)
 

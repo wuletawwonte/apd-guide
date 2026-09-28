@@ -19,7 +19,7 @@ There are two ways:
 
 1. On the **Weeks** tab, click **Give feedback** on the week's row.
 2. The **Weekly performance feedback** window opens. It shows the week name and dates.
-3. Choose a **Feedback type** from the list (see the table below).
+3. Choose a **Feedback type** from the list (see the table below). Nothing is chosen for you: the list starts at **Choose a rating**.
 
    ![The Feedback type list open, showing the five ratings](/screenshots/department-heads/c-feedback-dialog-options.png)
 
@@ -44,18 +44,25 @@ The rating now appears as a coloured badge in the **Feedback** column. Point at 
 
 Look at the **Performance** bar of the week before you choose. It compares the reported hours or sessions with the plan.
 
-Look at the **Reported** column too. If it says **1/2**, or the week shows **No reports**, the performance may be low because informants did not report, not because classes were missed. Check with the informants (or [allow late entries](./activity-weeks#let-students-report-late)) before you give a low rating, because feedback cannot be changed later.
+Look at the **Reported** column too. If it says **1/2**, or the week shows **No reports**, the performance may be low because informants did not report, not because classes were missed. Check with the informants (or [allow late entries](./activity-weeks#let-students-report-late)) before you give a low rating.
 
-::: warning Check before you save
-You cannot change or delete feedback after you save it. Read your rating and comment again before clicking **Save feedback**.
-:::
+## Change feedback you already gave
+
+If you chose the wrong rating, you can change it until the course is archived.
+
+1. On the **Weeks** tab, click the coloured rating badge in the week's row. Point at it first: it says **Change this feedback**.
+2. The **Weekly performance feedback** window opens with your rating and comment filled in.
+3. Change the **Feedback type** or the **Comment**.
+4. Click **Save feedback**.
+
+Each week has only one feedback. Saving again replaces it; it does not add a second one. Feedback cannot be deleted.
 
 ## Rules to remember
 
-- You can only give feedback on a week that has **passed** (red dot). The current and future weeks show a dash.
+- You can only give feedback on a week that is **over** (the week has ended). The current and future weeks show a dash.
 - Removed weeks (grey, crossed out) do not need feedback.
 - Weeks with no feedback show **Pending** to people who cannot give feedback.
-- Feedback cannot be added to a course that is **archived**.
+- Feedback cannot be added or changed on a course that is **archived**.
 - Every passed, non-removed week of every activity needs feedback before you can [close and submit the course](./submit-for-approval).
 
 ## Common questions
@@ -64,6 +71,6 @@ You cannot change or delete feedback after you save it. Read your rating and com
 You are not the department head for this department, and you are not the activity's instructor.
 
 **I gave the wrong rating. What can I do?**
-Feedback cannot be edited in APD. Ask your academy administrator or the quality office how your academy handles corrections.
+Click the rating badge on the week's row and save a new rating. See [Change feedback you already gave](#change-feedback-you-already-gave). Once the course is archived, feedback can no longer change.
 
 Next: [Close and submit a course](./submit-for-approval)

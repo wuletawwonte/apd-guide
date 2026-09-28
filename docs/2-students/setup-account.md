@@ -17,7 +17,7 @@ You need:
 ## How to sign up
 
 1. Open your academy's APD address in a browser.
-2. On the sign-in page, click **Sign up** at the bottom.
+2. On the sign-in page, click **Sign up** at the bottom. If there is no **Sign up** link, your academy does not allow students to sign up themselves: ask your department office to create your account.
 3. Under **Register as**, choose **Student**. The **ID number** field appears.
 4. Type your **ID number** exactly as it is on your student ID card.
 5. Type your **First Name** and **Last Name**.

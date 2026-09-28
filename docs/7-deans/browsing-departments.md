@@ -91,6 +91,9 @@ When you open a course from **Overview**, you see **Course analytics** with thre
 the course code, start and end dates, the total number of class-session reports, and how many reports
 came in last week compared with how many were expected.
 
+At the top right, **Follow up** (flag icon) asks the department head to look into this course. See
+[Ask a department head to follow up](./dean-dashboard#ask-a-department-head-to-follow-up).
+
 ### Performance tab
 
 A table with one row per activity (for example Lecture or Laboratory):

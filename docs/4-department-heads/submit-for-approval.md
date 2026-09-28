@@ -9,7 +9,7 @@ Department heads submit. Education quality leads approve or return.
 ## How the approval process works
 
 1. **You run the course.** Every week, you give performance feedback.
-2. **You close and submit.** When every past week has feedback, you click **Close & submit**.
+2. **You close and submit.** When the course has ended and every past week has feedback, you click **Close & submit**.
 3. **The quality office reviews.** The quality leads get a notification. The course shows **Submitted for approval**.
 4. **They decide:**
    - **Approve** → the course becomes **Archived**. It is read-only for everyone.
@@ -21,12 +21,13 @@ You get a notification (the bell at the top) when the quality office approves or
 
 Open the course. Next to the **Close & submit** button you see a counter such as **1 of 2 weeks reviewed**.
 
+- If the course is still running, the button is grey and a note says **Not ready to close yet. The course runs until …**. **Close & submit** unlocks once the course has ended.
 - If some past weeks still need feedback, the button is grey and a note says **Not ready to close yet**. It tells you how many weeks are missing.
 
 ![A course that is not ready: 1 of 2 weeks reviewed and a grey Close & submit button](/screenshots/department-heads/c-course-not-ready.png)
 
 - Give feedback on the missing weeks. See [Weekly performance feedback](./performance-feedback).
-- When all weeks are reviewed, the counter turns green with a tick and the button becomes active.
+- When the course has ended and all weeks are reviewed, the counter turns green with a tick and the button becomes active.
 
 ![A ready course: 2 of 2 weeks reviewed and an active Close & submit button](/screenshots/department-heads/c-course-ready-to-submit.png)
 
@@ -38,7 +39,7 @@ Open the course. Next to the **Close & submit** button you see a counter such as
 
 1. Open the course.
 2. Click **Close & submit**.
-3. Your browser asks: *Close this course and submit its performance to the quality office for approval?* Click **OK**.
+3. APD asks: *Close this course and submit its performance to the quality office for approval?* Click **Close**.
 4. A green message says **Course submitted to the quality office for approval.**
 
 The course now shows a blue banner **Submitted for approval** with the date you submitted it.
@@ -46,7 +47,7 @@ The course now shows a blue banner **Submitted for approval** with the date you 
 ![The blue Submitted for approval banner on a course](/screenshots/department-heads/c-course-submitted.png)
 
 ::: info
-Submit only when the course has really finished. After you submit, the **Close & submit** button disappears until the quality office decides.
+After you submit, the **Close & submit** button disappears until the quality office decides. While the course is submitted, you cannot edit or delete it or change its hours.
 :::
 
 ## If the quality office returns your course
@@ -69,12 +70,13 @@ An archived course is frozen:
 
 - Nobody can edit or delete it.
 - Its weeks, plan and feedback cannot change.
+- You cannot add activities, change hours, enroll students or change instructors.
 - You can still open it and read all its data and analytics.
 
 ## Common questions
 
 **Why is Close & submit grey?**
-At least one past week has no performance feedback. The note under the header tells you how many.
+The course has not ended yet, or at least one past week has no performance feedback. The note under the header tells you which.
 
 **I don't see Close & submit at all.**
 The course is already submitted or archived, or you are not the head of this department.

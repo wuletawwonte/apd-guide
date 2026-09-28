@@ -72,11 +72,10 @@ Each department also has its own **Maximum year level** (see [Departments](./dep
 
 ### Self-registration
 
-Choose **Enabled** or **Disabled**. This records whether students and staff are expected to create their own accounts with the **Sign up** link on the sign-in page, instead of being added by an admin or department head.
+Choose **Enabled** or **Disabled**. This decides whether students and staff can create their own accounts.
 
-::: info
-In the current version of APD, the **Sign up** link on the sign-in page is always shown. If your academy does not want self sign-up, tell users to wait for an account from their department head or admin, and check new accounts regularly under [Users](./staff-users) and [Students](./students).
-:::
+- **Enabled**: the sign-in page shows a **Sign up** link. New accounts appear under [Users](./staff-users) and [Students](./students). Check them regularly.
+- **Disabled**: the **Sign up** link is hidden. Department heads and admins create every account.
 
 ## Common questions
 

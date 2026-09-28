@@ -4,7 +4,7 @@ Find your problem below. If it is not here, contact your department office or ac
 
 ## Signing in
 
-**APD says my username or password is wrong.**
+**APD says my email, student ID or password is wrong.**
 - Check that you are on **your academy's** address. An account from another academy will not work.
 - Check Caps Lock. Passwords are case-sensitive.
 - Students: try your **student ID number** instead of your email, or the other way round.
@@ -61,10 +61,10 @@ Menus depend on your role. The pictures in this guide come from a demo academy.
 ## Everyone
 
 **How do I switch between light and dark mode?**
-Click the **screen icon** in the top bar and choose **Light**, **Dark** or **Same as device**.
+Staff: click your name in the top right corner and, under **Theme**, choose **Light**, **Dark** or **Device**. Students: click the **screen icon** in the top bar and choose **Light**, **Dark** or **Same as device**.
 
 **Can I use APD on my phone?**
 Yes. APD works in any modern phone browser. On small screens, open the menu with the **☰** button.
 
 **Where do I report a problem with APD itself?**
-Staff can use the **Feedback** page in the left menu. See [Things every staff user can do](./common-features).
+Staff: click the **?** button in the top bar, then **Send feedback**. See [Send feedback to the APD team](./common-features#send-feedback-to-the-apd-team).

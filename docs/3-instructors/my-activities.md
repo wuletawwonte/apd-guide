@@ -30,7 +30,7 @@ The coloured dot before each code shows the activity status:
 |-----|--------|
 | Green | **Active** — teaching is happening now. |
 | Blue | **Upcoming** — it has not started yet. |
-| Red | **Passed** — it has ended. |
+| Dark grey | **Passed** — it has ended. Point at the dot: it says **Finished**. |
 
 ::: tip Missing an activity?
 Only your department head can make you the instructor of an activity. If an activity is missing from this list, ask your department head.

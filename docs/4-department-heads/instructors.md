@@ -74,13 +74,19 @@ The activity now has no instructor. It will show on **My dashboard** under **Act
 2. Change the name or email.
 3. Click **Save**.
 
-## Delete an instructor
+## Deactivate an instructor
+
+When someone leaves the department, deactivate their account. APD does not delete staff, because their activities and feedback are part of the department's history.
 
 1. Open the instructor.
-2. Click **Delete** and confirm.
+2. Click **Deactivate** (red, at the top right).
+3. Read the message and click **Deactivate** to confirm.
 
-::: danger Think before you delete
-Deleting removes the person's account. If someone is leaving, first move their activities to another instructor. Your academy admin can also deactivate an account instead of deleting it.
+The person can no longer sign in. They leave the instructor list and the pickers. Their activities keep them as instructor until you give those activities to someone else, so reassign them next (see [Activities](./activities#remove-or-change-the-instructor)).
+
+::: info
+- You cannot deactivate your own account.
+- A deactivated account is read-only and shows a **Deactivated** badge. Only your academy admin can restore it. See [Staff users](../5-academy-admins/staff-users).
 :::
 
 ## Common questions

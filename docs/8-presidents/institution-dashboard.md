@@ -43,9 +43,10 @@ Below the cards is a table with one row per academy.
 | **Courses** | All courses in the academy. |
 | **Ongoing** | Courses running today. |
 | **Avg hourly %** | Average teaching progress of the academy's ongoing courses. |
+| **Last 6 weeks** | A small line of the academy's weekly delivery over the last six weeks (hours delivered against hours planned in the weeks that ended each week), with last week's change from the week before, for example **▲ +8 pts** in green or **▼ −12 pts** in red. Point at a week to see its numbers. A gap means nothing was planned that week. Shown on wider screens only. |
 | **Avg reported %** | Share of planned class sessions that informants reported (held or not), in the academy's ongoing courses. Orange or red (below 80%) means the hourly figure rests on incomplete reports. |
 | **Avg qualitative %** | Average student survey score of the academy's ongoing courses. |
-| **Performance (hourly)** | How many courses are **High** (80% or more), **Med** (50–79%) and **Low** (below 50%) by teaching progress. |
+| **Performance (hourly)** | How many courses are **High** (80% or more), **Med** (50–79%) and **Low** (below 50%) by teaching progress. Shown on very wide screens only. |
 | **Staff active** | The share of the academy's staff who signed in to APD in the last 30 days. |
 
 ## How to use the dashboard
@@ -53,6 +54,7 @@ Below the cards is a table with one row per academy.
 - **Find academies that are behind.** A low **Avg hourly %** means many planned classes are not being
   held, or not being reported. **Avg reported %** tells you which: if it is high, classes are being missed;
   if it is low, reporting is the problem. Ask the dean of that academy.
+- **Look at the trend.** A falling **Last 6 weeks** line shows an academy that is slipping, even when its average still looks fine.
 - **Look at the Low count.** Many **Low** courses in one academy point to a wider problem.
 - **Check Staff active.** A low percentage means staff are not using APD. Numbers from an academy that
   rarely uses APD may not be reliable.

@@ -17,17 +17,17 @@ You need at least one **activity type** (for example Lecture, Laboratory). If yo
 ## See the catalogue
 
 1. In the menu, click **Curriculum Courses**.
-2. The list shows each curriculum course with its **Code**, **Year & term** and **Hours**. The small number after the name is how many curriculum activities it has.
+2. The list shows each curriculum course with its code under the name, its **Year & term** and its **Hours**. The small number after the name is how many curriculum activities it has.
 3. To search, type part of a name in the search box.
-4. Use **Rows per page** at the bottom to show more rows.
+4. Long lists are split into pages. Use the page numbers at the bottom to see the rest.
 
-![Curriculum course catalogue with the New Curriculum Course button marked in red](/screenshots/department-heads/p-curriculum-list.png)
+![Curriculum course list with the search box, the export and import buttons and New curriculum course](/screenshots/department-heads/p-curriculum-list.png)
 
-The icons at the end of each row are **edit** (pencil), **view** (eye) and **delete** (red bin).
+Each row has **Open**, **Edit** and **Delete** buttons in the **Action** column.
 
 ## Add a curriculum course
 
-1. On the **Curriculum Courses** page, click **New Curriculum Course**.
+1. On the **Curriculum Courses** page, click **New curriculum course**.
 2. Fill in **Curriculum Course data**:
    - **Name** — for example *Database Systems*. It must be unique in your department.
    - **Code** — for example *SWE-3102*. It must also be unique in your department.
@@ -46,30 +46,34 @@ APD opens the new curriculum course. It has no activities yet.
 
 A curriculum course needs at least one curriculum activity. Without them, you cannot add activities to a live course later.
 
-1. Open the curriculum course (click its name, or the eye icon).
+1. Open the curriculum course (click its name, or **Open**).
 2. Under **Curriculum activities**, click **New curriculum activity**.
 3. Choose the **Activity type**. You can type to search the list.
 4. Type the **Expected hours** for this activity.
 5. Click **Save**.
 6. Repeat for each kind of activity (lecture, lab, tutorial …).
 
-![New curriculum activity form with the activity type chosen and expected hours filled in; "Remaining Expected Hours" is shown below](/screenshots/department-heads/p-curriculum-activity-form.png)
+![New curriculum activity form with the activity type chosen and expected hours filled in; the hours left are shown below](/screenshots/department-heads/p-curriculum-activity-form.png)
 
 ::: warning Keep the hours consistent
-Under the hours box, APD shows **Remaining Expected Hours** — the course hours not yet given to an activity. If the activities together go over the curriculum course's **Expected hours**, APD raises the course's expected hours to match and the form warns you. Check the total afterwards if that was not what you meant.
+Under the hours box, APD shows how many hours are left, for example **38 of the course's 102 hours left for this activity** — the course hours not yet given to another activity. If the activities together go over the curriculum course's **Expected hours**, APD raises the course's expected hours to match and the form warns you. Check the total afterwards if that was not what you meant.
 :::
 
 APD gives each curriculum activity a code made of your department prefix, the course code and the activity type code — for example `SE-GUIDE-101-LEC`.
 
 ![Curriculum course page with details at the top and two curriculum activities listed below](/screenshots/department-heads/p-curriculum-show.png)
 
+The **Hours** line on the curriculum course page shows the budget at a glance, for example **102 expected · 64 allocated · 38 left**. Each activity type can be used only once per curriculum course.
+
 To change or remove a curriculum activity, use the pencil or the red bin in its row.
 
 ## Edit a curriculum course
 
-1. Click the pencil icon in the list, or open the curriculum course and click **Edit**.
+1. Click **Edit** in the list, or open the curriculum course and click **Edit**.
 2. Change what you need.
 3. Click **Save**.
+
+You cannot lower **Expected hours** below the hours its curriculum activities already use. Lower an activity's hours first.
 
 Changes to the catalogue are the plan for future terms. Talk to your quality office before renaming a course that is already running.
 
@@ -128,33 +132,40 @@ Use this when you only want the course list, without activities. The columns are
 
 ### After the import
 
-APD shows a message such as **Imported 1 Curriculum Course (activities included where specified).** The new courses appear in the catalogue. If a row has a problem, APD shows a results table with **Failed** and the reason. Fix the file and import again — the rows that worked are already saved, so remove them from the file first.
+APD shows a message such as **Imported 1 Curriculum Course (activities included where specified).** The new courses appear in the catalogue. If a row has a problem, APD shows a results table with **Failed** and the reason. The import is all or nothing: if any row has a problem, APD shows **Nothing was imported: fix the rows marked with errors and upload the file again.** and a results table with each row's error. Fix the file and upload the whole file again.
 
 ![Catalogue after import, with the new course at the top and a green success message](/screenshots/department-heads/p-curriculum-import-result.png)
 
 ## Export curriculum courses to a file
 
-1. On the **Curriculum Courses** page, tick the box in front of each course you want. Tick the box in the header to select every course on the page.
-2. Click the **Export selected (CSV)** button (the download icon next to **New Curriculum Course**).
-3. Your browser saves a `.csv` file.
+1. On the **Curriculum Courses** page, click the **Export all (CSV)** button (the download icon next to the import button).
+2. Your browser saves a `.csv` file with every curriculum course of the department.
 
-![Two curriculum courses ticked and the Export selected (CSV) button marked in red](/screenshots/department-heads/p-curriculum-export.png)
+![The Export all (CSV) button marked in red](/screenshots/department-heads/p-curriculum-export.png)
 
 ## Delete a curriculum course
 
-1. Click the red bin in the row, or open the curriculum course and click **Delete**.
-2. Confirm.
+1. Click **Delete** in the row, or open the curriculum course and click **Delete**.
+2. Read the window. It says what goes with the curriculum course: its curriculum activities, and every live course made from it with their activities, weeks and enrolled students.
+3. Click **Delete** to confirm.
 
-::: danger Deleting a curriculum course also deletes its courses
-Every live course made from this curriculum course is deleted too — with its activities, weeks, reports and feedback. The same is true when you delete a curriculum activity: the activities made from it are deleted. Only delete catalogue entries that were created by mistake and never used.
+::: info You can only delete what has no recorded history
+When you click **Delete**, APD checks what would go with the record.
+
+- If nothing was reported, rated or answered yet, the window lists what will also be deleted (for example **3 activities, 36 weeks and 12 informants**). Click **Delete** to confirm. This cannot be undone.
+- If students already reported sessions, you gave weekly feedback, or students answered the survey, APD refuses: **This can't be deleted: it holds recorded history.** The window says what the record holds and what to do instead. Click **OK** to close it.
+
+When a record can only be refused, its page does not show a **Delete** button at all.
 :::
+
+The same check applies when you delete a curriculum activity. If a curriculum course is in use, keep it; courses already built from it keep their records.
 
 ## Common questions
 
 **I cannot add an activity to a course. The activity type list is empty.**
 The curriculum course has no curriculum activities. Add them here first.
 
-**"Remaining Expected Hours" is 0.**
+**It says "0 of the course's … hours left".**
 All the course hours are already given to other activities. You can still save: APD then raises the curriculum course's **Expected hours** to the new total. If the total should stay the same, lower the hours of another activity instead.
 
 **The import says an activity type was not found.**

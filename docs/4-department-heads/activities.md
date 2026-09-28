@@ -21,12 +21,12 @@ Department heads, for the departments they head.
 
    ![The Curriculum activity list open, showing Lecture and Laboratory](/screenshots/department-heads/c-activity-type-dropdown.png)
 
-4. **Group number** is optional. Use it when a type is split into groups, for example Laboratory group 1 and group 2.
+4. **Group number** is optional. Use it when a type is split into groups, for example Laboratory group 1 and group 2. It must be a positive number, and you need it when the course already has an activity of the same type.
 5. Pick the **Start date**. It must be inside the course dates.
-6. Type the **Duration in weeks**. The note under the box tells you the maximum allowed.
-7. Type the **Sessions per week** (how many times the class meets each week).
-8. **Expected total hours** fills in from the curriculum. Leave it unless your department agreed on a change.
-9. Click **Save**.
+6. Type the **Duration in weeks**. The note under the box tells you the maximum allowed. All the weeks must fit before the course end date.
+7. Type the **Sessions per week** (how many times the class meets each week), from 1 to 50.
+8. **Expected total hours** fills in from the curriculum. Leave it unless your department agreed on a change. It cannot be more than the hours the curriculum activity has left; the form shows how many.
+9. Click **Save**. If a box is wrong, its message appears right under it.
 
 ![The new activity form filled in](/screenshots/department-heads/c-activity-form-filled.png)
 
@@ -46,7 +46,7 @@ Open the course. The **Activities** tab lists each activity with its code, type 
 |---|---|---|
 | Green | **Active** | The activity is running this week. |
 | Blue | **Upcoming** | It starts later. |
-| Red | **Passed** | It has ended. |
+| Dark grey | **Passed** | It has ended. Point at the dot: it says **Finished**. |
 
 Use **Weeks**, **Edit** and **Delete** on each row to work with the activity.
 
@@ -124,8 +124,9 @@ More about students: [Students and enrollments](./students-and-enrollments).
 
 ## Edit or delete an activity
 
-- To change dates, duration, sessions per week, hours or group number, click **Edit** on the activity page, change the values and click **Save**.
-- To delete, click **Delete**, then **Delete activity**. This removes its weeks, sessions and enrollments. It cannot be undone.
+- To change dates, duration, sessions per week, hours or group number, click **Edit** on the activity page, change the values and click **Save**. When you change the schedule (start date, duration or sessions per week), APD rebuilds the activity's weeks. Once students reported sessions or you gave feedback, the schedule can no longer change; use the [Weeks tab](./activity-weeks) instead.
+- To delete, click **Delete**. The window lists what goes with the activity (its weeks and informants). Click **Delete** to confirm. It cannot be undone.
+- You cannot delete an activity once informants reported sessions or you gave weekly feedback on it. Remove the weeks that will not run instead (see [Activity weeks](./activity-weeks#remove-a-week-from-the-plan)), or leave the activity as it is.
 
 ::: warning
 You cannot add, edit or delete activities in a course that has **passed** or is **archived**.
