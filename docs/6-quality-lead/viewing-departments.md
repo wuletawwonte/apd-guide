@@ -43,7 +43,7 @@ On the **Quality office dashboard**, each department row has a **house** icon (o
 The **Home** page shows:
 
 - the number of **instructors**, **students**, **courses** and **curriculum courses**,
-- **Courses needing feedback** — courses with past weeks that still have no performance feedback from the head,
+- **Feedback the head still owes** — courses with past weeks that still have no performance feedback from the head. Each course shows its group code, for example *Database Systems (SWE-3102-A)*, so two groups of one course are easy to tell apart,
 - the most recent instructors and students.
 
 ![Department home page with counts and courses needing feedback](/screenshots/quality-lead/department-home.png)
@@ -108,12 +108,14 @@ A curriculum course is split into **activities**, such as a lecture and a lab, e
 3. Choose the **activity type** and type the **Expected hours**. Under the hours box, the form shows how many of the course's hours are left, for example **38 of the course's 102 hours left for this activity**.
 4. Click **Save**.
 
+The activities share out the course's **Expected hours**; they can't add up to more. If you type more hours than are left, APD says so and nothing is saved. If the curriculum really changed, first **Edit** the curriculum course and raise its **Expected hours**, then add the activity.
+
 ![A curriculum course with its curriculum activities](/screenshots/quality-lead/curriculum-course-show.png)
 
 ### Edit, delete, import or export
 
 - **Edit:** click **Edit** on the row.
-- **Delete:** click **Delete** on the row and confirm. APD refuses to delete a curriculum course whose courses already have reports, feedback or survey answers. See [Curriculum courses](../4-department-heads/curriculum-courses#delete-a-curriculum-course).
+- **Delete:** click **Delete** on the row and confirm. APD refuses to delete a curriculum course whose courses already have reports, feedback or survey answers, or whose courses are submitted to you or approved. See [Curriculum courses](../4-department-heads/curriculum-courses#delete-a-curriculum-course).
 - **Import:** click the **import** icon next to **New curriculum course**. Download the example template, fill it in, and upload it.
 - **Export:** click the **download** icon (**Export all (CSV)**). The file has every curriculum course of the department.
 
@@ -135,7 +137,7 @@ Activity types are the kinds of teaching a department uses, such as **Lecture (L
 ## Common questions
 
 **Why can't I add or edit a course?**
-Running courses belong to the department head. Ask the head to make the change.
+Running courses belong to the department head. Ask the head to make the change. On a course's analytics you see **Course details** (read-only) where the head sees **Course settings**.
 
 **Why do I see only one department at a time?**
 Each department's pages are separate. Use the department list at the top of the menu to switch.

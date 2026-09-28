@@ -129,7 +129,7 @@ More about students: [Students and enrollments](./students-and-enrollments).
 - You cannot delete an activity once informants reported sessions or you gave weekly feedback on it. Remove the weeks that will not run instead (see [Activity weeks](./activity-weeks#remove-a-week-from-the-plan)), or leave the activity as it is.
 
 ::: warning
-You cannot add, edit or delete activities in a course that has **passed** or is **archived**.
+You cannot add, edit or delete activities in a course that has **passed**, is **submitted** for approval, or is **archived**.
 :::
 
 ## Common questions

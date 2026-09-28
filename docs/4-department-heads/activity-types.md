@@ -50,6 +50,7 @@ When you click **Delete**, APD checks what would go with the record.
 
 - If nothing was reported, rated or answered yet, the window lists what will also be deleted (for example **3 activities, 36 weeks and 12 informants**). Click **Delete** to confirm. This cannot be undone.
 - If students already reported sessions, you gave weekly feedback, or students answered the survey, APD refuses: **This can't be deleted: it holds recorded history.** The window says what the record holds and what to do instead. Click **OK** to close it.
+- APD also refuses when a course built from it is **submitted** to the quality office or **approved** (archived), even if nothing was reported. The window counts them as **submitted or approved courses**.
 
 When a record can only be refused, its page does not show a **Delete** button at all.
 :::

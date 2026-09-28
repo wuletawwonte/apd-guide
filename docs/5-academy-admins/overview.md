@@ -26,7 +26,7 @@ Staff who have the **Academy admin** role. If you do not see **Administration** 
 2. Sign in with your email and password.
 3. APD opens your admin **Dashboard**.
 
-The left menu shows your admin pages under **Administration**. Under **Extras** you also find **Qualitative Analysis**. **What's new** and **Send feedback** are in the help menu (the **?** button in the top bar), like for every staff member.
+The left menu shows your admin pages under **Administration**. Under **Workspace** you also find **Qualitative analysis**. **What's new** and **Send feedback** are in the help menu (the **?** button in the top bar), like for every staff member.
 
 ![The admin menu on the left side of the screen](/screenshots/admins/sidebar.png)
 

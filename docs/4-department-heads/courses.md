@@ -122,7 +122,7 @@ You cannot change the curriculum course of an existing course. To change expecte
 
 ::: info When a course can no longer be edited
 - A **Passed** course cannot be edited. Its activities cannot be added, changed or deleted either.
-- A **Submitted** course (waiting for the quality office) cannot be edited, deleted or have its hours changed until the quality office decides.
+- A **Submitted** course (waiting for the quality office) is locked until the quality office decides: it can't be edited, deleted or have its hours changed, and its activities, weeks, weekly feedback, students and informants can't change either.
 - An **Archived** course (approved by the quality office) is frozen for everyone: no new activities, hour changes, enrollments or instructor changes. The buttons for them are hidden.
 - You cannot move the course dates so that planned weeks of its activities fall outside the course.
 :::
@@ -164,7 +164,7 @@ Read the full steps in [Close and submit a course](./submit-for-approval).
 You are not the head of this department. Check the department name at the top of the left menu, or switch department.
 
 **Why is the Edit button missing?**
-The course has passed or it is archived. Passed and archived courses are locked to protect the records.
+The course has passed, is submitted for approval, or is archived. These courses are locked to protect the records.
 
 **Why is Expected hours grey on the form?**
 It comes from the curriculum. Click **Override** only if you really need a different number.

@@ -55,8 +55,8 @@ A curriculum course needs at least one curriculum activity. Without them, you ca
 
 ![New curriculum activity form with the activity type chosen and expected hours filled in; the hours left are shown below](/screenshots/department-heads/p-curriculum-activity-form.png)
 
-::: warning Keep the hours consistent
-Under the hours box, APD shows how many hours are left, for example **38 of the course's 102 hours left for this activity** — the course hours not yet given to another activity. If the activities together go over the curriculum course's **Expected hours**, APD raises the course's expected hours to match and the form warns you. Check the total afterwards if that was not what you meant.
+::: warning Activities share the course's hours
+Under the hours box, APD shows how many hours are left, for example **38 of the course's 102 hours left for this activity** — the course hours not yet given to another activity. The activities together can't go over the curriculum course's **Expected hours**. If you type more than is left, APD says **"Expected hours can't be more than the … hours left"** and nothing is saved. If the curriculum really changed, raise the curriculum course's **Expected hours** first (**Edit**), then add the activity.
 :::
 
 APD gives each curriculum activity a code made of your department prefix, the course code and the activity type code — for example `SE-GUIDE-101-LEC`.
@@ -154,6 +154,7 @@ When you click **Delete**, APD checks what would go with the record.
 
 - If nothing was reported, rated or answered yet, the window lists what will also be deleted (for example **3 activities, 36 weeks and 12 informants**). Click **Delete** to confirm. This cannot be undone.
 - If students already reported sessions, you gave weekly feedback, or students answered the survey, APD refuses: **This can't be deleted: it holds recorded history.** The window says what the record holds and what to do instead. Click **OK** to close it.
+- APD also refuses when a course built from it is **submitted** to the quality office or **approved** (archived), even if nothing was reported. The window counts them as **submitted or approved courses**.
 
 When a record can only be refused, its page does not show a **Delete** button at all.
 :::
@@ -166,7 +167,7 @@ The same check applies when you delete a curriculum activity. If a curriculum co
 The curriculum course has no curriculum activities. Add them here first.
 
 **It says "0 of the course's … hours left".**
-All the course hours are already given to other activities. You can still save: APD then raises the curriculum course's **Expected hours** to the new total. If the total should stay the same, lower the hours of another activity instead.
+All the course hours are already given to other activities, so a new activity can't be saved. Lower the hours of another activity, or, if the curriculum changed, **Edit** the curriculum course and raise its **Expected hours** first.
 
 **The import says an activity type was not found.**
 Check the spelling of the code in your file. Create the activity type first if it does not exist. See [Activity types](./activity-types).

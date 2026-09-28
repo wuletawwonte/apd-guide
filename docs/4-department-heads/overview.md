@@ -39,7 +39,7 @@ Each step needs the one before it:
 After you sign in, the menu on the left has two parts.
 
 - **The department part** (top). It starts with the department name. Below it are **Home**, **Overview**, **Courses**, **Students**, **Instructors**, **Curriculum Courses** and **Activity Types**.
-- **Extras** (bottom). Here you find **My dashboard** and **Qualitative Analysis**.
+- **Workspace** (bottom). Here you find **My dashboard** and **Qualitative analysis**.
 
 **What's new**, **Send feedback** and the user guide are in the help menu (the **?** button in the top bar). See [The help menu](/1-introduction/common-features#the-help-menu).
 
@@ -49,7 +49,7 @@ A small shield icon next to a department name means **you lead this department**
 
 **My dashboard** is the first page you see after you sign in. It lists only the work that is still waiting for you. Each row is a link. Click it to go straight to the screen where you do the work.
 
-1. Click **My dashboard** in the **Extras** part of the menu.
+1. Click **My dashboard** in the **Workspace** part of the menu.
 2. Read the six cards. The number in the coloured badge shows how many items each card has.
 3. Click a row to open it.
 
@@ -105,7 +105,7 @@ The **Home** page gives a quick summary of one department.
 The Home page shows:
 
 - **Four number cards**: **Instructors**, **Students**, **Courses** and **Curriculum Courses**. Click a card to open that list.
-- **Courses needing feedback**: courses that still have past weeks without feedback. It tells you how many activities and weeks are waiting. Click a course to open its analytics.
+- **Courses needing feedback**: courses that still have past weeks without feedback. Each course shows its group code (for example *Database Systems (SWE-3102-A)*), and how many activities and weeks are waiting. Click a course to open its analytics. (Other staff see the same card as **Feedback the head still owes**.)
 - **Recent instructors** and **Recent students**: the newest people added to the department. Click **View all** to see the full list.
 
 ::: info "Set up this department" checklist

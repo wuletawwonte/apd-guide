@@ -26,9 +26,9 @@ After you sign in, the screen has three parts:
 
 ## The side menu
 
-The side menu shows the pages your role allows. Everyone sees the **Extras** group at the bottom.
+The side menu shows the pages your role allows. Everyone sees the **Workspace** group at the bottom (education quality leads see it as **Quality office**).
 
-![The side menu with the department switcher, department pages and the Extras group](/screenshots/common/sidebar.png)
+![The side menu with the department switcher, department pages and the Workspace group](/screenshots/common/sidebar.png)
 
 | Menu item | What you find there |
 |-----------|---------------------|
@@ -39,9 +39,9 @@ The side menu shows the pages your role allows. Everyone sees the **Extras** gro
 | **Instructors** | Staff who belong to the department. |
 | **Curriculum Courses** | The department's list of planned courses (the catalog). |
 | **Activity Types** | Kinds of activities, such as Lecture or Laboratory. |
-| **Qualitative Analysis** | The student survey (statements, checkpoints and settings). |
+| **Qualitative analysis** | The student survey (statements, checkpoints and settings). |
 
-Some roles see more items under **Extras**, for example **My dashboard** for department heads. Each role's guide explains its extra pages.
+Some roles see more items under **Workspace**, for example **My dashboard** for department heads, and **Follow-ups** for deans and quality leads. Each role's guide explains its extra pages.
 
 Help, feedback and news about APD are not in the side menu. They are in the [help menu](#the-help-menu) in the top bar.
 
@@ -94,13 +94,15 @@ APD sends you a notification when something needs your attention. Examples: a re
 
 1. Click the bell in the top bar. A coloured dot on the bell means you have unread notifications.
 2. Read the latest notifications in the list. New ones have a **New** label.
-3. Click a notification to read it. APD marks it as read. Click **Open related page** to go to the page it is about.
+3. Click a notification to read it. APD marks it as read. Click **Open related page** to go to the page it is about. On the **Notifications** page, an icon shows what each one is about: a tick for course approvals, a key for department head access, a flag for follow-ups, and a bell for everything else.
 4. Click **Mark all read** to clear the dot.
 5. Click **View all** to see every notification on one page.
 
 ![The notifications list open under the bell, with Mark all read and View all](/screenshots/common/notifications-menu.png)
 
 ![The Notifications page](/screenshots/common/notifications-page.png)
+
+All dates and times in APD, including those on notifications, are in East Africa Time.
 
 ::: tip
 If you connect Telegram, you also get your notifications there. See [Connect Telegram](#connect-telegram) below.
@@ -155,7 +157,7 @@ To change your details:
 1. On your profile, click **Edit profile**.
 2. To add a photo, click the round picture or **Upload file**, then choose a PNG, JPG, WebP or GIF image of up to 5 MB. To take your photo off, tick **Remove photo**.
 3. Change your **First name**, **Last name** or **Email** if needed.
-4. If you have no department yet, choose your **Primary department** from the list. Once it is set, you cannot change it yourself: ask your department head or an academy admin.
+4. If you have no department yet, choose your **Primary department** from the list. Once it is set, you cannot change it yourself: ask your department head or an academy admin. Academy admins, deans, quality leads and presidents don't choose one: their role covers the whole academy, and the profile says so.
 5. Click **Save changes**. APD shows **Profile updated.** Click **Discard changes** to leave without saving.
 
 ![The Edit profile form with Profile photo, Personal information and Department sections](/screenshots/common/edit-profile.png)
