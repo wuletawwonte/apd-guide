@@ -11,16 +11,16 @@ All staff accounts. Students have a simpler screen. See the [Students guide](../
 After you sign in, the screen has three parts:
 
 - **The side menu** on the left. It shows the pages you can open.
-- **The top bar** across the top. It has search, the theme button, notifications and your account menu.
+- **The top bar** across the top. It has search, the help menu, notifications and your account menu.
 - **The main area** in the middle. This is where the page content appears.
 
-![The top bar with the menu button, search box, theme button, notification bell and account button](/screenshots/common/top-bar.png)
+![The top bar with the menu button, search box, help button, notification bell and account button](/screenshots/common/top-bar.png)
 
 | Part of the top bar | What it does |
 |---------------------|--------------|
 | **☰** (three lines) | Hides or shows the side menu. Useful on small screens. |
 | **Search** | Finds courses, activities, departments and people quickly. |
-| Screen icon | Changes the colour theme (light, dark or same as your device). |
+| **?** (question mark) | Opens the help menu: **What's new**, **User guide**, **Send feedback** and **Support on Telegram**. A green dot means there is news you have not read. |
 | Bell | Shows your notifications. A coloured dot means you have unread ones. |
 | Your name | Opens your account menu. |
 
@@ -40,10 +40,10 @@ The side menu shows the pages your role allows. Everyone sees the **Extras** gro
 | **Curriculum Courses** | The department's list of planned courses (the catalog). |
 | **Activity Types** | Kinds of activities, such as Lecture or Laboratory. |
 | **Qualitative Analysis** | The student survey (statements, checkpoints and settings). |
-| **Feedback** | A form to send a message to the APD team. |
-| **Release Notes** | News about changes to APD. A green **new** label means there is news you have not read. |
 
-Some roles see more items, for example **My dashboard** for department heads. Each role's guide explains its extra pages.
+Some roles see more items under **Extras**, for example **My dashboard** for department heads. Each role's guide explains its extra pages.
+
+Help, feedback and news about APD are not in the side menu. They are in the [help menu](#the-help-menu) in the top bar.
 
 ## Switch to another department
 
@@ -79,12 +79,12 @@ You only see results you are allowed to open.
 
 APD has a light theme and a dark theme.
 
-1. Click the screen icon in the top bar.
-2. Choose **Light**, **Dark** or **Same as device**.
+1. Click your name in the top right corner to open the account menu.
+2. Under **Theme**, click **Light**, **Dark** or **Device**. The one you chose is highlighted.
 
-**Same as device** follows the setting of your computer or phone. APD remembers your choice on this device.
+**Device** follows the setting of your computer or phone. APD remembers your choice on this device.
 
-![The theme menu with Light, Dark and Same as device](/screenshots/common/theme-menu.png)
+![The Theme switch in the account menu, with Light, Dark and Device](/screenshots/common/theme-menu.png)
 
 ![The department home page in the dark theme](/screenshots/common/dark-theme.png)
 
@@ -119,7 +119,7 @@ Your academy admin or quality office can post announcements. An announcement app
 
 Click your name in the top right corner to open the account menu.
 
-![The account menu with My Profile, My Activities, Change Password, Integrations, User guide and Logout](/screenshots/common/account-menu.png)
+![The account menu with My Profile, My Activities, Change Password, Integrations, the Theme switch and Logout](/screenshots/common/account-menu.png)
 
 | Menu item | What it does |
 |-----------|--------------|
@@ -127,8 +127,21 @@ Click your name in the top right corner to open the account menu.
 | **My Activities** | Lists the activities you teach. See [My activities and feedback](../3-instructors/my-activities). |
 | **Change Password** | Lets you set a new password. |
 | **Integrations** | Connects APD to Telegram. |
-| **User guide** | Opens this guide. |
+| **Theme** | Switches between **Light**, **Dark** and **Device**. See [Change the colour theme](#change-the-colour-theme). |
 | **Logout** | Signs you out. |
+
+## The help menu
+
+Click the **?** button in the top bar to open the help menu.
+
+![The help menu with What's new, User guide, Send feedback and Support on Telegram](/screenshots/common/help-menu.png)
+
+| Menu item | What it does |
+|-----------|--------------|
+| **What's new** | Opens the list of changes to APD. A green **new** label means there is news you have not read. See [Read what's new](#read-what-s-new). |
+| **User guide** | Opens this guide in a new tab. |
+| **Send feedback** | Opens a form to send a message to the APD team. See [Send feedback to the APD team](#send-feedback-to-the-apd-team). |
+| **Support on Telegram** | Opens the APD support channel on Telegram. |
 
 ## View and edit your profile
 
@@ -140,10 +153,10 @@ Click your name in the top right corner to open the account menu.
 To change your details:
 
 1. On your profile, click **Edit profile**.
-2. To add a photo, click the round picture or **Upload file**, then choose a PNG, JPG or WebP image.
+2. To add a photo, click the round picture or **Upload file**, then choose a PNG, JPG, WebP or GIF image of up to 5 MB. To take your photo off, tick **Remove photo**.
 3. Change your **First name**, **Last name** or **Email** if needed.
-4. Choose your **Primary department** from the list.
-5. Click **Save changes**. Click **Discard changes** to leave without saving.
+4. If you have no department yet, choose your **Primary department** from the list. Once it is set, you cannot change it yourself: ask your department head or an academy admin.
+5. Click **Save changes**. APD shows **Profile updated.** Click **Discard changes** to leave without saving.
 
 ![The Edit profile form with Profile photo, Personal information and Department sections](/screenshots/common/edit-profile.png)
 
@@ -155,7 +168,7 @@ Your email is also your sign-in name. If you change it, use the new email the ne
 
 1. Click your name in the top right corner, then **Change Password**.
 2. Type your **Current password**.
-3. Type a **New password**. It must have at least 6 characters.
+3. Type a **New password**. It must have at least 6 characters and be different from your current password.
 4. Type the new password again in **Confirm new password**.
 5. Click **Update password**.
 
@@ -206,9 +219,9 @@ To stop using Telegram, click **Disconnect** on the Telegram card in APD, or typ
 
 ## Send feedback to the APD team
 
-Use the **Feedback** page to report a problem, ask a question or suggest an idea.
+Use the **Send feedback** page to report a problem, ask a question or suggest an idea.
 
-1. In the side menu, click **Feedback**.
+1. Click the **?** button in the top bar, then **Send feedback**.
 2. Under **What is this about?**, choose **General feedback**, **Bug report** or **Feature request**.
 3. Write your **Message**. For a problem, say what you clicked and what went wrong. You can attach a file, such as a screenshot.
 4. Click **Send feedback**.
@@ -217,22 +230,19 @@ Use the **Feedback** page to report a problem, ask a question or suggest an idea
 
 APD adds your name and email so the team can reply. When the team resolves your feedback, you get a notification.
 
-## Read the release notes
+## Read what's new
 
-The **Release Notes** page tells you what is new in APD.
+The **What's new** page tells you what changed in APD.
 
-1. In the side menu, click **Release Notes**.
-2. Read the newest changes at the top. Each note shows a version number and a release date.
+1. Click the **?** button in the top bar, then **What's new**. A green dot on the **?** button means there is news you have not read.
+2. The releases are shown on a timeline, newest first. Each one shows its version number and release date.
+3. Releases published since you last opened the page have a **New** label. The first time you open the page, only the latest release has it.
 
-![The Release Notes page with a list of versions and what changed](/screenshots/common/release-notes.png)
+![The What's new page with releases on a timeline, newest first](/screenshots/common/release-notes.png)
 
 ## The page footer
 
-At the bottom of every staff page you find three small icons:
-
-- **Book**: opens this user guide.
-- **Open book**: opens the release notes ("What's new").
-- **Paper plane**: opens APD support on Telegram.
+At the bottom of every staff page you see the APD version number, for example **v2.4.0**. Click it to open **What's new**.
 
 ## Sign out
 

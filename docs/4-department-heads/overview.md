@@ -13,6 +13,7 @@ Staff members who are the head of a department. Your academy admin or quality of
 | Task | Where to go | Page in this guide |
 |------|-------------|--------------------|
 | See what needs your attention | **My dashboard** | This page |
+| Answer a leader's follow-up request | **My dashboard** → **Follow-ups** | [Answer a follow-up](#answer-a-follow-up) |
 | Look at your department's numbers | **Home** and **Overview** | This page and [Department overview (analytics)](./department-overview) |
 | Set up the kinds of sessions you run (lecture, lab …) | **Activity Types** | [Activity types](./activity-types) |
 | Keep the course catalogue | **Curriculum Courses** | [Curriculum courses](./curriculum-courses) |
@@ -38,7 +39,9 @@ Each step needs the one before it:
 After you sign in, the menu on the left has two parts.
 
 - **The department part** (top). It starts with the department name. Below it are **Home**, **Overview**, **Courses**, **Students**, **Instructors**, **Curriculum Courses** and **Activity Types**.
-- **Extras** (bottom). Here you find **My dashboard**, **Qualitative Analysis**, **Feedback** and **Release Notes**.
+- **Extras** (bottom). Here you find **My dashboard** and **Qualitative Analysis**.
+
+**What's new**, **Send feedback** and the user guide are in the help menu (the **?** button in the top bar). See [The help menu](/1-introduction/common-features#the-help-menu).
 
 A small shield icon next to a department name means **you lead this department**.
 
@@ -47,13 +50,14 @@ A small shield icon next to a department name means **you lead this department**
 **My dashboard** is the first page you see after you sign in. It lists only the work that is still waiting for you. Each row is a link. Click it to go straight to the screen where you do the work.
 
 1. Click **My dashboard** in the **Extras** part of the menu.
-2. Read the five cards. The number in the coloured badge shows how many items each card has.
+2. Read the six cards. The number in the coloured badge shows how many items each card has.
 3. Click a row to open it.
 
-![My dashboard with its cards: weeks awaiting feedback, returned by the quality office, ready to close and submit, reporting gaps, and activities with no instructor](/screenshots/department-heads/p-my-dashboard.png)
+![My dashboard with its cards: follow-ups, weeks awaiting feedback, returned by the quality office, ready to close and submit, reporting gaps, and activities with no instructor](/screenshots/department-heads/p-my-dashboard.png)
 
 | Card | What it means | What to do |
 |------|---------------|------------|
+| **Follow-ups** | Requests from the dean, the quality office or the president to look into your department or one of its courses. Each shows who asked, when, and what they asked. | Look into it, then click **Resolve** and write a short reply. See [Answer a follow-up](#answer-a-follow-up). |
 | **Weeks awaiting your feedback** | Past weeks that have no performance feedback yet. It shows how many weeks, and since when. | Click the row. It opens the activity's weeks. Give feedback for each week. See [Performance feedback](./performance-feedback). |
 | **Returned by the quality office** | Courses the quality office sent back to you. The reason is shown under the course name. | Click the row, fix the problem, then submit again. See [Submit a course for approval](./submit-for-approval). |
 | **Ready to close and submit** | Courses that have ended and have feedback for every week. | Click the row and submit the course for approval. |
@@ -64,9 +68,30 @@ A small shield icon next to a department name means **you lead this department**
 Clear the **Weeks awaiting your feedback** card first. Only then will the course move to **Ready to close and submit**.
 :::
 
-If a card says **All caught up**, **Nothing returned**, **Nothing ready yet**, **Everyone is reporting** or **Every activity is staffed**, there is nothing to do there.
+If a card says **Nothing to follow up**, **All caught up**, **Nothing returned**, **Nothing ready yet**, **Everyone is reporting** or **Every activity is staffed**, there is nothing to do there.
 
 The buttons at the top right (for example **Software Engineering**) open the Home page of each department you lead.
+
+## Answer a follow-up
+
+A leader of your academy (the dean or the quality office) or the president of your university can ask you to **follow up** on your department or one of its courses. For example: *"Delivery has dropped for three weeks and only half the sessions are reported. What is happening?"*
+
+You get a notification in APD, by email and on Telegram (if you connected it). The request stays at the top of **My dashboard**, in the **Follow-ups** card, until you resolve it.
+
+1. Open **My dashboard** and find the request in the **Follow-ups** card.
+2. Read who asked (their name and role) and what they want you to look into.
+3. Look into it: open the course or the department's **Overview**, talk to the instructors or informants, and fix what you can.
+4. Click **Resolve**.
+5. In **Your reply**, write what you found and what you did about it.
+6. Click **Resolve and reply**.
+
+![The Resolve follow-up window with the leader's question and a reply box](/screenshots/department-heads/p-follow-up-resolve.png)
+
+The request leaves your dashboard. The person who asked gets your reply as a notification, by email and on Telegram. Deans and the quality office see it on their **Follow-ups** page; a president sees it on the department's page. The reply is optional, but it helps the person who asked.
+
+::: tip Write a useful reply
+Say what the cause was and what will change, for example: *"Two informants had not been reporting. I reminded them and allowed late entries for weeks 5 and 6."*
+:::
 
 ## The department Home page
 

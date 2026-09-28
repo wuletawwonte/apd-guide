@@ -29,6 +29,8 @@ Education quality leads.
 |--------|---------------|
 | **Course** | The course name and group. Click it to open the course. |
 | **Department** | The department that owns the course. |
+| **Ends** | The course end date. An orange **Still running** badge means the course has not ended yet (it was submitted before the end-date rule existed). |
+| **Weeks reviewed** | How many past weeks have performance feedback, for example **12 of 12**. Green means every week has feedback; orange means some are missing. |
 | **Submitted by** | The department head who submitted it. |
 | **Submitted on** | The date it was submitted. |
 | **Actions** | **Approve** or **Reject**. |

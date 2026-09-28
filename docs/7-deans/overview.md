@@ -14,7 +14,7 @@ Staff who have the **Dean** role. Your academy administrator gives you this role
 ## Sign in
 
 1. Open your academy address, for example `https://yourcollege.apd.et`.
-2. Type your email in **Username** and your password in **Password**.
+2. Type your email in **Email or student ID** and your password in **Password**.
 3. Click **Login**. If your academy uses Microsoft accounts, you can click **Sign in with Microsoft** instead.
 
 After you sign in, APD opens the **Dean dashboard** for you.
@@ -33,11 +33,12 @@ After you sign in, APD opens the **Dean dashboard** for you.
 | Read courses, activities, weeks, students, instructors and curriculum | Department menu |
 | Read the qualitative survey statements | **Qualitative Analysis** |
 | See the history of changed expected hours on a course | **Course details** tab (when a course has changes) |
-| Send feedback about APD to the APD team | **Feedback** |
+| Ask a department head to look into a problem, and read the reply | **Dean dashboard** → **Follow up** and **Follow-ups** |
+| Send feedback about APD to the APD team | Help menu (**?**) → **Send feedback** |
 
 ## What you cannot do
 
-- You cannot add, edit or delete courses, activities, weeks, students or instructors.
+- You cannot add, edit or delete courses, activities, weeks, students or instructors. To get something fixed, [send the head a follow-up](./dean-dashboard#ask-a-department-head-to-follow-up).
 - You cannot write performance feedback for a week. The department head does that.
 - You cannot approve courses. The education quality lead does that.
 - You cannot change users, departments or academy settings. The academy administrator does that.
@@ -50,10 +51,11 @@ The sidebar on the left has two parts:
 
 - **Navigation → Department** opens the department pages (Home, Overview, Courses, Students, Instructors,
   Curriculum Courses, Activity Types).
-- **Extras** has **Dean dashboard**, **Qualitative Analysis**, **Feedback** and **Release Notes**.
+- **Extras** has **Dean dashboard** and **Qualitative Analysis**.
 
-The top bar has the search box, the theme button (light or dark), your notifications (the bell) and your
-account menu (your name). Use the account menu to open **My Profile**, **Change Password** or **Logout**.
+The top bar has the search box, the help menu (**?**, with **What's new**, the user guide and **Send feedback**),
+your notifications (the bell) and your account menu (your name). Use the account menu to open **My Profile**,
+**Change Password**, the **Theme** switch (light or dark) or **Logout**.
 
 ## Use Telegram
 

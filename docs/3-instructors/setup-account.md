@@ -14,7 +14,7 @@ You need:
 ## How to sign up
 
 1. Open your academy's APD address in a web browser.
-2. On the sign-in page, click **Sign up** (under the **Login** button).
+2. On the sign-in page, click **Sign up** (under the **Login** button). If there is no **Sign up** link, your academy does not allow self sign-up: ask your department head or academy admin to create your account.
 3. Under **Register as**, choose **Staff**.
 4. Type your **First Name** and **Last Name**.
 5. Choose your **Department** from the list. This is optional, but it helps your department head find you.
@@ -41,4 +41,4 @@ Each academy has its own address. An account made on one academy's address does 
 
 **It says my email is already taken.** You already have an account. Use **Forgot password?** on the sign-in page to set a new password.
 
-**I chose the wrong department.** Change it later in **My Profile** → **Edit profile** → **Primary department**. See [Features every staff member uses](../1-introduction/common-features#view-and-edit-your-profile).
+**I chose the wrong department.** Once your department is set, you cannot change it yourself. Ask your department head or an academy admin to move you.

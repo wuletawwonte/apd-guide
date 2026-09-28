@@ -22,11 +22,11 @@ Department heads can change weeks. Instructors and other staff can look at them.
 | **Planned hours** | How many hours of teaching should happen that week. |
 | **Reported** | How many planned sessions informants reported, held or not, for example **1/2**. See [Reported sessions](#reported-sessions). |
 | **Actual hours** (or **Actual sessions**) | What informant students reported. |
-| **Performance** | Actual compared with planned, as a percentage bar. |
+| **Performance** | Actual compared with planned, as a percentage bar. An orange **Over plan** label means more was reported than planned: check the planned figures for that week. |
 | **Feedback** | Your weekly rating, or a **Give feedback** button. See [Weekly performance feedback](./performance-feedback). |
 | **Actions** | **Remove**, **Restore**, **Allow late entries** or **Stop late entries**. On narrower screens (below about 1280 pixels wide) these show as icons only; point at an icon to see what it does. |
 
-The **Total** row at the bottom adds up the planned sessions and hours.
+The **Total** row at the bottom adds up the planned sessions and hours. All weeks of the activity are on one page.
 
 ### Week colours
 
@@ -34,7 +34,7 @@ The **Total** row at the bottom adds up the planned sessions and hours.
 |---|---|---|
 | Green | **Active** | This is the current week. Students can report now. |
 | Blue | **Upcoming** | The week has not started. Nobody can report yet. |
-| Red | **Passed** | The week is over. It is closed to students unless you allow late entries. |
+| Dark grey | **Passed** | The week is over (the dot's label says **Finished**). It is closed to students unless you allow late entries. |
 | Grey, crossed out | **Removed** | You removed the week from the plan. |
 
 ### Performance bar colours
@@ -79,8 +79,13 @@ APD fills in the plan when you create the activity. You can change it week by we
 - The total planned hours cannot be more than the hours set for the curriculum activity.
 - The total planned sessions cannot be more than **sessions per week × number of weeks**.
 
-If you go over a limit, a red message **Could not save changes** explains the problem and nothing is saved.
+- Planned sessions cannot be lower than the sessions already reported for that week.
+- Every box must hold a whole number. A blank or non-number box is reported by week.
+
+If you go over a limit, a red message **Could not save changes** explains the problem and nothing is saved. The numbers you typed stay in the boxes so you can fix them.
 :::
+
+If you try to leave the page with unsaved changes, APD warns you first. When you save, the activity's total hours update to match the new plan.
 
 You cannot change the plan after the course has passed.
 
@@ -96,7 +101,7 @@ Remove a week when no class will happen, for example during an exam break or a p
 A removed week does not count against performance and does not need feedback.
 
 ::: info
-You can only remove a week that has **no reported class sessions**. If students already reported for that week, the **Remove** button does not appear.
+You can only remove a week that has **no reported class sessions**. If students already reported for that week, the **Remove** button does not appear, and APD refuses the removal even from a page that was opened earlier.
 :::
 
 ### Bring a removed week back
@@ -111,8 +116,9 @@ Use this when an activity needs one more week at the end.
 
    ![The Add week button at the top right of the Weeks tab](/screenshots/department-heads/c-add-week-button.png)
 
-2. In **Add activity week**, type the **Sessions in week** and **Expected hours**.
-3. Click **Save**.
+2. **Add activity week** opens. The grey box at the top shows the new week's name and dates, and how much of the plan is left, for example **16 of 48 hours and 2 sessions left to plan**.
+3. Type the **Sessions in week** and **Expected hours**.
+4. Click **Save**. If something is wrong, the window stays open and shows the error under the box.
 
 ![The Add activity week window](/screenshots/department-heads/c-add-week-modal.png)
 
@@ -126,7 +132,7 @@ The weeks already reach the course end date. You cannot add a week past the end 
 
 When a week ends, students can no longer report for it. If students missed a week for a good reason, you can open it again for a short time.
 
-1. Find the passed week (red dot). Its **Actions** show **Allow late entries**.
+1. Find the passed week (dark grey dot). Its **Actions** show **Allow late entries**.
 2. Click **Allow late entries**.
 3. Read the message **Allow late submissions?** and click **Confirm**.
 
@@ -146,9 +152,6 @@ Only the head of **this** department can open or close its weeks, and not after 
 
 **Why can't I type in the planned boxes?**
 The course has passed, the course is archived, or the week was removed. Removed weeks must be restored first.
-
-**Only 10 weeks show. Where are the others?**
-Long activities show their weeks over more than one page. Use the page numbers under the table to see the rest.
 
 **Why is performance 0% for this week?**
 No informant student has reported a session yet: an ended week then shows **No reports**. Check that the activity has informant students and that the week is open. See [Activities](./activities). Your dashboard also lists these weeks under **Reporting gaps**.

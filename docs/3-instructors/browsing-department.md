@@ -87,7 +87,7 @@ The **curriculum** is the department's catalog of planned courses. Each real cou
 2. The list shows each course's **Name**, **Code**, **Year & term** and total **Hours**. The small grey number after the name is the number of planned activities.
 3. Use **Rows per page** at the bottom to show more rows.
 
-![The Curriculum Course catalog with name, code, year and term, and hours](/screenshots/instructors/curriculum-courses.png)
+![The Curriculum Courses list with name, code, year and term, and hours](/screenshots/instructors/curriculum-courses.png)
 
 ## Activity Types
 

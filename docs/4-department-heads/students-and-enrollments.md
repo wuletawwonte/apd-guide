@@ -101,14 +101,18 @@ APD sends each student a notification: *"You have been assigned as an informant 
 On a course's or activity's **Students** tab there is also a button to create a new student. It opens the same **New student** form. After you save, go back to the course or activity and enroll or assign them.
 :::
 
-## Delete a student
+## Deactivate a student
+
+When a student leaves, deactivate their account. APD does not delete students, because their reports and survey answers are part of the department's history.
 
 1. Open the student.
-2. Click **Delete** (red, at the top right).
-3. Confirm.
+2. Click **Deactivate** (red, at the top right).
+3. Read the message and click **Deactivate** to confirm.
 
-::: danger Deleting removes the student from APD
-Only delete an account that was created by mistake. The student will lose access, and their links to courses and activities are removed. If a student left the university, ask your academy admin what your academy's rule is.
+The student can no longer sign in or report. They leave the student list, the pickers and the counts on the Home page. Their reports and survey answers stay.
+
+::: info
+A deactivated account is read-only and shows a **Deactivated** badge. Only your academy admin can restore it. See [Students](../5-academy-admins/students).
 :::
 
 ## Common questions

@@ -12,12 +12,12 @@ You need:
 ## How to sign in with your email
 
 1. Open your academy's APD address in a web browser.
-2. In **Username**, type your email address.
+2. In **Email or student ID**, type your email address.
 3. In **Password**, type your password. Click the eye icon if you want to see what you typed.
 4. Tick **Remember me** if this is your own computer. You will stay signed in longer.
 5. Click **Login**.
 
-![The sign-in page with Username, Password, Remember me, Forgot password and the Login button](/screenshots/instructors/sign-in-page.png)
+![The sign-in page with Email or student ID, Password, Remember me, Forgot password and the Login button](/screenshots/instructors/sign-in-page.png)
 
 APD opens the right home page for your role. For instructors, this is the [department home page](./home-page).
 
