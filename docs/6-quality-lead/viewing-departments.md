@@ -53,6 +53,7 @@ The **Home** page shows:
 1. Open the department and click **Overview**.
 2. The **Courses** tab lists every course with:
    - **Qual.** — the student survey score for the course,
+   - **Reported** — how much of the planned teaching informants reported at all; orange or red means the next score rests on incomplete reports,
    - **Quantitative** — how much of the planned teaching happened. Green is good, yellow is medium, red is low.
 3. Use the buttons to filter: **All**, **Ongoing**, **Upcoming**, **Done**.
 4. Choose **Session** or **Hour** to measure by class sessions or by hours.

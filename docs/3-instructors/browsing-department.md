@@ -11,6 +11,7 @@ The **Overview** page shows how all courses of the department are going.
 1. In the side menu, click **Overview**.
 2. The **Courses** tab opens. It lists every course with two scores:
    - **Qual.** — the average score from the student survey (qualitative).
+   - **Reported** — how much of the planned teaching informants reported at all. Orange or red means the next score rests on incomplete reports.
    - **Quantitative** — how much of the planned teaching took place so far.
 3. Use the buttons to filter the list: **All**, **Ongoing**, **Upcoming** or **Done**.
 4. Choose **Session** or **Hour** to change how teaching is measured.

@@ -95,7 +95,7 @@ You do this from the activity.
 3. Click **Assign student**.
 4. Pick the students who will report for this activity, then confirm.
 
-APD sends each student a notification: *"You have been assigned as an informant for …"*. From now on they see this activity under **My activities** and can report class sessions each week. For more detail and pictures, see [Activities](./activities).
+APD sends each student a notification: *"You have been assigned as an informant for …"*. From now on they see this activity on their home page and under **My activities**, and can report class sessions each week. The activity's **Students** tab shows how many sessions each informant has reported and when they last did. For more detail and pictures, see [Activities](./activities).
 
 ::: tip Add a student from a course or activity
 On a course's or activity's **Students** tab there is also a button to create a new student. It opens the same **New student** form. After you save, go back to the course or activity and enroll or assign them.

@@ -47,23 +47,24 @@ A small shield icon next to a department name means **you lead this department**
 **My dashboard** is the first page you see after you sign in. It lists only the work that is still waiting for you. Each row is a link. Click it to go straight to the screen where you do the work.
 
 1. Click **My dashboard** in the **Extras** part of the menu.
-2. Read the four cards. The number in the coloured badge shows how many items each card has.
+2. Read the five cards. The number in the coloured badge shows how many items each card has.
 3. Click a row to open it.
 
-![My dashboard with four cards: weeks awaiting feedback, returned by the quality office, ready to close and submit, and activities with no instructor](/screenshots/department-heads/p-my-dashboard.png)
+![My dashboard with its cards: weeks awaiting feedback, returned by the quality office, ready to close and submit, reporting gaps, and activities with no instructor](/screenshots/department-heads/p-my-dashboard.png)
 
 | Card | What it means | What to do |
 |------|---------------|------------|
 | **Weeks awaiting your feedback** | Past weeks that have no performance feedback yet. It shows how many weeks, and since when. | Click the row. It opens the activity's weeks. Give feedback for each week. See [Performance feedback](./performance-feedback). |
 | **Returned by the quality office** | Courses the quality office sent back to you. The reason is shown under the course name. | Click the row, fix the problem, then submit again. See [Submit a course for approval](./submit-for-approval). |
 | **Ready to close and submit** | Courses that have ended and have feedback for every week. | Click the row and submit the course for approval. |
+| **Reporting gaps** | Activities on running courses that have **No informants**, or whose last week got **No reports** at all. Their performance can't be trusted until someone reports. | Click the row. A no-informant activity opens on its **Students** tab: assign informants. A week with no reports opens the **Weeks** tab: check with the informants or allow late entries. See [Activities](./activities#choose-the-informant-students). |
 | **Activities with no instructor** | Activities on running courses that have nobody assigned to teach them. | Click the row and assign an instructor. See [Instructors](./instructors). |
 
 ::: tip A course cannot be closed while weeks are missing feedback
 Clear the **Weeks awaiting your feedback** card first. Only then will the course move to **Ready to close and submit**.
 :::
 
-If a card says **All caught up**, **Nothing returned**, **Nothing ready yet** or **Every activity is staffed**, there is nothing to do there.
+If a card says **All caught up**, **Nothing returned**, **Nothing ready yet**, **Everyone is reporting** or **Every activity is staffed**, there is nothing to do there.
 
 The buttons at the top right (for example **Software Engineering**) open the Home page of each department you lead.
 

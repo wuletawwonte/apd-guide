@@ -45,11 +45,22 @@ Each link works only once and only for a short time. Go back to APD, click **Con
 1. In the bot chat, send **/report** (or tap **Menu** and choose **report**).
 2. The bot lists your activities that are open this week, with your progress, for example `Software Engineering Principles - LEC - Week 9 - (1/2)`.
 3. Tap the activity you want to report.
-4. The bot asks: **"Was the class for the course '…' held?"** Tap **Yes** or **No**.
-5. If you tapped **Yes**, the bot asks how many hours. Tap a button from **1 hour** to **8 hours**.
-6. The bot confirms: **"Thank you …! The report is saved successfully."** (or, for No, that the class was NOT held).
+4. The bot asks, for example: **"Software Engineering Principles (SE-SWE-3101-LEC), Week 9: was the class held?"** and shows these buttons:
+
+   | Button | What it does |
+   |--------|--------------|
+   | **✅ Held · 2 h (planned)** | Saves one held session at the planned length. Most reports are this one tap. |
+   | **✅ All 2 held · 2 h each** | Saves every session still missing this week, each at the planned length. Only shown when more than one is left. |
+   | **🕑 Different length** | Lets you pick the hours yourself, from **1 hour** to **8 hours**. |
+   | **❌ Not held** | Saves that the class did not take place. |
+
+5. The bot confirms what it saved and how far the week is, for example: **"Thank you …! Saved: SE-SWE-3101-LEC, Week 9: held, 2 h (2/2 reported)."** It then tells you to send **/report** for the next one, or that you are all caught up.
 
 To report another session, send **/report** again.
+
+::: warning If the bot says it can't save
+The bot explains why, for example **"This week isn't open for reports."** or **"Every planned session of this week is already reported."** The same rules apply as on the website: only open weeks, only activities you are an informant for, and never more reports than the sessions planned.
+:::
 
 ::: info Telegram and the website are the same
 A report sent through Telegram appears on the APD website right away, and the other way around. The same rules apply: you can only report open weeks, and only up to the number of planned sessions.

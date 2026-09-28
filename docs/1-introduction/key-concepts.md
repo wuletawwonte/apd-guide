@@ -35,6 +35,7 @@ APD uses a few special words. Learn them once, and the rest of the guide will be
 | Word | What it means |
 |---|---|
 | **Performance** | How much of the plan really happened, as a percentage. For example, if 4 hours were planned and students reported 3 hours, the performance is 75%. |
+| **Reported** (report coverage) | How much of the plan informants reported at all, held **or** not held, as a percentage. If 4 sessions were planned and informants reported 3 of them, Reported is 75%. APD shows it next to performance everywhere, because performance can only count what was reported. Below **80%**, it is shown in orange or red: the performance beside it rests on incomplete reports. |
 | **Performance feedback** | The department head's rating of a finished week: *Disastrous*, *Needs improvement*, *Acceptable*, *Good* or *Excellent*. |
 | **Qualitative survey** | A short list of statements that students rate, for example "The instructor explains clearly". |
 | **Statement** | One question in the qualitative survey. Each statement has answer **options**. |
@@ -50,6 +51,7 @@ Courses, activities and weeks show a status based on their dates:
 | **Ongoing** / **Active** | It is happening now. |
 | **Passed** | It has ended. |
 | **Voided** | (weeks only) The week was cancelled, for example because of a holiday. It does not count in performance. |
+| **No reports** | (weeks only) The week has ended but no informant reported on it. Its 0% means "unknown", not necessarily "the class did not happen". It still counts as 0% in the activity's score, so check with the informants. |
 
 Courses also move through an **approval** process at the end of the semester:
 

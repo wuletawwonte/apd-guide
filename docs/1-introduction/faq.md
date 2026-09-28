@@ -26,11 +26,14 @@ You only see activities where you are an **informant**. Ask your department head
 1. you are enrolled in the course, and
 2. you are chosen as an informant for the activity.
 
+**What is the fastest way to report?**
+Your home page. Each open week has **Held** and **Not held** buttons and an hours box that starts at the planned length, so most reports are one click. See [Your home page](../2-students/dashboard#report-a-session-from-your-home-page).
+
 **The + button to add a class session is grey.**
 You can only report for the **current, open week**. Past and future weeks are closed, and weeks can be locked by the department head. See [Report class sessions](../2-students/report-class-sessions).
 
 **I reported the wrong number of hours.**
-You can change or delete your report while the week is still open. After the week closes, ask your department head.
+Right after reporting from the home page, click **Undo** in the message at the bottom right. Later, you can change or delete your report while the week is still open. After the week closes, ask your department head.
 
 **The qualitative survey is empty.**
 The survey only opens at certain moments (checkpoints) in each course. When a checkpoint opens, APD notifies you. See [Qualitative survey](../2-students/qualitative-survey).
@@ -45,6 +48,9 @@ That is normal. Only the department head of that department can make changes. Ot
 
 **I was appointed department head but APD does not show the head menus.**
 Send a request from APD. See [Request department head access](../3-instructors/request-department-head-access). Your academy admin or quality lead will approve it.
+
+**A week says "No reports", or Reported is orange. What does that mean?**
+Informants did not report all the planned sessions, so the performance beside it may be too low. It does not mean the class was missed. Check with the informants; the department head can reopen a past week for late reports. See [Reported sessions](../4-department-heads/activity-weeks#reported-sessions).
 
 **I cannot edit a course.**
 A course cannot be edited after it has **passed**, while it is **submitted** for approval, or after it is **approved** (archived). See [Submit a course for approval](../4-department-heads/submit-for-approval).

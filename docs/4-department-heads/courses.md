@@ -69,7 +69,9 @@ The change is saved in a history log that the quality office and the dean can se
 
 ## Understand the course page
 
-When you open a course, you see three tabs:
+When you open a course, its name is the page title. Point at the **ⓘ** beside it to see its code, group and department. The breadcrumb above the title shows the full name with the group and links back to **Courses**.
+
+The page has three tabs:
 
 | Tab | What it shows |
 |---|---|
@@ -77,7 +79,9 @@ When you open a course, you see three tabs:
 | **Students** | Students enrolled in the course. See [Students and enrollments](./students-and-enrollments). |
 | **Course details** | Title, code, year and semester, dates, status and expected hours. |
 
-The buttons at the top are **Go back**, **Edit**, **Close & submit** and **Delete**. You only see the buttons you are allowed to use.
+The buttons at the top right are **Edit**, **Close & submit** and **Delete**, with the review counter (for example **6 of 6 weeks reviewed**) just before **Close & submit**. You only see the buttons you are allowed to use. To go back to the course list, click **Courses** in the breadcrumb.
+
+On the **Activities** tab, each row has **Weeks**, **Edit** and **Delete**. Deleting asks you to confirm by name, for example **Delete SE-SWE-3101-LEC?**, and tells you what goes with it (its weeks, session reports, feedback and informants).
 
 ![The Course details tab of a course](/screenshots/department-heads/c-course-details.png)
 

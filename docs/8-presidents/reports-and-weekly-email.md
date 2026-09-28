@@ -27,11 +27,14 @@ The report shows **today's** figures, the same as the dashboard.
 
 The report has two tables:
 
-- **Academies** — for each academy: departments, courses, ongoing courses, hourly %, qualitative %,
+- **Academies** — for each academy: departments, courses, ongoing courses, hourly %, reported %, qualitative %,
   the number of High / Medium / Low courses, staff, staff active % and students. The last row,
   **All academies**, shows the totals for the whole university.
 - **Departments** — for each department of each academy: head, courses, ongoing courses, hourly %,
-  qualitative % and High / Medium / Low counts.
+  reported %, qualitative % and High / Medium / Low counts.
+
+**Reported %** is the share of planned class sessions that informants reported at all. When it is low, a
+low hourly % may mean missing reports rather than missed classes.
 
 ![The first page of the PDF report](/screenshots/presidents/pdf-report.png)
 
@@ -43,7 +46,8 @@ academy. The email is **on** by default.
 ![A sample weekly email report](/screenshots/presidents/weekly-email-sample.png)
 
 The email shows the number of academies, ongoing courses, the average hourly and average qualitative
-scores, and one row per academy. Click an academy name in the email to open its page in APD.
+scores, and one row per academy with its hourly, reported and qualitative figures. Click an academy name
+in the email to open its page in APD.
 
 ### How to turn the weekly email off or on
 

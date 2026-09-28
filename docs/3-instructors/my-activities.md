@@ -41,15 +41,16 @@ Only your department head can make you the instructor of an activity. If an acti
 1. On **My Activities**, click the activity **Code**.
 2. The **Weeks** tab opens. It lists every week of the activity.
 
-![The Weeks tab of an activity with planned and actual hours, performance bars and the Feedback column highlighted](/screenshots/instructors/activity-weeks-feedback.png)
+![The Weeks tab of an activity with planned and reported sessions, actual hours, performance bars and the Feedback column](/screenshots/instructors/activity-weeks-feedback.png)
 
 | Column | Meaning |
 |--------|---------|
-| **Week** | The week number and its dates. |
+| **Week** | The week number and its dates, shown short (for example **10–16 Aug**; point at them for the full dates). |
 | **Planned sessions** | How many class sessions were planned for the week. |
 | **Planned hours** | How many hours were planned. |
+| **Reported** | How many of the planned sessions informants reported, held or not, for example **1/2**. Orange or red means some sessions were never reported. |
 | **Actual hours** (or **Actual sessions**) | What the students reported. |
-| **Performance** | Actual compared with planned, as a percentage. |
+| **Performance** | Actual compared with planned, as a percentage. An ended week that nobody reported on shows **No reports** instead. |
 | **Feedback** | The department head's rating for the week. |
 | **Actions** | For past weeks, "Closed to late entries" means students can no longer report for that week. |
 
@@ -95,22 +96,22 @@ Your activity is part of a course. To see all activities of the course together:
 
 1. In the side menu, click **Overview**.
 2. Click the course name in the list.
-3. The **Performance** tab shows each activity of the course with its **Actual**, **Expected** and **Total** hours, last week's result and the result **So far**.
+3. The **Performance** tab shows each activity of the course with its **Actual**, **Expected** and **Total** hours, last week's result, how much was **Reported** and the result **So far**.
 
 ![Course analytics, Performance tab, with a breakdown of activities and their progress bars](/screenshots/instructors/course-analytics.png)
 
 Two more tabs give more detail:
 
-- **Weekly** — a line chart of each activity's performance, week by week.
+- **Weekly** — a grid of each activity's performance, week by week. Weeks nobody reported on are marked **?** (**No reports**).
 - **Survey** — results of the student survey for this course: number of submissions, average score and number of statements. Click **Qualitative details** for the answers to each statement.
 
-![Course analytics, Weekly tab, with a line chart of weekly performance by activity](/screenshots/instructors/course-analytics-weekly.png)
+![Course analytics, Weekly tab: a grid of weeks by activity, coloured by performance](/screenshots/instructors/course-analytics-weekly.png)
 
 ![Course analytics, Survey tab, with survey submissions, average qualitative score and survey statements](/screenshots/instructors/course-analytics-survey.png)
 
 ## Common questions
 
-**Why is my performance low when I taught every class?** Performance comes from what the students report. If informants forget to report, the week shows less than was taught. Remind your informants to report every week, or tell your department head.
+**Why is my performance low when I taught every class?** Performance comes from what the students report. If informants forget to report, the week shows less than was taught. Look at the **Reported** column: **1/2** or **No reports** means sessions were never reported, not that they were missed. Remind your informants to report every week (it is one click on their home page), or tell your department head, who can reopen a past week for late reports.
 
 **Can I change the planned hours or give feedback myself?** No. Planned sessions, hours and feedback are managed by the department head.
 

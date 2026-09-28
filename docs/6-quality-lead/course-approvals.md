@@ -42,7 +42,8 @@ If the list is empty, you see **"No courses awaiting approval"**. Nothing is wai
 3. Look at the **Activities** tab and the **Course details** tab. Check that:
    - every past week has a class report and performance feedback,
    - the dates and expected hours are correct.
-4. Click **Go back** (or your browser's back button) to return to the list.
+4. To see how well the course was reported, open its analytics (department **Overview** → the course): the **Reported** column shows how much of the plan informants reported. A low figure means the performance numbers rest on incomplete reports.
+5. Use your browser's back button to return to the list.
 
 ![A submitted course with the "Submitted for approval" bar](/screenshots/quality-lead/submitted-course-details.png)
 
