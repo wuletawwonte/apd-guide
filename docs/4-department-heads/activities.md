@@ -80,7 +80,9 @@ The instructor's name now shows on the details tab.
 ![Activity details with the instructor assigned and the remove button highlighted](/screenshots/department-heads/c-activity-instructor-assigned.png)
 
 ::: tip
-Only staff of this department appear in the list. If a person is missing, add them first on the **Instructors** page. See [Instructors](./instructors).
+The list shows staff from **every department** in your academy, grouped by department, with your own department first. For a course taught by an instructor from a sister department, choose them under their department's name. Don't create a second account for them.
+
+If a person is missing from the list, their department head or the academy admin needs to add them first. See [Instructors](./instructors).
 :::
 
 ### Remove or change the instructor

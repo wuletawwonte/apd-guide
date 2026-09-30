@@ -68,6 +68,10 @@ The list only shows activities that have **no instructor yet**, on courses that 
 
 The activity now has no instructor. It will show on **My dashboard** under **Activities with no instructor** until you assign someone else.
 
+::: info Activities in other departments
+An instructor can also teach for a sister department. Those activities appear in the same table, but only the head of the department that offers the course can unassign them.
+:::
+
 ## Edit an instructor
 
 1. Open the instructor, then click **Edit**. Or click **Edit** in the list.
