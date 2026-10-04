@@ -127,7 +127,7 @@ If you lead more than one department, or you want to look at another department,
 
 ## Use Telegram
 
-Connect your account to the APD Telegram bot to get your notifications there too, including the Saturday feedback reminder, course approval results and head access decisions. See [Connect Telegram](/1-introduction/common-features#connect-telegram) for how to link it.
+Connect your account to the APD Telegram bot to get your notifications there too, including the Monday report (pending feedback and how each ongoing course is performing), course approval results and head access decisions. See [Connect Telegram](/1-introduction/common-features#connect-telegram) for how to link it.
 
 In the bot, type:
 
