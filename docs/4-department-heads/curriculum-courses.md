@@ -138,8 +138,16 @@ APD shows a message such as **Imported 1 Curriculum Course (activities included 
 
 ## Export curriculum courses to a file
 
-1. On the **Curriculum Courses** page, click the **Export all (CSV)** button (the download icon next to the import button).
-2. Your browser saves a `.csv` file with every curriculum course of the department.
+1. On the **Curriculum Courses** page, click the **Export** button (the download icon next to the import button). A menu opens.
+2. Choose a format:
+   - **CSV**: plain text. Opens in Excel, LibreOffice or Google Sheets.
+   - **Excel workbook** (`.xlsx`): one sheet, ready to sort and filter.
+   - **PDF**: ready to print or share.
+3. Your browser saves a file with every curriculum course of the department.
+
+::: tip Import the file again
+The **CSV** file has the same columns as the catalog CSV import, so you can change it and upload it again. The Excel file can't be imported: the Excel import uses its own workbook template.
+:::
 
 ![The Export all (CSV) button marked in red](/screenshots/department-heads/p-curriculum-export.png)
 

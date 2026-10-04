@@ -52,11 +52,15 @@ Use the buttons above the list.
 Students who are **informants** report every week if each class was held and how long it was. APD adds these reports up. If informants do not report, the score stays low. See [Students and enrollments](./students-and-enrollments).
 :::
 
-## Download the list (Export CSV)
+## Download the list (Export)
 
 1. Set the filters you want (status, measure and search).
-2. Click the **Export CSV** button (the small download icon at the right).
-3. Your browser saves a `.csv` file. Open it in Excel, LibreOffice or Google Sheets.
+2. Click the **Export** button (the small download icon at the right). A menu opens.
+3. Choose a format:
+   - **CSV**: plain text. Opens in Excel, LibreOffice or Google Sheets.
+   - **Excel workbook** (`.xlsx`): one sheet, ready to sort and filter.
+   - **PDF**: ready to print or share.
+4. Your browser saves the file.
 
 The file lists the courses you see on screen, with these columns: course name, code, status, number of activities, qualitative score, reported (sessions, %), progress for the measure you chose, start date and end date.
 

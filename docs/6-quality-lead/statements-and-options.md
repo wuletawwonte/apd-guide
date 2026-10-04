@@ -95,10 +95,16 @@ Students' answers are the survey's history. Once students have answered a statem
 
 ## Download all statements (export)
 
-You can save all statements and options as a CSV file. Use it as a backup, or to edit many statements in Excel.
+You can save all statements and options as a CSV, Excel or PDF file. Use the CSV or Excel file as a backup, or to edit many statements at once. Use the PDF to print or share the survey.
 
-1. On the **Statements** tab, click **Export CSV** at the top right.
-2. Your browser saves `survey_statements_export.csv`.
+1. On the **Statements** tab, click **Export** at the top right. A menu opens.
+2. Choose a format:
+   - **CSV**: plain text. Opens in Excel, LibreOffice or Google Sheets.
+   - **Excel workbook** (`.xlsx`): one sheet, ready to sort and filter.
+   - **PDF**: ready to print or share.
+3. Your browser saves a file named like `survey-statements-2026-10-05.xlsx`.
+
+The CSV and Excel files have the same columns as the import, so you can upload them again as they are.
 
 ![The Export CSV and Import from Excel buttons on the Statements tab](/screenshots/quality-lead/statements-header.png)
 
@@ -135,7 +141,7 @@ If students have already answered the survey, you cannot replace the statements.
 :::
 
 ::: tip Edit many statements at once
-1. Export all statements (CSV).
+1. Export all statements as **CSV** or **Excel workbook**.
 2. Change the file in Excel.
 3. Import it with **Replace all existing statements** ticked.
 

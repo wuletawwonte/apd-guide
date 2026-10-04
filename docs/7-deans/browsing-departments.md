@@ -75,15 +75,19 @@ the course has.
 
 ![The Overview tab with the bar chart and the course status ring chart](/screenshots/deans/department-overview-charts.png)
 
-## How to download the course list (CSV)
+## How to download the course list
 
 1. Open **Overview** and stay on the **Courses** tab.
 2. Choose the filters you want (for example **Ongoing** and **Hour**). The download uses the same filters.
-3. Click the **download** button on the right, next to the search box.
+3. Click the **download** button on the right, next to the search box. A menu opens.
 
    ![The download button on the Overview page](/screenshots/deans/overview-export-button.png)
 
-4. Your browser saves a CSV file. Open it with Excel, LibreOffice or Google Sheets.
+4. Choose a format:
+   - **CSV**: plain text. Opens in Excel, LibreOffice or Google Sheets.
+   - **Excel workbook** (`.xlsx`): one sheet, ready to sort and filter.
+   - **PDF**: ready to print or share.
+5. Your browser saves the file.
 
 ## How to look at one course
 

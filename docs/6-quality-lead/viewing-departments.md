@@ -117,7 +117,7 @@ The activities share out the course's **Expected hours**; they can't add up to m
 - **Edit:** click **Edit** on the row.
 - **Delete:** click **Delete** on the row and confirm. APD refuses to delete a curriculum course whose courses already have reports, feedback or survey answers, or whose courses are submitted to you or approved. See [Curriculum courses](../4-department-heads/curriculum-courses#delete-a-curriculum-course).
 - **Import:** click the **import** icon next to **New curriculum course**. Download the example template, fill it in, and upload it.
-- **Export:** click the **download** icon (**Export all (CSV)**). The file has every curriculum course of the department.
+- **Export:** click the **download** icon (**Export**) and choose **CSV**, **Excel workbook** or **PDF**. The file has every curriculum course of the department.
 
 ::: warning Talk to the department head first
 Running courses are built from the curriculum. Before you rename or delete a curriculum course, agree the change with the department head.

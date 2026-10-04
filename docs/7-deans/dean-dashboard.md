@@ -43,6 +43,20 @@ students reported 30 hours, the course is at 75%.
 - **Check for a missing head.** A dash in **Head** means nobody is managing the department in APD.
   Ask your academy administrator to assign a head.
 
+## Download the dashboard as a file
+
+You can save the table as a CSV, Excel or PDF file, for example to share it in a meeting.
+
+1. Open the **Dean dashboard**.
+2. Click **Export** at the top right of the table. A menu opens.
+3. Choose a format:
+   - **CSV**: plain text. Opens in Excel, LibreOffice or Google Sheets.
+   - **Excel workbook** (`.xlsx`): one sheet, ready to sort and filter.
+   - **PDF**: ready to print or share.
+4. Your browser saves a file named like `dean-dashboard-2026-10-05.pdf`.
+
+The file has one row per department: head, courses, ongoing courses, average hourly, reported and qualitative scores, and the High, Medium and Low course counts.
+
 ## How to open a department from the dashboard
 
 1. Find the department row.
