@@ -81,11 +81,15 @@ The **Follow-ups** page lists every follow-up in the academy, including those se
 
 ## Download the dashboard as a file
 
-You can save the table as a CSV file. You can open it in Excel or Google Sheets.
+You can save the table as a CSV, Excel or PDF file.
 
 1. Open the **Quality office dashboard**.
-2. Click **Export CSV** at the top right of the table.
-3. Your browser saves a file named like `quality-office-dashboard-2026-09-27.csv`.
+2. Click **Export** at the top right of the table. A menu opens.
+3. Choose a format:
+   - **CSV**: plain text. Opens in Excel, LibreOffice or Google Sheets.
+   - **Excel workbook** (`.xlsx`): one sheet, ready to sort and filter.
+   - **PDF**: ready to print or share.
+4. Your browser saves a file named like `quality-office-dashboard-2026-09-27.pdf`.
 
 ![The Export CSV button on the quality office dashboard](/screenshots/quality-lead/dashboard-export.png)
 
