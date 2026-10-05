@@ -96,6 +96,7 @@ export default defineConfig({
           { text: 'Students', link: '/5-academy-admins/students' },
           { text: 'Announcements', link: '/5-academy-admins/announcements' },
           { text: 'Academy settings', link: '/5-academy-admins/academy-settings' },
+          { text: 'Audit log', link: '/5-academy-admins/audit-log' },
           { text: 'Head access requests', link: '/5-academy-admins/head-access-requests' },
         ],
       },

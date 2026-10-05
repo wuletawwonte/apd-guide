@@ -42,6 +42,8 @@ Some academies let staff sign in with their university Microsoft (Outlook) accou
 
 ::: warning
 Microsoft sign-in works only if your APD account uses the **same email** as your Microsoft account. If you see "No APD user account matches your Microsoft email address", ask your academy admin to check your email in APD.
+
+If you signed up yourself and have not confirmed your email yet, signing in with Microsoft confirms it. APD then shows **Your email is confirmed. To sign in without Microsoft, use Forgot password to set a new password.**
 :::
 
 ## Forgot your password?
@@ -63,6 +65,7 @@ Microsoft sign-in works only if your APD account uses the **same email** as your
 | **Invalid email or password** | Check the email for typing mistakes. Check that Caps Lock is off. Try **Forgot password?**. |
 | **This account belongs to … Please sign in at …** | Your account is in another academy. Open the address shown in the message. |
 | **Your account has been deleted** | Your account was turned off. Ask your academy admin. |
+| **You have to confirm your email address before continuing.** | You signed up yourself and have not confirmed your email. Open the email **Confirm your APD account**, or click **Didn't get the confirmation email?** on the sign-in page. See [Confirm your email](./setup-account#how-to-confirm-your-email). |
 
 ## Sign out
 

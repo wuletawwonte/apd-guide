@@ -13,8 +13,8 @@ Education quality leads. Deans use the same **Department** menu to view departme
 | **Home** | See the department summary and courses that still need weekly feedback. |
 | **Overview** | See performance and survey results for every course. Download them. |
 | **Courses** | Open any course and read its activities, weeks and details. |
-| **Students** | See the department's students. |
-| **Instructors** | See the department's instructors. |
+| **Students** | See the department's students. Give a student a temporary password. |
+| **Instructors** | See the department's instructors. Give an instructor a temporary password. |
 | **Curriculum Courses** | **Add, edit, delete, import and export** curriculum courses and their activities. |
 | **Activity Types** | **Add, edit and delete** activity types (for example Lecture, Laboratory). |
 
@@ -133,6 +133,25 @@ Activity types are the kinds of teaching a department uses, such as **Lecture (L
 4. Use the search box to find a type by name or code.
 
 ![Activity types list of a department](/screenshots/quality-lead/activity-types.png)
+
+## Give a temporary password
+
+Use this when a student or instructor cannot sign in and cannot get the password reset email, for example because their email does not work.
+
+1. Open the department, then **Students** or **Instructors**.
+2. Open the person.
+3. Click **Set temporary password**.
+4. Read the message and click **Confirm**. Their current password stops working, and they are signed out on every device.
+5. In the **Temporary password for** window, click **Copy**.
+6. Give the password to the person in person or by phone, then click **Done**.
+
+![The Set temporary password button on an instructor's page](/screenshots/quality-lead/set-temporary-password.png)
+
+The password is shown **only once**. When the person signs in with it, APD asks them to choose their own password.
+
+::: info Who you can do this for
+Students, and staff who have no academy-wide role. You cannot do it for an academy admin, dean, president or another quality lead, or for your own account. Every temporary password is recorded in the academy's audit log.
+:::
 
 ## Common questions
 

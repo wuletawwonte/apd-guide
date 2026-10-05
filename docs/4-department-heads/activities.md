@@ -66,7 +66,7 @@ An activity has three tabs:
 
 ## Assign an instructor
 
-Every activity should have an instructor so the right person gets the performance feedback. Your dashboard lists running activities that have none under **Activities with no instructor**.
+Every activity should have an instructor, so everyone knows who teaches it and the right person gets the performance feedback. Your dashboard lists running activities that have none under **Activities with no instructor**.
 
 1. Open the activity and click the **Activity details** tab.
 2. Next to **Instructor** (it says **Not assigned**), click the **+** button.
@@ -83,11 +83,39 @@ The instructor's name now shows on the details tab.
 The list shows staff from **every department** in your academy, grouped by department, with your own department first. For a course taught by an instructor from a sister department, choose them under their department's name. Don't create a second account for them.
 
 If a person is missing from the list, their department head or the academy admin needs to add them first. See [Instructors](./instructors).
+
+For an instructor from **another college**, see the next section.
+:::
+
+## Assign an instructor from another college
+
+Some courses are taught by instructors from other colleges, for example a service course your students take from another faculty. These instructors have no account in your academy, so they are not in the staff list. Add them as a **guest** instead.
+
+1. Open the activity and click the **Activity details** tab.
+2. Next to **Instructor**, click the **+** button.
+3. In the **Assign instructor** window, open **Instructor from another college?**.
+4. Type the instructor's full name.
+5. Choose their college from the list. You can also add their email and phone number.
+6. Click **Assign instructor**.
+
+![The Assign instructor window with a guest from another college filled in](/screenshots/department-heads/c-assign-guest-instructor.png)
+
+The details tab shows the guest's name, **Guest from** their college, and their contact details.
+
+![Activity details with a guest instructor from another college](/screenshots/department-heads/c-activity-guest-instructor.png)
+
+You add each guest only once. For your department's other activities, choose them from the list under **Guests from other colleges**.
+
+::: tip Good to know
+- Guests have no APD account. They cannot sign in, and they get no notifications or emails.
+- Informant students still report class sessions for the activity, and you still give its weekly feedback as usual.
+- The college list shows the other colleges of your university that use APD. If the instructor's college is not in the list, contact your academy admin. If your academy has no other colleges in APD, you type the college name instead.
+- If you fill in the guest fields and also choose someone in the list above, APD assigns the new guest.
 :::
 
 ### Remove or change the instructor
 
-1. On the **Activity details** tab, click the red **−** button next to the instructor's name.
+1. On the **Activity details** tab, click the red **−** button next to the instructor's name. This works the same for staff and guests.
 2. Click **Unassign** to confirm.
 3. To give the activity to someone else, click **+** again and choose the new person.
 
@@ -135,6 +163,9 @@ You cannot add, edit or delete activities in a course that has **passed**, is **
 :::
 
 ## Common questions
+
+**An instructor from another college teaches our course. Should I create an account for them?**
+No. Add them as a guest. See [Assign an instructor from another college](#assign-an-instructor-from-another-college).
 
 **Why is the New activity button missing?**
 The course has no curriculum activities yet, or the course has passed. Add curriculum activities first, or check the course status.

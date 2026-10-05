@@ -40,7 +40,7 @@ low hourly % may mean missing reports rather than missed classes.
 
 ## The weekly email report
 
-Every **Monday at 8:00 in the morning**, APD sends you an email with this week's figures for every
+Every **Monday morning**, APD sends you an email with this week's figures for every
 academy. The email is **on** by default.
 
 ![A sample weekly email report](/screenshots/presidents/weekly-email-sample.png)
@@ -77,7 +77,7 @@ Check that the switch is on. Look in your spam or junk folder. The email is not 
 has no active academies.
 
 **Can other people get the weekly email?**
-The weekly email is only for the president. You can forward it, or download the PDF and share it.
+This email, with every academy's figures, is only for the president. You can forward it, or download the PDF and share it. Quality offices and department heads get their own Monday report about their academy or department.
 
 **Do the report numbers change after I download them?**
 No. The file keeps the numbers from the moment you downloaded it. The dashboard always shows the latest

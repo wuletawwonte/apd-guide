@@ -74,7 +74,7 @@ Each department also has its own **Maximum year level** (see [Departments](./dep
 
 Choose **Enabled** or **Disabled**. This decides whether students and staff can create their own accounts.
 
-- **Enabled**: the sign-in page shows a **Sign up** link. New accounts appear under [Users](./staff-users) and [Students](./students). Check them regularly.
+- **Enabled**: the sign-in page shows a **Sign up** link. People who sign up must confirm their email before they can sign in. New accounts appear under [Users](./staff-users) and [Students](./students), marked **Awaiting email confirmation** until they confirm. Sign-ups not confirmed within 7 days are deleted automatically. Check new accounts regularly.
 - **Disabled**: the **Sign up** link is hidden. Department heads and admins create every account.
 
 ## Common questions

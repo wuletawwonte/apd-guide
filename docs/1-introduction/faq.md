@@ -13,6 +13,9 @@ Find your problem below. If it is not here, contact your department office or ac
 **I did not get the password reset email.**
 Wait a few minutes and check your **spam** or **junk** folder. Make sure you typed the email that is in APD. If nothing arrives, ask your academy admin to reset your password.
 
+**I signed up but cannot sign in. It says I have to confirm my email.**
+Open the email **Confirm your APD account** and click **Confirm my account**. Check your spam or junk folder. If it is not there, click **Didn't get the confirmation email?** on the sign-in page to get a new link. The link works for 3 days, and sign-ups not confirmed within 7 days are deleted. See [Confirm your email](../2-students/setup-account#how-to-confirm-your-email).
+
 **I see "This academy could not be found".**
 The address is wrong. Check the spelling, or open **https://apd.et**, click **Academies**, and choose yours.
 

@@ -14,6 +14,10 @@ Every activity (for example a lecture or a lab) should have one instructor. When
 - The instructor can read the weekly **performance feedback** you give for that activity.
 - The activity disappears from the **Activities with no instructor** card on **My dashboard**.
 
+::: tip Instructors from other colleges
+Don't add an instructor from another college here. Add them as a guest on the activity instead. Guests don't appear in this list. See [Assign an instructor from another college](./activities#assign-an-instructor-from-another-college).
+:::
+
 ## Find an instructor
 
 1. In the menu, click **Instructors**.

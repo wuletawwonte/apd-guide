@@ -42,7 +42,7 @@ One person can have **more than one role**. For example, a department head can a
 | Approve department head requests | — | — | — | ✅ | ✅ | — | — |
 | Create departments | — | — | — | ✅ | — | — | — |
 | Add instructors and students to a department | — | — | ✅ own dept. | ✅ | — | — | — |
-| Reset passwords of staff and students | — | — | — | ✅ | — | — | — |
+| Reset passwords of staff and students | — | — | — | ✅ | ✅ temporary password only | — | — |
 | Publish announcements | — | — | — | ✅ | — | — | — |
 | Change academy settings | — | — | — | ✅ | — | — | — |
 | See all academies of the university | — | — | — | — | — | — | ✅ |

@@ -37,7 +37,7 @@ The menu on the left has two parts.
   - **Quality office dashboard** — the summary of all departments.
   - **Course approvals** — courses waiting for your decision. A number shows how many are waiting.
   - **Head access requests** — staff asking for department head access. A number shows how many are waiting.
-  - **Follow-ups** — what you asked department heads to look into, and their replies.
+  - **Follow-ups** — your conversations with department heads about things to look into. A blue number shows how many are waiting for your reply.
   - **Qualitative analysis** — the student feedback survey.
 
 At the top right you find the search box, the help menu (**?**, with **What's new**, the user guide and **Send feedback**), your **notifications** (the bell) and your account menu (**My Profile**, **Change Password**, the **Theme** switch, **Logout**). See [Features every staff member uses](/1-introduction/common-features).
@@ -67,7 +67,7 @@ A low **Avg hourly %** means classes are being missed, unless **Avg reported %**
 
 ## Ask a department head to follow up
 
-When a department or a course needs attention, ask its head to look into it. The head sees the request at the top of their dashboard and resolves it with a reply.
+When a department or a course needs attention, ask its head to look into it. A follow-up is a **conversation**: the head replies, you can answer back, and either of you resolves it when the matter is done.
 
 1. In the left menu, click **Follow-ups**, then click **New follow-up**.
 2. Under **Which department should look into it?**, choose the department and click **Continue**.
@@ -77,7 +77,7 @@ When a department or a course needs attention, ask its head to look into it. The
 4. In **What should the head look into?**, say what you noticed and what you want to know.
 5. Click **Send follow-up**.
 
-The **Follow-ups** page lists every follow-up in the academy, including those sent by the dean and the president. The **Open** tab shows the ones still waiting for a reply, **Resolved** shows the answered ones with the head's reply, and **All** shows both. The **Follow-ups** button at the top right of the dashboard opens the same page; its badge shows how many are open. For more detail, see [the dean's guide](../7-deans/dean-dashboard#ask-a-department-head-to-follow-up): it works the same way.
+The **Follow-ups** page lists every follow-up in the academy, including those sent by the dean and the president. It has four tabs: **Waiting on you** (the head replied to one of yours, so it is your turn), **Open**, **Resolved** and **All**. Click a follow-up to open the conversation. Write in the box and click **Send reply**, or click **Resolve** when the matter is done. The **Follow-ups** button at the top right of the dashboard opens the same page; its badge shows how many are open. For more detail, see [How to reply to or resolve a follow-up](../7-deans/dean-dashboard#how-to-reply-to-or-resolve-a-follow-up) in the dean's guide: it works the same way.
 
 ## Download the dashboard as a file
 
@@ -91,7 +91,32 @@ You can save the table as a CSV, Excel or PDF file.
    - **PDF**: ready to print or share.
 4. Your browser saves a file named like `quality-office-dashboard-2026-09-27.pdf`.
 
-![The Export CSV button on the quality office dashboard](/screenshots/quality-lead/dashboard-export.png)
+![The Export menu on the quality office dashboard with CSV, Excel workbook and PDF](/screenshots/quality-lead/dashboard-export.png)
+
+## The Monday email report
+
+Every **Monday morning**, APD emails you this week's performance for every department of your academy. The email is **on** by default. Its subject is like **Weekly department performance: Institute of Technology (Oct 5, 2026)**.
+
+The email shows:
+
+- the number of ongoing courses, with the average hourly, reported and qualitative scores for the academy, and
+- one block per department: its head, ongoing courses, **Avg hourly**, **Reported**, **Avg qualitative**, and how many courses are **High**, **Med** and **Low**. Each department has a link to its course analytics in APD.
+
+![A sample Monday email report for the quality office](/screenshots/quality-lead/weekly-email-sample.png)
+
+## How to turn the weekly email off or on
+
+1. Open the **Quality office dashboard**.
+2. Click the **⋯** (More options) button, next to **Export**.
+3. Under **Preferences**, click the **Weekly email report** switch.
+
+   When it is on, it shows the day and the email address it sends to. When it is off, it says **Off. You won't get the Monday email.**
+
+   ![The Weekly email report switch in the More options menu](/screenshots/quality-lead/weekly-email-switch.png)
+
+4. The change saves at once and you see **Saved.** in green.
+
+The email goes to the email address of your APD account.
 
 ## Notes you may see on the dashboard
 
@@ -103,7 +128,7 @@ You also get a notification (the bell, an email, and a Telegram message if you c
 
 - a department head submits a course for approval,
 - someone asks for department head access, and
-- a department head resolves one of your follow-ups.
+- a department head replies to or resolves one of your follow-ups.
 
 ## Use Telegram
 
