@@ -20,7 +20,7 @@ Click the eye icon at the end of the **Password** box to see what you typed. Thi
 
 ### Sign in with Microsoft
 
-Some academies also show a **Sign in with Microsoft** button under the form. If you see it, you can use your university Microsoft (Outlook) account. It only works when your APD email is the same as your Microsoft email.
+Some academies also show a **Sign in with Microsoft** button under the form. If you see it, you can use your university Microsoft (Outlook) account. It only works when your APD email is the same as your Microsoft email. If you signed up yourself and have not confirmed your email yet, signing in with Microsoft confirms it.
 
 ## Forgot your password?
 
@@ -33,7 +33,7 @@ Some academies also show a **Sign in with Microsoft** button under the form. If 
 ![The Forgot your password page](/screenshots/students/forgot-password.png)
 
 ::: warning No email on your account?
-The reset link goes to your email only. If you never had a working email, ask your department office to reset your password.
+The reset link goes to your email only. If you never had a working email, ask your academy admin or the quality office for a temporary password.
 :::
 
 ## How to sign out
@@ -48,6 +48,8 @@ Always sign out on shared or public computers.
 ## Common questions
 
 **It says my username or password is wrong.** Check that you are on your own academy's address. Each academy has its own address and its own accounts. Then check your ID number for typing mistakes, including the `/` characters.
+
+**It says "You have to confirm your email address before continuing."** You signed up yourself and have not confirmed your email yet. Open the email **Confirm your APD account** and click **Confirm my account**. Lost it? Click **Didn't get the confirmation email?** on the sign-in page. See [Confirm your email](./setup-account#how-to-confirm-your-email).
 
 **I signed in but see the staff pages.** Your account was created as a staff account. Ask your department to fix it.
 

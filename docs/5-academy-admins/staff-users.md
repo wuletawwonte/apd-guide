@@ -1,6 +1,6 @@
 # Staff users
 
-Staff users are everyone who is not a student: instructors, department heads, quality leads, deans and admins. On this page you add staff accounts, give roles, reset passwords and close accounts.
+Staff users are everyone who is not a student: instructors, department heads, quality leads, deans and admins. On this page you add staff accounts, give roles, reset passwords, give temporary passwords and close accounts.
 
 ::: tip Who can do this
 Academy admins. (Department heads can also add instructors to their own department.)
@@ -43,11 +43,19 @@ Your own account is not in this list. To change your own name, photo or password
 What happens next:
 
 1. APD creates the account with a **temporary password**.
-2. APD emails the person their email address and temporary password.
+2. APD emails the person their email address, their temporary password and their roles.
 3. The first time they sign in, APD asks them to choose a new password.
 
+People you give an academy-wide role (**Education quality lead**, **Academy dean** or **Academy admin**) also get a notification in APD, for example **You have been granted the Dean role in APD.** The same happens when you add one of these roles to an existing account later. Existing accounts also get an email and, if connected, a Telegram message.
+
 ::: tip The person did not get the email?
-Ask them to check their spam folder. Then open their account and use **Account → Reset password** to send a new link.
+Ask them to check their spam folder. Then open their account and use **Account → Email reset link** to send a new link, or [give them a temporary password](#give-someone-a-temporary-password).
+
+If the email could not be sent at all, APD still creates the account and tells you: **… was created, but the sign-in email to … could not be sent. Use Set temporary password to give them a password.**
+:::
+
+::: info Email addresses
+An email needs a full domain, for example `name@amu.edu.et`. An address like `name@amu` is refused with **Email is invalid**.
 :::
 
 ## Roles explained
@@ -95,13 +103,55 @@ If the person is a department head, the **Department head** box is ticked and gr
 Use this when someone forgets their password or never received the welcome email.
 
 1. Open the user.
-2. Click **Account**, then **Reset password**.
-3. Click **OK** to confirm.
+2. Click **Account**, then **Email reset link**.
+3. Click **Confirm**.
 
-APD emails the person a link to choose a new password. You never see or set their password yourself.
+APD emails the person a link to choose a new password. You never see their password.
 
 ::: tip
 People can also reset their own password with **Forgot your password?** on the sign-in page.
+:::
+
+## Give someone a temporary password
+
+Use this when the person cannot get the reset email, for example because their email does not work. You see a new password once and share it with them yourself.
+
+1. Open the user.
+2. Click **Account**, then **Set temporary password**.
+3. Read the message and click **Confirm**. The person's current password stops working, and they are signed out on every device.
+4. APD shows the window **Temporary password for** the person. Click **Copy** to copy the password.
+5. Give the password to the person in person or by phone. Then click **Done**.
+
+![The Temporary password window with the Copy button](/screenshots/admins/temporary-password.png)
+
+The password is shown **only once**. When the person signs in with it, APD asks them to choose their own password.
+
+::: info
+- You cannot set a temporary password for your own account, a deactivated account, or a president's account.
+- Setting a temporary password also confirms an account that is [awaiting email confirmation](#a-sign-up-is-awaiting-email-confirmation).
+- Every temporary password you set is recorded in the [Audit log](./audit-log).
+:::
+
+## A sign-up is awaiting email confirmation
+
+People who sign up themselves must confirm their email before they can sign in. Until they do:
+
+- In the **Users** list, a yellow **Awaiting email confirmation** label shows under their name.
+- On their page, a message says they signed up but have not confirmed their email yet.
+- They are not counted in reports and dashboard numbers.
+
+![A staff user's page with the Awaiting email confirmation message](/screenshots/admins/user-awaiting-confirmation.png)
+
+If the person cannot find the email:
+
+1. Open the user.
+2. Click **Account**, then **Resend confirmation**.
+3. Click **Confirm**. APD shows **Sent a new confirmation link to** their email.
+
+Or [give them a temporary password](#give-someone-a-temporary-password): this confirms the account too.
+
+::: warning
+Sign-ups that are not confirmed within **7 days** are deleted automatically. The person can then sign up again with the same email.
 :::
 
 ## Deactivate a staff user
@@ -151,7 +201,7 @@ The president of your university can see every academy of the university. Their 
 ## Common questions
 
 **A new staff member signed up themselves. Do I need to do anything?**
-Check their account: make sure the **Department** is correct and add any roles they need.
+Check their account: make sure the **Department** is correct and add any roles they need. If it shows **Awaiting email confirmation**, they have not confirmed their email yet. See [A sign-up is awaiting email confirmation](#a-sign-up-is-awaiting-email-confirmation).
 
 **Someone says they are a new department head. What do I do?**
 Either [attach them](./departments#attach-a-department-head) on the department page, or ask them to send a head access request from their profile and then [grant it](./head-access-requests).

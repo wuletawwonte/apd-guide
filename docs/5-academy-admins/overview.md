@@ -14,10 +14,11 @@ Staff who have the **Academy admin** role. If you do not see **Administration** 
 |------|-------------------|------|
 | **Dashboard** | See the health of your academy and what needs attention. | This page |
 | **Departments** | Add and edit departments. Attach or detach the department head. | [Departments](./departments) |
-| **Users** | Add staff accounts, give roles, reset passwords, deactivate accounts. | [Staff users](./staff-users) |
-| **Students** | Add student accounts, reset passwords, deactivate accounts. | [Students](./students) |
+| **Users** | Add staff accounts, give roles, reset passwords, give temporary passwords, deactivate accounts. | [Staff users](./staff-users) |
+| **Students** | Add student accounts, reset passwords, give temporary passwords, deactivate accounts. | [Students](./students) |
 | **Announcements** | Show messages to all staff or to chosen groups. | [Announcements](./announcements) |
 | **Settings** | Change academy-wide values such as the date format. | [Academy settings](./academy-settings) |
+| **Audit log** | See who changed accounts, roles, passwords, departments and settings, and who decided courses and requests. | [Audit log](./audit-log) |
 | Head access requests | Confirm or decline staff who say they head a department. | [Head access requests](./head-access-requests) |
 
 ## Open the admin area

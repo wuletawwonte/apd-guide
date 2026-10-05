@@ -151,7 +151,9 @@ Besides the date status, a course moves through an approval process with the qua
 | Banner | What it means | What you do |
 |---|---|---|
 | *(no banner)* | The course is **open**. You are still running it. | Keep giving weekly feedback. |
-| Grey **Not ready to close yet** | Some past weeks still have no performance feedback. | Give feedback on those weeks. |
+| **Not ready to close yet** | The course is still running. **Close & submit** unlocks once it has ended. | Keep giving weekly feedback. |
+| **Nothing to submit yet** | The course has no activity with delivered weeks. | Check its activities and weeks. |
+| **Some weeks have no feedback** | The course has ended, but some past weeks have no performance feedback. If you submit now, the quality office sees them as not reported. | Give the missing feedback, or submit as it is. |
 | Blue **Submitted for approval** | You closed the course. It is waiting for the quality office. | Wait for their decision. |
 | Yellow **Returned by the quality office** | The quality office sent it back. The banner shows their reason. | Fix the problem, then submit again. |
 | Green **Archived** | The quality office approved it. It is now read-only. | Nothing. The record is final. |

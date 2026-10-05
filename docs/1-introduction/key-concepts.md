@@ -41,7 +41,7 @@ APD uses a few special words. Learn them once, and the rest of the guide will be
 | **Statement** | One question in the qualitative survey. Each statement has answer **options**. |
 | **Checkpoint** | A moment in the course when students answer the survey, for example at 25%, 50% and 75% of the course. |
 | **Last 6 weeks** (trend) | On the dean, quality office and president dashboards: a small line of weekly delivery (hours delivered against hours planned) over the last six weeks, with last week's change from the week before in points, for example **▲ +8 pts**. |
-| **Follow-up** | A request from the dean, the quality office or the president asking a department head to look into their department or one course. The head resolves it with a reply, which goes back to the person who asked. |
+| **Follow-up** | A request from the dean, the quality office or the president asking a department head to look into their department or one course. It is a conversation: the head and the person who asked reply to each other until the matter is done, and then it is resolved. Each reply notifies the other side. |
 
 ## Status words
 

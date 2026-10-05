@@ -9,7 +9,7 @@ You can also create your own staff account.
 You need:
 
 - Your academy's APD address, for example `https://yourcollege.apd.et`. Ask your department if you do not know it.
-- Your work email address.
+- Your work email address. APD sends a confirmation link there. The address must be complete, for example `name@amu.edu.et`.
 
 ## How to sign up
 
@@ -25,9 +25,30 @@ You need:
 
 ![The Create your account form with Staff selected under Register as](/screenshots/instructors/sign-up-staff.png)
 
+APD takes you back to the sign-in page with the message **A message with a confirmation link has been sent to your email address.** You cannot sign in until you confirm your email.
+
+## How to confirm your email
+
+1. Open your email and find the message **Confirm your APD account**. Check your spam or junk folder if it is not in your inbox.
+2. Click **Confirm my account**.
+3. On the **Confirm your account** page, type the **Password** you chose when you signed up.
+4. Click **Confirm and sign in**.
+
+![The Confirm your account page](/screenshots/instructors/confirm-account.png)
+
+APD signs you in and shows **Your email address has been successfully confirmed.**
+
+::: warning Confirm within 3 days
+The link works for **3 days**. Sign-ups that are not confirmed within **7 days** are deleted, and you need to sign up again.
+:::
+
+- Forgot the password you chose? Click **Reset it** on the **Confirm your account** page. Setting a new password confirms your account too.
+- **Sign in with Microsoft** (if your academy uses it) also confirms your account.
+- Lost the email, or the link expired? On the sign-in page, click **Didn't get the confirmation email?**, type your **Email** and click **Resend confirmation email**.
+
 ## What happens next
 
-- APD signs you in straight away and opens your department home page.
+- After you confirm, APD opens your department home page.
 - Your new account has the **Regular user** (instructor) role. You can view department information.
 - Your department head can now add you to activities as the instructor.
 - If you are a **department head**, [request department head access](./request-department-head-access) after you sign in.
@@ -39,6 +60,8 @@ Each academy has its own address. An account made on one academy's address does 
 
 ## Common questions
 
-**It says my email is already taken.** You already have an account. Use **Forgot password?** on the sign-in page to set a new password.
+**It says my email is already taken.** You already have an account. Use **Forgot password?** on the sign-in page to set a new password. If you signed up but never confirmed, click **resend the confirmation email** under the message.
+
+**Sign-in says "You have to confirm your email address before continuing."** Open the confirmation email and click **Confirm my account**. See [How to confirm your email](#how-to-confirm-your-email).
 
 **I chose the wrong department.** Once your department is set, you cannot change it yourself. Ask your department head or an academy admin to move you.

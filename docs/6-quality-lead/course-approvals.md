@@ -18,7 +18,7 @@ Education quality leads.
 | 3a. Approved | You | The course is archived. Nobody can change it any more. The head is notified. |
 | 3b. Returned | You | The course opens again. The head sees your reason and fixes the problem, then submits again. |
 
-A head can only submit a course that has **ended**, has at least one activity with delivered weeks, and has performance feedback for **every** past week. APD checks the same rules again when you approve.
+A head can only submit a course that has **ended** and has at least one activity with delivered weeks. Past weeks without performance feedback are submitted as **not reported**. APD checks the same rules again when you approve.
 
 ## Open the approval list
 
@@ -32,7 +32,7 @@ A head can only submit a course that has **ended**, has at least one activity wi
 | **Course** | The course name and group. Click it to open the course's performance (analytics). **Course details** under it opens the course page. |
 | **Department** | The department that owns the course. |
 | **Ends** | The course end date. An orange **Still running** badge means the course has not ended yet. |
-| **Weeks reviewed** | How many past weeks have performance feedback, for example **12 of 12**. Green means every week has feedback; orange means some are missing. An orange **No delivered weeks** badge means the course has no activity with past weeks, so there is nothing to review. |
+| **Weeks reviewed** | How many past weeks have performance feedback, for example **12 of 12**. Green means every week has feedback. Orange means some are missing, and a line under it says how many, for example **2 not reported**. An orange **No delivered weeks** badge means the course has no activity with past weeks, so there is nothing to review. |
 | **Submitted** | The department head who submitted it, and the date. |
 | **Decision** | **Approve** or **Return**. |
 
@@ -66,7 +66,7 @@ After approval, nobody can edit the course, its activities or its weekly records
 
 ### When Approve is grey
 
-**Approve** is greyed out when the course does not meet the rules, for example it has not ended yet or some past weeks have no feedback. Point at the button to see why. Return the course instead, so the head can fix it.
+**Approve** is greyed out when the course does not meet the rules: it has not ended yet, or it has no delivered weeks. Weeks without feedback do not block approval; decide whether to approve them as not reported or return the course. Point at the button to see why. Return the course instead, so the head can fix it.
 
 ## Return a course
 
@@ -102,7 +102,10 @@ Click a course name to open its analytics.
 ## Common questions
 
 **Can I approve a course that is still running?**
-No. **Approve** stays grey until the course has ended and every past week has feedback. Return it with a note instead.
+No. **Approve** stays grey until the course has ended and has at least one delivered week. Return it with a note instead.
+
+**Some weeks are "not reported". Can I still approve?**
+Yes. The head submitted them without feedback. If you need that feedback, return the course and ask for it.
 
 **Two people from the quality office clicked at the same time. What happens?**
 Only the first decision counts. The second person sees a message that the course **is not awaiting approval**.

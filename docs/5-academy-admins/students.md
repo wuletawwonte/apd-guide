@@ -1,6 +1,6 @@
 # Students
 
-The **Students** page lists every student account in your academy, across all departments. Here you add students, fix their details, reset passwords and close accounts.
+The **Students** page lists every student account in your academy, across all departments. Here you add students, fix their details, reset passwords, give temporary passwords and close accounts.
 
 ::: tip Who can do this
 Academy admins. Department heads can also add and manage students in their own department. Students can also sign up themselves on the sign-in page.
@@ -35,6 +35,8 @@ What happens next:
 2. The student signs in with their **email or ID number** and the temporary password.
 3. APD then asks them to choose a new password.
 
+If the email could not be sent, APD still creates the account and tells you to use **Set temporary password** to give the student a password. See [Give a student a temporary password](#give-a-student-a-temporary-password).
+
 ::: warning Choose the department before you click Save
 If APD shows an error (for example, **Email has already been taken**), the form comes back and the **Department** box is empty again. Pick the department again before you save.
 :::
@@ -60,10 +62,33 @@ The department is chosen only when the student is added. The edit form does not 
 ## Reset a student's password
 
 1. Open the student.
-2. Click **Account**, then **Reset password**.
-3. Click **OK** to confirm.
+2. Click **Account**, then **Email reset link**.
+3. Click **Confirm**.
 
 APD emails the student a link to choose a new password. Students can also use **Forgot your password?** on the sign-in page.
+
+## Give a student a temporary password
+
+Use this when the student cannot get the reset email, for example because their email does not work.
+
+1. Open the student.
+2. Click **Account**, then **Set temporary password**.
+3. Click **Confirm**. The student's current password stops working, and they are signed out on every device.
+4. In the **Temporary password for** window, click **Copy**.
+5. Give the password to the student in person or by phone, then click **Done**.
+
+The password is shown **only once**. The student signs in with their email or ID number and the temporary password, then chooses their own password. Setting a temporary password also confirms an account that is awaiting email confirmation.
+
+## A sign-up is awaiting email confirmation
+
+Students who sign up themselves must confirm their email before they can sign in. Until they do, the **Students** list shows a yellow **Awaiting email confirmation** label under their name, and they are left out of reports and dashboard numbers.
+
+To help a student who cannot find the email:
+
+1. Open the student.
+2. Click **Account**, then **Resend confirmation** and click **Confirm**.
+
+Or [give them a temporary password](#give-a-student-a-temporary-password). Sign-ups not confirmed within **7 days** are deleted automatically.
 
 ## Deactivate a student
 

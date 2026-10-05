@@ -61,8 +61,8 @@ department head, or send a follow-up.
 
 ## Ask a department head to follow up
 
-You can ask the head of any department in your university to look into a problem. The head sees your
-request at the top of their dashboard and answers it with a reply.
+You can ask the head of any department in your university to look into a problem. A follow-up is a
+**conversation**: the head replies, and you can answer back, until the matter is done.
 
 1. Open the department (see above).
 2. Click **Follow up** at the top right.
@@ -71,10 +71,27 @@ request at the top of their dashboard and answers it with a reply.
    *"Delivery has dropped for three weeks and only half the sessions are reported. What is happening?"*
 5. Click **Send follow-up**.
 
-The department head gets a notification in APD and by email. When they resolve it, you get their reply as a
-notification and by email. The **Follow-ups** list at the bottom of the department page shows every
-follow-up for that department (yours and those of the academy's dean and quality office), with an **Open**
-or **Resolved** badge and the head's reply.
+The department head gets a notification in APD and by email. When they reply or resolve it, you get a
+notification and an email.
+
+## How to reply to a follow-up
+
+The **Follow-ups** list at the bottom of the department page shows every follow-up for that department
+(yours and those of the academy's dean and quality office), with the whole conversation and a badge:
+red **Waiting on you**, yellow **Waiting on the department head**, or green **Resolved**.
+
+1. Open the department (see above) and scroll to **Follow-ups**.
+2. Under the follow-up, type in the box (**Reply to the head…**).
+3. Click **Send reply**. The head is notified.
+
+![A follow-up on the president's department page with the reply box](/screenshots/presidents/follow-up-reply.png)
+
+You can reply to a resolved follow-up too (**Reply to open it again…**). Your reply opens it again.
+
+::: info Only the head, the dean or the quality office can resolve
+You can ask and reply, but you cannot mark a follow-up as resolved. The department head, the dean or the
+quality office does that when the matter is done. The page updates by itself when someone replies.
+:::
 
 ## Common questions
 

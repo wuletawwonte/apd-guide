@@ -24,6 +24,15 @@ The profile shows your picture (or your initials), your **ID number**, **Email**
 You cannot change your **ID number** yourself. Ask your department if it is wrong. Keep your **email** correct — password reset links are sent there.
 :::
 
+## Change your email
+
+When you change your **Email** and click **Save changes**, APD does not switch to the new email at once. It shows **Profile updated. We sent a confirmation link to** your new email.
+
+1. Open the new email inbox and find the message **Confirm your new APD email address**.
+2. Click **Confirm my new email**.
+
+APD shows **Your email address has been successfully confirmed.** From now on, sign in with the new email. Until you confirm, you still sign in with your old email, and the **Edit profile** form shows that it is waiting for you. The link works for 3 days.
+
 ::: tip Phone number
 The phone number is optional. If you add one, use the international format, for example `+251911000000`. Each phone number can belong to only one student.
 :::

@@ -81,17 +81,41 @@ When the numbers show a problem, you can ask the department head to look into it
 
 ![The Ask for a follow-up form with The whole department chosen and a note](/screenshots/deans/follow-up-form.png)
 
-The department head gets a notification in APD, by email and on Telegram. The request waits at the top of their dashboard until they resolve it with a reply. When they do, you get their reply as a notification and by email.
+The department head gets a notification in APD, by email and on Telegram. A follow-up is a **conversation**: the head replies, you can answer back, and either of you resolves it when the matter is done. Each reply notifies the other side in APD, by email and on Telegram.
 
 ### See your follow-ups and the replies
 
-1. Click **Follow-ups** in the left menu, or at the top right of the dashboard. On the dashboard, a yellow badge shows how many are still open, for example **2 open**.
-2. The **Follow-ups** page lists every follow-up in your academy. The **Open** tab shows the ones still waiting for a reply, **Resolved** the answered ones, and **All** both. Each shows the department or course, who asked and when, the note, and an **Open** or **Resolved** badge.
-3. A resolved follow-up shows who resolved it and their reply in a grey box.
+1. Click **Follow-ups** in the left menu, or at the top right of the dashboard. On the dashboard, a yellow badge shows how many are still open, for example **2 open**. In the menu, a blue number shows how many are waiting for your reply.
+2. The **Follow-ups** page lists every follow-up in your academy, in four tabs:
 
-![The Follow-ups page with an open and a resolved follow-up](/screenshots/deans/follow-ups-page.png)
+   | Tab | What it shows |
+   |-----|---------------|
+   | **Waiting on you** | Follow-ups you asked for where the head has replied, so it is your turn. |
+   | **Open** | All follow-ups that are not resolved yet. |
+   | **Resolved** | Follow-ups that are done. |
+   | **All** | Everything. |
 
-The quality office and the president also send follow-ups. You see theirs on the same page.
+3. Each row shows the latest message, the question that was asked, who asked, how many replies there are, and a badge: red **Waiting on you**, yellow **Waiting on the department head** (or on the person who asked), or green **Resolved**.
+4. Click a row to open the conversation.
+
+![The Follow-ups page with the Waiting on you, Open, Resolved and All tabs](/screenshots/deans/follow-ups-page.png)
+
+The quality office and the president also send follow-ups. You see theirs on the same page. The page updates by itself when someone replies.
+
+## How to reply to or resolve a follow-up
+
+1. Click **Follow-ups** in the left menu and open the follow-up.
+2. Read the conversation. Your messages are on the right. The **Details** panel shows the status, the department and its head, the course, who asked, and when it was opened.
+3. In the box under the conversation, write a question back, more detail, or what you expect next.
+4. Click **Send reply**. APD shows **Reply sent.** and notifies the department head.
+
+![A follow-up conversation with the reply box and the Resolve and Send reply buttons](/screenshots/deans/follow-up-conversation.png)
+
+When you are happy with the answer, click **Resolve** and confirm. Any text in the box is sent as a last reply. APD shows **Follow-up resolved.**
+
+::: info Opening a follow-up again
+You can reply to a resolved follow-up. Your reply opens it again.
+:::
 
 ## Common questions
 

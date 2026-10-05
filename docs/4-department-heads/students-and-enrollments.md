@@ -52,7 +52,7 @@ What happens next:
 - The student cannot see any course yet. Enroll them in a course, or make them an informant, as shown below.
 
 ::: warning Check the email address
-The temporary password goes to the email you type. If the email is wrong, the student cannot sign in. Fix it with **Edit** and ask the student to use **Forgot your password?** on the sign-in page.
+The temporary password goes to the email you type. If the email is wrong, the student cannot sign in. Fix it with **Edit** and ask the student to use **Forgot your password?** on the sign-in page. If the student has no working email, ask your academy admin or the quality office to give them a temporary password.
 :::
 
 ## See a student's details

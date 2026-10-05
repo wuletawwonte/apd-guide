@@ -41,7 +41,7 @@ The side menu shows the pages your role allows. Everyone sees the **Workspace** 
 | **Activity Types** | Kinds of activities, such as Lecture or Laboratory. |
 | **Qualitative analysis** | The student survey (statements, checkpoints and settings). |
 
-Some roles see more items under **Workspace**, for example **My dashboard** for department heads, and **Follow-ups** for deans and quality leads. Each role's guide explains its extra pages.
+Some roles see more items under **Workspace**, for example **My dashboard** for department heads, and **Follow-ups** for department heads, deans and quality leads. Each role's guide explains its extra pages.
 
 Help, feedback and news about APD are not in the side menu. They are in the [help menu](#the-help-menu) in the top bar.
 
@@ -90,7 +90,7 @@ APD has a light theme and a dark theme.
 
 ## Read your notifications
 
-APD sends you a notification when something needs your attention. Examples: a request waiting for your decision, a course that was approved or sent back, or a reply to your feedback.
+APD sends you a notification when something needs your attention. Examples: a request waiting for your decision, a course that was approved or sent back, a reply to your feedback, or a new role you were given (for example **You have been granted the Dean role in APD.**).
 
 1. Click the bell in the top bar. A coloured dot on the bell means you have unread notifications.
 2. Read the latest notifications in the list. New ones have a **New** label.
@@ -163,8 +163,17 @@ To change your details:
 ![The Edit profile form with Profile photo, Personal information and Department sections](/screenshots/common/edit-profile.png)
 
 ::: warning
-Your email is also your sign-in name. If you change it, use the new email the next time you sign in.
+Your email is also your sign-in name. If you change it, confirm the new email first. See below.
 :::
+
+## Change your email
+
+When you change your **Email** and click **Save changes**, APD does not switch to the new email at once. It shows **Profile updated. We sent a confirmation link to** your new email.
+
+1. Open the new email inbox and find the message **Confirm your new APD email address**.
+2. Click **Confirm my new email**.
+
+APD shows **Your email address has been successfully confirmed.** From now on, sign in with the new email. Until you confirm, you still sign in with your old email, and the **Edit profile** form shows that it is waiting for you. The link works for 3 days.
 
 ## Change your password
 
