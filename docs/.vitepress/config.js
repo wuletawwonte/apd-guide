@@ -5,6 +5,12 @@ export default defineConfig({
   title: 'APD User Guide',
   description: 'Academic Performance Dashboard — simple, step-by-step help for every role.',
   cleanUrls: true,
+  // Same icons as the APD app (apd/app/views/shared/_head_import_tags.html.erb).
+  head: [
+    ['link', { rel: 'icon', href: '/icon.png', type: 'image/png' }],
+    ['link', { rel: 'icon', href: '/icon.svg', type: 'image/svg+xml' }],
+    ['link', { rel: 'apple-touch-icon', href: '/icon.png' }],
+  ],
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
